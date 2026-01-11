@@ -1,0 +1,58 @@
+---
+interface Props {
+  name: string;
+  handle: string;
+  bio: string;
+  avatarUrl?: string;
+  postCount: number;
+  streak?: number;
+  avgPerDay?: number;
+  revenue?: string;
+}
+
+const { name, handle, bio, avatarUrl, postCount, streak = 0, avgPerDay = 0, revenue } = Astro.props;
+const initials = name.split(' ').map(n => n[0]).join('').toUpperCase().slice(0, 2);
+---
+
+<header class="pb-8 mb-4 border-b border-[#d2d2d7]">
+  <div class="flex items-center gap-5">
+    {avatarUrl ? (
+      <img
+        src={avatarUrl}
+        alt={name}
+        class="w-20 h-20 rounded-full object-cover bg-[#f5f5f7]"
+        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+      />
+      <div class="w-20 h-20 rounded-full bg-[#1d1d1f] items-center justify-center hidden">
+        <span class="text-white text-2xl font-semibold">{initials}</span>
+      </div>
+    ) : (
+      <div class="w-20 h-20 rounded-full bg-[#1d1d1f] flex items-center justify-center">
+        <span class="text-white text-2xl font-semibold">{initials}</span>
+      </div>
+    )}
+    <div>
+      <h1 class="text-3xl font-semibold text-[#1d1d1f] tracking-tight">{name}</h1>
+      <p class="text-base text-[#86868b] mt-1">{handle}</p>
+    </div>
+  </div>
+  <p class="mt-5 text-lg text-[#1d1d1f] leading-relaxed">{bio}</p>
+
+  <!-- Stats row -->
+  <div class="mt-4 flex items-center gap-6 text-sm text-[#86868b]">
+    {revenue && (
+      <span>
+        <span class="font-semibold text-[#1d1d1f]">{revenue}</span> revenue
+      </span>
+    )}
+    <span>
+      <span class="font-semibold text-[#1d1d1f]">{postCount}</span> updates
+    </span>
+    <span>
+      <span class="font-semibold text-[#1d1d1f]">{streak}</span> day streak
+    </span>
+    <span>
+      <span class="font-semibold text-[#1d1d1f]">{avgPerDay}</span> avg/day
+    </span>
+  </div>
+</header>

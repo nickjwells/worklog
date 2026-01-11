@@ -1,0 +1,39 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'Personal work log by Nick Saraev' } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <title>{title}</title>
+  </head>
+  <body class="bg-white text-[#1d1d1f] antialiased font-sans">
+    <main class="min-h-screen">
+      <slot />
+    </main>
+  </body>
+</html>
+
+<style is:global>
+  @import '../styles/global.css';
+
+  :root {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  }
+
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+</style>

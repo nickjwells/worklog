@@ -1,0 +1,191 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ProfileCard from '../components/ProfileCard.astro';
+import Post from '../components/Post.astro';
+
+import postsData from '../../data/posts.json';
+
+const { profile, posts } = postsData;
+
+// Type for posts
+type PostType = {
+  id: string;
+  content: string;
+  timestamp: string;
+  category?: 'update' | 'thought';
+  curated?: boolean;
+};
+
+// Calculate stats
+const sortedPosts = [...posts].sort((a, b) =>
+  new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime()
+);
+
+// Calculate streak (consecutive days with posts)
+function calculateStreak(posts: PostType[]): number {
+  if (posts.length === 0) return 0;
+
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  const postDates = new Set(
+    posts.map(p => {
+      const d = new Date(p.timestamp);
+      d.setHours(0, 0, 0, 0);
+      return d.getTime();
+    })
+  );
+
+  let streak = 0;
+  let checkDate = new Date(today);
+
+  while (true) {
+    if (postDates.has(checkDate.getTime())) {
+      streak++;
+      checkDate.setDate(checkDate.getDate() - 1);
+    } else {
+      break;
+    }
+  }
+
+  return streak;
+}
+
+// Calculate average posts per day
+function calculateAvgPerDay(posts: PostType[]): number {
+  if (posts.length < 2) return posts.length;
+
+  const dates = posts.map(p => new Date(p.timestamp).getTime());
+  const earliest = Math.min(...dates);
+  const latest = Math.max(...dates);
+  const daysDiff = Math.max(1, Math.ceil((latest - earliest) / (1000 * 60 * 60 * 24)));
+
+  return Math.round((posts.length / daysDiff) * 10) / 10;
+}
+
+const streak = calculateStreak(sortedPosts);
+const avgPerDay = calculateAvgPerDay(sortedPosts);
+const thoughtCount = posts.filter((p: PostType) => p.category === 'thought').length;
+const updateCount = posts.filter((p: PostType) => p.category === 'update').length;
+const curatedCount = posts.filter((p: PostType) => p.curated).length;
+
+// Group posts by month
+const groupedPosts = posts.reduce((groups: Record<string, PostType[]>, post: PostType) => {
+  const date = new Date(post.timestamp);
+  const monthYear = date.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+  if (!groups[monthYear]) {
+    groups[monthYear] = [];
+  }
+  groups[monthYear].push(post);
+  return groups;
+}, {});
+---
+
+<BaseLayout title={`${profile.name} - Work Log`}>
+  <div class="max-w-2xl mx-auto px-6 py-12 sm:py-16">
+    <ProfileCard
+      name={profile.name}
+      handle={profile.handle}
+      bio={profile.bio}
+      avatarUrl="/avatar.jpg"
+      postCount={posts.length}
+      streak={streak}
+      avgPerDay={avgPerDay}
+      revenue="$335K"
+    />
+
+    <!-- Filter tabs -->
+    <div class="flex items-center gap-2 mt-6 mb-4 text-sm" id="filter-tabs">
+      <button
+        class="filter-btn px-3 py-1.5 rounded-full bg-[#1d1d1f] text-white"
+        data-filter="all"
+      >
+        All ({posts.length})
+      </button>
+      <button
+        class="filter-btn px-3 py-1.5 rounded-full bg-[#f5f5f7] text-[#1d1d1f] hover:bg-[#e8e8ed]"
+        data-filter="update"
+      >
+        Updates ({updateCount})
+      </button>
+      <button
+        class="filter-btn px-3 py-1.5 rounded-full bg-[#f5f5f7] text-[#1d1d1f] hover:bg-[#e8e8ed]"
+        data-filter="thought"
+      >
+        Thoughts ({thoughtCount})
+      </button>
+      <button
+        class="filter-btn px-3 py-1.5 rounded-full bg-[#f5f5f7] text-[#1d1d1f] hover:bg-[#e8e8ed]"
+        data-filter="curated"
+      >
+        Curated ({curatedCount})
+      </button>
+    </div>
+
+    <div id="posts-container">
+      {Object.entries(groupedPosts).map(([monthYear, monthPosts]) => (
+        <section class="mt-8 month-section" data-month={monthYear}>
+          <h2 class="text-2xl font-semibold text-[#1d1d1f] tracking-tight pb-4 border-b border-[#1d1d1f]">
+            {monthYear}
+          </h2>
+          <div>
+            {monthPosts.map((post: PostType) => (
+              <Post
+                content={post.content}
+                timestamp={post.timestamp}
+                category={post.category || 'update'}
+                curated={post.curated || false}
+              />
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+
+    {posts.length === 0 && (
+      <p class="text-center text-[#86868b] py-16">
+        No updates yet.
+      </p>
+    )}
+  </div>
+
+  <script>
+    // Filter functionality
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const posts = document.querySelectorAll('[data-category]');
+    const monthSections = document.querySelectorAll('.month-section');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filter = btn.getAttribute('data-filter');
+
+        // Update button styles
+        filterBtns.forEach(b => {
+          b.classList.remove('bg-[#1d1d1f]', 'text-white');
+          b.classList.add('bg-[#f5f5f7]', 'text-[#1d1d1f]');
+        });
+        btn.classList.remove('bg-[#f5f5f7]', 'text-[#1d1d1f]');
+        btn.classList.add('bg-[#1d1d1f]', 'text-white');
+
+        // Filter posts
+        posts.forEach(post => {
+          const category = post.getAttribute('data-category');
+          const curated = post.getAttribute('data-curated') === 'true';
+
+          let show = false;
+          if (filter === 'all') show = true;
+          else if (filter === 'curated') show = curated;
+          else if (filter === category) show = true;
+
+          (post as HTMLElement).style.display = show ? 'block' : 'none';
+        });
+
+        // Hide empty month sections
+        monthSections.forEach(section => {
+          const visiblePosts = section.querySelectorAll('[data-category]:not([style*="display: none"])');
+          (section as HTMLElement).style.display = visiblePosts.length > 0 ? 'block' : 'none';
+        });
+      });
+    });
+  </script>
+</BaseLayout>

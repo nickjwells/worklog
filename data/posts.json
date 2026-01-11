@@ -1,0 +1,5833 @@
+{
+  "profile": {
+    "name": "Nick Saraev",
+    "handle": "@nicksaraevwork",
+    "bio": "Live streaming my daily work, my one-off shower thoughts, and anything & everything else. A no-algorithm alternative to X (after I deleted my social media)."
+  },
+  "posts": [
+    {
+      "id": "post-1736622120000",
+      "content": "Responded to 47 Skool DM threads.",
+      "timestamp": "2026-01-11T21:02:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "post-1736621460000",
+      "content": "Added all Community Exclusives to Maker School Resource Library & created a low-overhead structure that should persist fine.",
+      "timestamp": "2026-01-11T20:51:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2010413386140700734",
+      "content": "Coming to the conclusion that Twitter just doesn't work for me. Too much going on, I keep getting drawn to the (frankly) interesting political developments. I do not want to become a Professional Situation Monitor; these people go nowhere. I want to play in the arena itself.\n\nSo I'm going to stop posting my updates here. Instead, I'll come up with some vibe coded solution using Claude that posts to a feed. A bright 16yo called Tejas built me a good example (https://t.co/9slf2He2n2) and I think I'll run with something like this.\n\nIt'll be simple, short, and straightforward. I'll use it as both my work log and my thought log over the course of a day. My own little \"X\" without any of the algorithmic bullshit. Then I'll delete my personal Instagram, my personal X, my personal Facebook, everything.",
+      "timestamp": "2026-01-11T18:07:57.000Z",
+      "category": "thought",
+      "curated": true
+    },
+    {
+      "id": "tw-2010413214920777938",
+      "content": "Recorded great community exclusive.",
+      "timestamp": "2026-01-11T18:07:16.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2010366076190957922",
+      "content": "Recorded 7 roasts for Maker School.",
+      "timestamp": "2026-01-11T14:59:58.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2010362294497403250",
+      "content": "Completed Maker School management for Jan 11 2026.",
+      "timestamp": "2026-01-11T14:44:56.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2010346784984633445",
+      "content": "Recorded content.",
+      "timestamp": "2026-01-11T13:43:18.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2010346753783144914",
+      "content": "Completed MMWM management for Jan 11 2026.",
+      "timestamp": "2026-01-11T13:43:11.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2010345178520072309",
+      "content": "Crushed leg day.",
+      "timestamp": "2026-01-11T13:36:55.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2010009845186080860",
+      "content": "Recorded 7 roasts for Maker School.",
+      "timestamp": "2026-01-10T15:24:25.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2010009819407880624",
+      "content": "Completed Maker School management for Jan 10 2026.",
+      "timestamp": "2026-01-10T15:24:19.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2010009797522018738",
+      "content": "Completed MMWM management for Jan 10 2026.",
+      "timestamp": "2026-01-10T15:24:14.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009681622715732297",
+      "content": "It's a great routine that crushes three pillars of my life atm:\n\n1. Community\n2. Content\n3. Health\n\nI wake ~6:30am, so can technically finish by ~9:00am.  Then I have the day to do whatever. Agentic workflows, agency stuff, random rabbit holes, etc.\n\nWill see results in ~2wks.",
+      "timestamp": "2026-01-09T17:40:11.000Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
+      "id": "tw-2009680847956521323",
+      "content": "Third day of routine ✅\n\nWake up, protein + coffee (~30g &amp; ~200cal), supplements, community mgmt. Then content. 1:21.\n\nAfter, back day. 7x/wk program. While I was there, I did Anki flashcards in between sets (took ~5 minutes). Supersets got the workout down to 0:37.\n\nTotal: 1:58!",
+      "timestamp": "2026-01-09T17:37:06.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009680145704202583",
+      "content": "Crushed back day.",
+      "timestamp": "2026-01-09T17:34:19.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009655064227631143",
+      "content": "Came up with better strategy for Community Exclusives (Mainly: OBS file, not Loom. Same hairstyle, so I can clip multiple together. Compressor on audio output to make it sound more similar. Store in a separate folder so I can repurpose easily.)",
+      "timestamp": "2026-01-09T15:54:39.000Z",
+      "category": "thought",
+      "curated": true
+    },
+    {
+      "id": "tw-2009654866868682853",
+      "content": "Completed next Community Exclusive.",
+      "timestamp": "2026-01-09T15:53:52.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009654843322102020",
+      "content": "Recorded 5 roasts for Maker School.",
+      "timestamp": "2026-01-09T15:53:46.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009654820794515668",
+      "content": "Completed Maker School management for Jan 9 2026.",
+      "timestamp": "2026-01-09T15:53:41.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009618063243595873",
+      "content": "Completed MMWM management for Jan 9 2026.",
+      "timestamp": "2026-01-09T13:27:37.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009435612391330295",
+      "content": "Removed \"Claude Cloud\" functionality from client workspace (executions &gt; orchestrators in the cloud).",
+      "timestamp": "2026-01-09T01:22:38.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009397555780853830",
+      "content": "Sent 45 DMs for MMWM as part of the transition.",
+      "timestamp": "2026-01-08T22:51:24.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009397516161393143",
+      "content": "Rebuilt lead gen flow for agency client.",
+      "timestamp": "2026-01-08T22:51:15.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009371465397719333",
+      "content": "Refunded $39,000! MMWM officially merging with Maker School.",
+      "timestamp": "2026-01-08T21:07:44.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009367007402086712",
+      "content": "Created script to automatically prorate and then refund monthly &amp; annual Stripe subs. So much easier than doing it all manually.",
+      "timestamp": "2026-01-08T20:50:01.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009356457427521736",
+      "content": "Created script to automatically cancel \"trialling\" Stripe subscriptions.",
+      "timestamp": "2026-01-08T20:08:06.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009355054453854279",
+      "content": "Refunded all remaining \"active\" MMWM Stripe subscriptions.",
+      "timestamp": "2026-01-08T20:02:31.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009351355220283862",
+      "content": "Refunded + reinvited all remaining Skool payers for MMWM. Now onto Stripe.",
+      "timestamp": "2026-01-08T19:47:49.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009347792016470394",
+      "content": "Refunded + reinvited another 10 people to MMWM.",
+      "timestamp": "2026-01-08T19:33:40.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009320683013357790",
+      "content": "But if you have a gym connected to an internal space, like an apt, you avoid all of that. No outfit changes, your \"commute\" is just an elevator ride, and you save ~35-40% of your sum time. Worthwhile investment when I make ~$2.5K/hr all in (30min/day x 30d/mo = ~$37.5K/mo!)\n\nAll this to say: definitely going to move. Investing in a place with a great apartment gym is worth a lot. I'm a bit limited in Calgary, as the top-end of the market is quite restricted and there isn't much optionality. But other areas (Vancouver, Toronto) are pretty good.",
+      "timestamp": "2026-01-08T17:45:56.000Z",
+      "category": "thought",
+      "curated": true
+    },
+    {
+      "id": "tw-2009319111839633753",
+      "content": "Second day of new routine ✅\n\nWake up, protein smoothie + coffee (~30g &amp; ~200cal), community management. \n\nThe moment I'm done, I went to the gym. 7x/wk program.\n\nAfter, I recorded content &amp; managed my clients.",
+      "timestamp": "2026-01-08T17:39:42.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009318898429251844",
+      "content": "Crushed chest day.",
+      "timestamp": "2026-01-08T17:38:51.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009293736501731791",
+      "content": "Completed first \"Community Exclusive\" for Maker School.",
+      "timestamp": "2026-01-08T15:58:52.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009284198813569314",
+      "content": "Completed MMWM management for Jan 8 2026.",
+      "timestamp": "2026-01-08T15:20:58.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009278863906324798",
+      "content": "Recorded 9 roasts for Maker School.",
+      "timestamp": "2026-01-08T14:59:46.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009278836265951264",
+      "content": "Completed Maker School management for Jan 7 2026.",
+      "timestamp": "2026-01-08T14:59:39.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009099201138053206",
+      "content": "Cancelled + refunded 60 Stripe subscriptions for MMWM.",
+      "timestamp": "2026-01-08T03:05:51.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009099157596983328",
+      "content": "Messaged remaining 20 MMWM members on direct monthly payments and told them to switch to \"free\".",
+      "timestamp": "2026-01-08T03:05:41.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009099053259477137",
+      "content": "Removed another 60 members from MMWM &amp; sent free invites.",
+      "timestamp": "2026-01-08T03:05:16.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2009056481627242940",
+      "content": "Removed 45 members from MMWM &amp; sent free invites. Average time cost is ~30s each.",
+      "timestamp": "2026-01-08T00:16:06.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008995608523362323",
+      "content": "Created \"MMWM Sunset\" post.",
+      "timestamp": "2026-01-07T20:14:13.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008958705963036765",
+      "content": "First day of new routine ✅\n\nWake up, protein smoothie + coffee (company is called brüst, I mix with some Fairlife for ~30g &amp; ~200cal), community management. \n\nThe moment I'm done, I go to the gym. 7x/wk program.\n\nWhen I'm back, content &amp; do agency stuff. More on that soon!",
+      "timestamp": "2026-01-07T17:47:34.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008958194920341570",
+      "content": "Crushed leg day.",
+      "timestamp": "2026-01-07T17:45:32.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008958141883658623",
+      "content": "Weekly Office Hour for MMWM.",
+      "timestamp": "2026-01-07T17:45:20.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008958119599354030",
+      "content": "Podcast with Jack.",
+      "timestamp": "2026-01-07T17:45:15.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008958099022074076",
+      "content": "Ran new annual promo for Maker School.",
+      "timestamp": "2026-01-07T17:45:10.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008958064712650955",
+      "content": "Recorded 7 roasts for Maker School.",
+      "timestamp": "2026-01-07T17:45:01.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008958040976846979",
+      "content": "Completed Maker School management for Jan 7 2026.",
+      "timestamp": "2026-01-07T17:44:56.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008958015425094052",
+      "content": "Completed MMWM management for Jan 7 2026.",
+      "timestamp": "2026-01-07T17:44:50.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008727523027546599",
+      "content": "Performed tax calculations for potential moves (wow, Montreal sucks).",
+      "timestamp": "2026-01-07T02:28:56.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008626950865363366",
+      "content": "Completed one-hour Loom for Maker School.",
+      "timestamp": "2026-01-06T19:49:18.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008626926215459154",
+      "content": "Completed goal setting for 2026.",
+      "timestamp": "2026-01-06T19:49:12.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008600526402056430",
+      "content": "Completed Live Build #11 for MMWM.",
+      "timestamp": "2026-01-06T18:04:18.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008600504352551091",
+      "content": "Completed Weekly Community Call #32 for Maker School.",
+      "timestamp": "2026-01-06T18:04:12.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008559939082744256",
+      "content": "Reviewed Yohan's short",
+      "timestamp": "2026-01-06T15:23:01.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008558080490197335",
+      "content": "Prepared for Weekly Community Call",
+      "timestamp": "2026-01-06T15:15:38.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008558056418967939",
+      "content": "Recorded 1:1 Loom for Kieran",
+      "timestamp": "2026-01-06T15:15:32.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008552210763006386",
+      "content": "Recorded 8 roasts for Maker School.",
+      "timestamp": "2026-01-06T14:52:18.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008547556289376352",
+      "content": "Completed Maker School management for Jan 6 2026.",
+      "timestamp": "2026-01-06T14:33:49.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008538101057282236",
+      "content": "Completed MMWM management for Jan 6 2026.",
+      "timestamp": "2026-01-06T13:56:14.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008537824241594669",
+      "content": "I get maybe 15-20 real YouTube comments per day (excluding bot spam). \n\nThat's... actually not all that much. I could probably just respond to all of them as part of my daily routine. \n\nBet it would significantly improve conversions + reputation, since creators never do this.",
+      "timestamp": "2026-01-06T13:55:08.000Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
+      "id": "tw-2008362503202390344",
+      "content": "Responded to another 50 DM threads.",
+      "timestamp": "2026-01-06T02:18:28.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008309021997232366",
+      "content": "Responded to 92 DM threads.",
+      "timestamp": "2026-01-05T22:45:58.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008296512158077395",
+      "content": "Completed Open Q&amp;A for MMWM.",
+      "timestamp": "2026-01-05T21:56:15.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008296489492058510",
+      "content": "Feels great to just... sit down and offer value for 5 hours.",
+      "timestamp": "2026-01-05T21:56:10.000Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
+      "id": "tw-2008291900303044706",
+      "content": "Responded to 105 Maker School threads &amp; roasts.",
+      "timestamp": "2026-01-05T21:37:55.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008194050969714873",
+      "content": "Responded to all outstanding MMWM threads.",
+      "timestamp": "2026-01-05T15:09:06.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-2008193814075453572",
+      "content": "I tried going fully offline this holiday season to explore whether I was missing some quintessential aspect of \"vacation\", like everyone around me was suggesting. But frankly, I think they're wrong. A sliding scale of productivity works far better for me than a 0/1.\n\nAll this to say, I am back and excited to build a long chain of output again. All of my best results have been from small daily habits compounded by time.",
+      "timestamp": "2026-01-05T15:08:10.000Z",
+      "category": "thought",
+      "curated": true
+    },
+    {
+      "id": "tw-2008192428948492658",
+      "content": "Well, I tried a \"vacation\" this year for the first time in my life. Turned everything off (emails, phone, Skool, etc). \n\nHad a good time, but my $0.02 is that it was completely unnecessary. Did not gain more enjoyment than I would have if I had continued my daily actionables.",
+      "timestamp": "2026-01-05T15:02:40.000Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
+      "id": "tw-1995518553794248770",
+      "content": "Completed Maker School management for Dec 1.",
+      "timestamp": "2025-12-01T15:41:12.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1995518537822306485",
+      "content": "Completed MMWM management for Dec 1.",
+      "timestamp": "2025-12-01T15:41:09.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1995197936129732619",
+      "content": "Recorded 5 roasts for Maker School.",
+      "timestamp": "2025-11-30T18:27:11.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1995191869584920822",
+      "content": "Reviewed recent post; ideated 5 more on agentic workflows.",
+      "timestamp": "2025-11-30T18:03:05.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1995191795005960542",
+      "content": "Completed MMWM management for Nov 30 2025.",
+      "timestamp": "2025-11-30T18:02:47.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1995191779784806491",
+      "content": "Completed Maker School management for Nov 30 2025.",
+      "timestamp": "2025-11-30T18:02:43.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1995156736202924194",
+      "content": "Completed MMWM management for Nov 29 2025.",
+      "timestamp": "2025-11-30T15:43:28.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1994780941060079802",
+      "content": "Completed Maker School management for Nov 29 2025.",
+      "timestamp": "2025-11-29T14:50:12.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1994780927768367342",
+      "content": "Completed MMWM management for Nov 29 2025.",
+      "timestamp": "2025-11-29T14:50:09.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1994780889755390042",
+      "content": "Recorded YouTube video.",
+      "timestamp": "2025-11-29T14:50:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1994429839181574203",
+      "content": "Recorded testimonial for Dani.",
+      "timestamp": "2025-11-28T15:35:03.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1994429798073168152",
+      "content": "Created content calendar for agentic workflows",
+      "timestamp": "2025-11-28T15:34:53.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1994417428902838605",
+      "content": "Roasted seven threads for Maker School.",
+      "timestamp": "2025-11-28T14:45:44.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1994417388738232627",
+      "content": "Completed Maker School Management for November 2018.",
+      "timestamp": "2025-11-28T14:45:34.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1994417369167606161",
+      "content": "Completed MMWM management for November 28th.",
+      "timestamp": "2025-11-28T14:45:29.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1994104964915114169",
+      "content": "Built three new agentic workflows (UW, Instantly, GMaps).",
+      "timestamp": "2025-11-27T18:04:06.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1994104922162516343",
+      "content": "Responded to 20 YouTube comments.",
+      "timestamp": "2025-11-27T18:03:56.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1994104893167292544",
+      "content": "Recorded YouTube video.",
+      "timestamp": "2025-11-27T18:03:49.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1994104763898834988",
+      "content": "Recorded 7 roasts for Maker School.",
+      "timestamp": "2025-11-27T18:03:19.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1994104714313781594",
+      "content": "Completed Maker School management for Nov 27.",
+      "timestamp": "2025-11-27T18:03:07.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1994104694512472436",
+      "content": "Completed MMWM management for Nov 27.",
+      "timestamp": "2025-11-27T18:03:02.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993812453835329611",
+      "content": "Recorded IG reels.",
+      "timestamp": "2025-11-26T22:41:46.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993808378469208325",
+      "content": "Recorded YT vid",
+      "timestamp": "2025-11-26T22:25:35.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993758813686800406",
+      "content": "Recorded 7 roasts for Maker School.",
+      "timestamp": "2025-11-26T19:08:38.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993749133757435985",
+      "content": "Built add-on to editing workflow.",
+      "timestamp": "2025-11-26T18:30:10.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993749108696469741",
+      "content": "Hosted Weekly Office Hour.",
+      "timestamp": "2025-11-26T18:30:04.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993749095635407177",
+      "content": "1:1 with Kamsi.",
+      "timestamp": "2025-11-26T18:30:01.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993749082654081132",
+      "content": "1:1 with Jun.",
+      "timestamp": "2025-11-26T18:29:58.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993749071354581396",
+      "content": "1:1 with Mia.",
+      "timestamp": "2025-11-26T18:29:55.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993749052190818389",
+      "content": "Completed Maker School management for Nov 26th.",
+      "timestamp": "2025-11-26T18:29:50.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993749035115749476",
+      "content": "Completed MMWM management for Nov 26th.",
+      "timestamp": "2025-11-26T18:29:46.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993736666100752809",
+      "content": "Can't believe I wasn't paying for meal prep before. Saves at least 30min/day, not accounting for other quality of life improvements (food storage, meal variety, macros calculated for me, etc).\n\nBiggest hack, though, is the lack of cleaning. Dish needs completely eliminated. I just transfer food into the same bowl so I don't reheat plastic, and then rinse it immediately.",
+      "timestamp": "2025-11-26T17:40:37.000Z",
+      "category": "thought",
+      "curated": true
+    },
+    {
+      "id": "tw-1993478220390465931",
+      "content": "Updated about page for Maker School.",
+      "timestamp": "2025-11-26T00:33:39.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993474466421322064",
+      "content": "Successfully outsourced meals. New guys are great.",
+      "timestamp": "2025-11-26T00:18:44.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993390730434531721",
+      "content": "1:1 with Bree",
+      "timestamp": "2025-11-25T18:46:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993390712302531002",
+      "content": "1:1 with Nick/Will",
+      "timestamp": "2025-11-25T18:45:55.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993390649824166287",
+      "content": "Live Build for MMWM.",
+      "timestamp": "2025-11-25T18:45:40.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993390635626512684",
+      "content": "Weekly Community Call for Maker School.",
+      "timestamp": "2025-11-25T18:45:37.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993347144070353306",
+      "content": "Completed MMWM management for Nov 25.",
+      "timestamp": "2025-11-25T15:52:48.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993347119969935669",
+      "content": "Reviewed YouTube course.",
+      "timestamp": "2025-11-25T15:52:42.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993106342010404937",
+      "content": "Key here was building a script that combined all emails into a unified interface (my own little unibox), so I can run bulk threads and manage stuff in each mailbox in one place. Then it's as simple as getting mail for the day -&gt; asking Opus what's spam, what's sponsorship, etc.",
+      "timestamp": "2025-11-24T23:55:56.000Z",
+      "category": "thought",
+      "curated": true
+    },
+    {
+      "id": "tw-1993106119330545793",
+      "content": "Built inbox manager using Opus-4.5.",
+      "timestamp": "2025-11-24T23:55:03.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993100211598832104",
+      "content": "Set up email filters for everything using Opus-4.5.",
+      "timestamp": "2025-11-24T23:31:35.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993100173799825724",
+      "content": "You can totally use Opus-4.5 as an inbox manager now. Didn't used to be able to, too likely to fail. But now you just store context about you/your business (even URLs) in a kb.json file and it'll do great.",
+      "timestamp": "2025-11-24T23:31:26.000Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
+      "id": "tw-1993098477203800202",
+      "content": "Set Slack log channel to see streaming chain of thought on webhook calls (super cool stuff).",
+      "timestamp": "2025-11-24T23:24:41.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993098383524085854",
+      "content": "Refactored/parallelized all workflows.",
+      "timestamp": "2025-11-24T23:24:19.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993098366507716695",
+      "content": "Set up demo workflows on Modal, created outline for video about this.",
+      "timestamp": "2025-11-24T23:24:15.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993089349530087799",
+      "content": "Built webhook system for agentic workflows.",
+      "timestamp": "2025-11-24T22:48:25.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993067404344402100",
+      "content": "Built advising call template.",
+      "timestamp": "2025-11-24T21:21:13.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993062539773854117",
+      "content": "I am going to send 100,000 emails in the next ~15 days with a scalable outbound system that replies for me. Across a half-dozen companies (and probably ~20-30 offers in total). Will test.",
+      "timestamp": "2025-11-24T21:01:53.000Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
+      "id": "tw-1993062391882694871",
+      "content": "Tested &amp; set up autoreply bot.",
+      "timestamp": "2025-11-24T21:01:18.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993057302149271718",
+      "content": "Built knowledge base system for autoreply bot that uses Instantly campaign tags to select the right group.",
+      "timestamp": "2025-11-24T20:41:04.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993056406220783836",
+      "content": "Updated autoreply bot.",
+      "timestamp": "2025-11-24T20:37:31.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993022169241337955",
+      "content": "Assembled resources for dental vid",
+      "timestamp": "2025-11-24T18:21:28.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993018091929010650",
+      "content": "Imagine if I had access to a local supercomputer to do stuff like this. Would be so much faster. No wonder big orgs often speak so optimistically. If I could run inference on one of these models at 100x and saw them blaze through tasks, I would think AGI was here too.",
+      "timestamp": "2025-11-24T18:05:16.000Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
+      "id": "tw-1993017318037987504",
+      "content": "Scraped all 23K posts for knowledge base stuff",
+      "timestamp": "2025-11-24T18:02:11.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993017268759151008",
+      "content": "Implemented casualization in lead scraping workflow (4x faster)",
+      "timestamp": "2025-11-24T18:01:59.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1993003687988613581",
+      "content": "Hosted weekly Q&amp;A.",
+      "timestamp": "2025-11-24T17:08:02.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1992980335978811695",
+      "content": "Implemented geographic partitioning in lead scraping workflow (4x faster)",
+      "timestamp": "2025-11-24T15:35:14.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1992977986501632328",
+      "content": "Four workflows. Video on this coming out in the next few days. Am going to show you how to scrape ~10K verified leads in a couple of minutes and automate the process of basically everything—all personalization, all other outbound campaign stuff. https://t.co/0rr17WHy1M",
+      "timestamp": "2025-11-24T15:25:54.000Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
+      "id": "tw-1992972756833775954",
+      "content": "Recorded 7 roasts for Maker School.",
+      "timestamp": "2025-11-24T15:05:07.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1992959970770555331",
+      "content": "Created micro-program for people under 18.",
+      "timestamp": "2025-11-24T14:14:19.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1992946459294204011",
+      "content": "Completed Maker School management for Nov 24.",
+      "timestamp": "2025-11-24T13:20:37.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1992946438800822608",
+      "content": "Completed MMWM management for Nov 24.",
+      "timestamp": "2025-11-24T13:20:32.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1992722959736471982",
+      "content": "Recorded full course.",
+      "timestamp": "2025-11-23T22:32:31.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1992646751665406113",
+      "content": "Inbox zero across a few thousand emails.",
+      "timestamp": "2025-11-23T17:29:41.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1992644367530733876",
+      "content": "Handled all refunds/etc. I wish I had a better way of doing this.",
+      "timestamp": "2025-11-23T17:20:13.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1992608428620140882",
+      "content": "Sent six roasts for Maker School.",
+      "timestamp": "2025-11-23T14:57:24.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1992608373175689376",
+      "content": "Completed Maker School Management for November 23rd.",
+      "timestamp": "2025-11-23T14:57:11.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1992608330033086822",
+      "content": "Completed MMWM management for November 23rd.",
+      "timestamp": "2025-11-23T14:57:01.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1992303026560979144",
+      "content": "Prepared full script for course.",
+      "timestamp": "2025-11-22T18:43:51.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1992273671180931278",
+      "content": "Completed writing AI agent course.",
+      "timestamp": "2025-11-22T16:47:12.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1992238234982904114",
+      "content": "Recorded 5 roasts for Maker School.",
+      "timestamp": "2025-11-22T14:26:23.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1992238214845997428",
+      "content": "Completed MMWM mgmt for Nov 22.",
+      "timestamp": "2025-11-22T14:26:19.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1992238204079231275",
+      "content": "Completed Maker School mgmt for Nov 22.",
+      "timestamp": "2025-11-22T14:26:16.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991922666941640846",
+      "content": "Recorded Maker School community exclusive for agentic workflows.",
+      "timestamp": "2025-11-21T17:32:26.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991900675375243610",
+      "content": "Began scaffolding agent course.",
+      "timestamp": "2025-11-21T16:05:03.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991895691237740790",
+      "content": "Replied to interested DC inquiries.",
+      "timestamp": "2025-11-21T15:45:15.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991887424629477437",
+      "content": "Recorded 7 roasts for Maker School.",
+      "timestamp": "2025-11-21T15:12:24.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991887402038947921",
+      "content": "Completed Maker School management for Nov 21 2025.",
+      "timestamp": "2025-11-21T15:12:18.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991887389061759151",
+      "content": "Completed MMWM management for Nov 21 2025.",
+      "timestamp": "2025-11-21T15:12:15.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991707002687611075",
+      "content": "Reviewed IG posts over the last two weeks.",
+      "timestamp": "2025-11-21T03:15:28.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991692169682551242",
+      "content": "So much has happened in just 4 hrs.\n\n- Vastly improved processing times by swapping one-off endpoints with bulk/batch endpoints (~20x speedup).\n- Scrape&gt; enrich &gt; AI personalization now takes ~15 mins for 10K leads.\n- I built a fully autonomous AI setter (and it's GOOD!)\n\nInsane.",
+      "timestamp": "2025-11-21T02:16:31.000Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
+      "id": "tw-1991604820323758117",
+      "content": "Worked out better pipeline and ran second successful scrape. I can now orchestrate (via agents):\n\n- Proposal generation\n- Lead scraping\n- Lead enrichment\n\nI have two major steps left and I will have automated ~90% of a lead gen agency: \n\n- Campaign copywriting\n- Adding to tool",
+      "timestamp": "2025-11-20T20:29:26.000Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
+      "id": "tw-1991595736069533777",
+      "content": "Many more issues with Claude-Sonnet-4.5. Gemini 3 is really something.",
+      "timestamp": "2025-11-20T19:53:20.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991591126277743032",
+      "content": "Unfortunately ran into rate limits. Moving back over to CC. Going to double check first and see if concepts map over 1:1, and if perf is similar, or if sonnet-4.5 is dumber.",
+      "timestamp": "2025-11-20T19:35:01.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991586289133744220",
+      "content": "New scraper run completely with Antigravity Python scripts. Very cool. /workflows and /scripts seem to be the most reliable way of doing this. Result: ~30 second query &gt; 6K emails for $15, 4K non-email records that I passed through AMF for 25% enrichment rate at $0.01/per ($10).",
+      "timestamp": "2025-11-20T19:15:47.000Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
+      "id": "tw-1991565833651515781",
+      "content": "Ran new dental scraper (10K US).",
+      "timestamp": "2025-11-20T17:54:30.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991565810008224233",
+      "content": "Enriched another ~2K dental leads.",
+      "timestamp": "2025-11-20T17:54:25.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991562073562837492",
+      "content": "Ordered first 3 days of DFY meal prep (test).",
+      "timestamp": "2025-11-20T17:39:34.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991562036149645529",
+      "content": "Created Antigravity lead scraping workflow. TLDR automates Apify &lt;&gt; Google Sheets. I will build this out into a full cold email scraping flow soon, then dump into the appropriate Instantly campaigns, then run.",
+      "timestamp": "2025-11-20T17:39:25.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991545610152079666",
+      "content": "Yeah, that's the way to do it. Future businesses will probably run entirely off of terminals like this.",
+      "timestamp": "2025-11-20T16:34:09.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991539768157696422",
+      "content": "Experimented more with Antigravity. Pretty cool. I believe the play is:\n- Start with natural language workflow (SOP)\n- Store this in /workflows.\n- Generate Python scripts to handle each. Store this in /scripts.\n\nWhen /workflow called -&gt; execute scripts. Much more reliable.",
+      "timestamp": "2025-11-20T16:10:56.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991534697336434730",
+      "content": "Recorded 7 Maker School roasts.",
+      "timestamp": "2025-11-20T15:50:47.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991527494248452494",
+      "content": "Completed Maker School mgmt for Nov 20.",
+      "timestamp": "2025-11-20T15:22:10.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991522315994374356",
+      "content": "Completed MMWM management for Nov 20.",
+      "timestamp": "2025-11-20T15:01:35.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991517732374999213",
+      "content": "Upgraded security.",
+      "timestamp": "2025-11-20T14:43:22.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991333528005660926",
+      "content": "Experimented with Antigravity.",
+      "timestamp": "2025-11-20T02:31:24.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991313871278375000",
+      "content": "1:1 with Gio, meeting about Clairvo/DC/upcoming vid.",
+      "timestamp": "2025-11-20T01:13:18.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991313810263798076",
+      "content": "Wrote outline for tomorrow's video.",
+      "timestamp": "2025-11-20T01:13:03.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991313759017791733",
+      "content": "Sent 16 meal companies messages inquiring about custom prep.",
+      "timestamp": "2025-11-20T01:12:51.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991243789571391534",
+      "content": "Replied to dental leads.",
+      "timestamp": "2025-11-19T20:34:49.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991243764212629570",
+      "content": "Removed 6 month 1:1.",
+      "timestamp": "2025-11-19T20:34:43.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991243744155488699",
+      "content": "Appealed YouTube video strike (annoying).",
+      "timestamp": "2025-11-19T20:34:38.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991243684247937301",
+      "content": "Hosted Weekly Office Hour for MMWM.",
+      "timestamp": "2025-11-19T20:34:24.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991243648898408521",
+      "content": "Wrote long blog post.",
+      "timestamp": "2025-11-19T20:34:16.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1991243633689866496",
+      "content": "Completed MMWM management for Nov 19.",
+      "timestamp": "2025-11-19T20:34:12.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1990897957936193674",
+      "content": "Recorded video.",
+      "timestamp": "2025-11-18T21:40:36.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1990897944166273487",
+      "content": "Responded to more dental leads.",
+      "timestamp": "2025-11-18T21:40:33.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1990792988260511755",
+      "content": "Created macros for dental leads.",
+      "timestamp": "2025-11-18T14:43:30.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1990792967251243338",
+      "content": "Replied to dental leads.",
+      "timestamp": "2025-11-18T14:43:25.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1990792944513851407",
+      "content": "Completed Maker School management for November 18th.",
+      "timestamp": "2025-11-18T14:43:19.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1990792925136236802",
+      "content": "Completed MMWM management for November 18th.",
+      "timestamp": "2025-11-18T14:43:15.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1990571061789012419",
+      "content": "First positive reply already 😎",
+      "timestamp": "2025-11-18T00:01:38.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1990558722041786855",
+      "content": "Completed invoicing for DS.",
+      "timestamp": "2025-11-17T23:12:36.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1990554401501786182",
+      "content": "Launched all dental marketing campaigns.",
+      "timestamp": "2025-11-17T22:55:26.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1990530918457749736",
+      "content": "Recorded marathon video. 4 hours.",
+      "timestamp": "2025-11-17T21:22:07.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1990465196796911821",
+      "content": "Create an outline for upcoming YouTube video.",
+      "timestamp": "2025-11-17T17:00:58.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1990465164731363557",
+      "content": "Hosted open Q&amp;A call for MMWM.",
+      "timestamp": "2025-11-17T17:00:50.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1990465136721834367",
+      "content": "Recorded 7 roasts for Maker School.",
+      "timestamp": "2025-11-17T17:00:44.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1990465103872004164",
+      "content": "Completed Maker School management for November 17th.",
+      "timestamp": "2025-11-17T17:00:36.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1990465080358809611",
+      "content": "Completed MMWM management for November 17th.",
+      "timestamp": "2025-11-17T17:00:30.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1990064714676949024",
+      "content": "Completed Maker School management for November 16th.",
+      "timestamp": "2025-11-16T14:29:36.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1990064644740858003",
+      "content": "Completed 5 roasts for Maker School.",
+      "timestamp": "2025-11-16T14:29:19.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1990049161656578093",
+      "content": "Completed MMWM management for November 16th.",
+      "timestamp": "2025-11-16T13:27:48.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1989883785589276936",
+      "content": "Reviewed upcoming case study video.",
+      "timestamp": "2025-11-16T02:30:39.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1989825650132463782",
+      "content": "Added ground school modules to Anki.",
+      "timestamp": "2025-11-15T22:39:38.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1989817823066259651",
+      "content": "Opened new bank account.",
+      "timestamp": "2025-11-15T22:08:32.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1989768124405879057",
+      "content": "Responded to 20 Skool DMs.",
+      "timestamp": "2025-11-15T18:51:03.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1989753442211070008",
+      "content": "Completed MMWM management for November 15th.",
+      "timestamp": "2025-11-15T17:52:43.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1989749626195644462",
+      "content": "Recorded 8 roasts for Maker School.",
+      "timestamp": "2025-11-15T17:37:33.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1989744429801038146",
+      "content": "Day 7/7 of new cardio program in the books! \n\nLearnings:\n- Short term habituation to Zone 2 occurs quickly. My old pace is already Zone 1.\n- Upping treadmill by 0.1 every day is a hack. Basically perfect linear progression, keeps me where I want to be.\n- Anki during cardio = ez.",
+      "timestamp": "2025-11-15T17:16:54.000Z",
+      "category": "thought",
+      "curated": true
+    },
+    {
+      "id": "tw-1989744006780367171",
+      "content": "Crushed the gym 💪🏼",
+      "timestamp": "2025-11-15T17:15:13.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1989743947753898056",
+      "content": "Wrote outline for upcoming dental campaign video.",
+      "timestamp": "2025-11-15T17:14:59.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1989743884260577512",
+      "content": "Completed Maker School management for November 15th.",
+      "timestamp": "2025-11-15T17:14:44.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1989447216164213220",
+      "content": "Wrote sequences + variants for dental campaign.",
+      "timestamp": "2025-11-14T21:35:53.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1989443230187061671",
+      "content": "Came up with offers for dental campaign.",
+      "timestamp": "2025-11-14T21:20:02.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1989442047158424018",
+      "content": "3.4K emails. Not enough! Need more.",
+      "timestamp": "2025-11-14T21:15:20.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1989408405535224064",
+      "content": "Cleaned up pre-existing email list for dental marketing company.",
+      "timestamp": "2025-11-14T19:01:39.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1989388474143944781",
+      "content": "New dental marketing company set up: 30% ownership.",
+      "timestamp": "2025-11-14T17:42:27.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1989361076912447894",
+      "content": "Finalized accounting setup! So stoked. Never have to worry about this again.",
+      "timestamp": "2025-11-14T15:53:35.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1989359885415506029",
+      "content": "Recorded 8 roasts for Maker School.",
+      "timestamp": "2025-11-14T15:48:51.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1989354899038236867",
+      "content": "Completed Maker School Management for November 14th.",
+      "timestamp": "2025-11-14T15:29:03.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1989339673672712672",
+      "content": "Completed MMWM management for November 14th.",
+      "timestamp": "2025-11-14T14:28:33.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1989001326467117387",
+      "content": "Responded to 25 Skool DMs.",
+      "timestamp": "2025-11-13T16:04:04.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988981567457513502",
+      "content": "Sent 4 roasts for Maker School.",
+      "timestamp": "2025-11-13T14:45:33.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988981542585331883",
+      "content": "Completed Maker School management for November 13th.",
+      "timestamp": "2025-11-13T14:45:27.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988964166649163996",
+      "content": "Completed MMWM management for November 13th.",
+      "timestamp": "2025-11-13T13:36:25.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988959059610157342",
+      "content": "Completed modules \"Piston Engine Animation; Turbocharger Demo; O320 Engine Demo\" for ground school.",
+      "timestamp": "2025-11-13T13:16:07.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988958944803582398",
+      "content": "Completed time audit over the last three days.",
+      "timestamp": "2025-11-13T13:15:40.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988698947045736758",
+      "content": "Wrote outline for next video.",
+      "timestamp": "2025-11-12T20:02:31.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988678752113692862",
+      "content": "Back to the gym. (SL 5x5).",
+      "timestamp": "2025-11-12T18:42:17.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988678728696885711",
+      "content": "Reviewed Miro packaging ideas.",
+      "timestamp": "2025-11-12T18:42:11.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988654052696359231",
+      "content": "Created X post on ways to improve cognitive performance. I think a lot of nerds talk about this, but probably not a lot of people that make tons of money (they prefer to gatekeep that stuff), so hoping it helps.",
+      "timestamp": "2025-11-12T17:04:08.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988653713674891518",
+      "content": "Hosted Weekly Office Hour for MMWM.",
+      "timestamp": "2025-11-12T17:02:47.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988628947769172465",
+      "content": "Edited Miguel's workshop post + posted in Maker School.",
+      "timestamp": "2025-11-12T15:24:22.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988627030884094158",
+      "content": "Uploaded Weekly Community Calls + Live Build sessions.",
+      "timestamp": "2025-11-12T15:16:45.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988625240646115382",
+      "content": "Tabulated Aeroplan points.",
+      "timestamp": "2025-11-12T15:09:38.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988623849890390214",
+      "content": "Signed up for Canadian business credit card.",
+      "timestamp": "2025-11-12T15:04:07.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988622338972078514",
+      "content": "Checked in with accountant.",
+      "timestamp": "2025-11-12T14:58:07.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988620723498123762",
+      "content": "Finished accounting TX stuff for 2025 taxes. In a good spot.",
+      "timestamp": "2025-11-12T14:51:41.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988620614672744878",
+      "content": "Wow! Checked personal statements for the first time in ~8 months and did some bookkeeping. I've been spending ~$400/day on my personal card. Insane... I used to spend that much money in like, two weeks. Lifestyle creep hits you fast.",
+      "timestamp": "2025-11-12T14:51:15.000Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
+      "id": "tw-1988613747641102543",
+      "content": "Recorded 8 roasts for Maker School.",
+      "timestamp": "2025-11-12T14:23:58.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988607799266611651",
+      "content": "Completed Maker School management for November 12th.",
+      "timestamp": "2025-11-12T14:00:20.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988596210454978882",
+      "content": "Recorded YouTube video.",
+      "timestamp": "2025-11-12T13:14:17.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988596191333068908",
+      "content": "Completed MMWM management for November 12th.",
+      "timestamp": "2025-11-12T13:14:13.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988343893923111130",
+      "content": "Prepped for video.",
+      "timestamp": "2025-11-11T20:31:40.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988321526656233528",
+      "content": "1:1 with Andrew about accounting, corporate, year-end, etc.",
+      "timestamp": "2025-11-11T19:02:47.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988321500177609187",
+      "content": "Hosted Live Build Session #5 for MMWM.",
+      "timestamp": "2025-11-11T19:02:41.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988321479050883581",
+      "content": "Hosted Weekly Community Call #25 for Maker School.",
+      "timestamp": "2025-11-11T19:02:36.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988266692401918328",
+      "content": "Responded to 25 Skool DMs.",
+      "timestamp": "2025-11-11T15:24:54.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988263008024637935",
+      "content": "Sent animation request to editor for Maker School about page (basically, first few frames of a GIF play when you upload a Loom instead of a YouTube link).",
+      "timestamp": "2025-11-11T15:10:15.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988260502859051239",
+      "content": "Ordered groceries.",
+      "timestamp": "2025-11-11T15:00:18.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988259599695425567",
+      "content": "Prepared extraction prompt for new scraper.",
+      "timestamp": "2025-11-11T14:56:43.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988257964709515540",
+      "content": "Prepared camera + desktop + overlay for upcoming calls.",
+      "timestamp": "2025-11-11T14:50:13.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988252343281086773",
+      "content": "Consistent Zone 2 cardiovascular exercise raises performance on cognitive batteries by a Cohen's d of 0.3-0.5. That's around half a standard deviation (enough to take you from ~50th percentile to ~67th. It is essentially free alpha—you pay with sweat.",
+      "timestamp": "2025-11-11T14:27:53.000Z",
+      "category": "thought",
+      "curated": true
+    },
+    {
+      "id": "tw-1988251946101461131",
+      "content": "Completed day 5/5 of morning cardio. I feel significantly more clearheaded!",
+      "timestamp": "2025-11-11T14:26:18.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988236153578041354",
+      "content": "Completed 8 roasts for Maker School.",
+      "timestamp": "2025-11-11T13:23:33.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988231478078287994",
+      "content": "Completed Maker School management for November 11th.",
+      "timestamp": "2025-11-11T13:04:58.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988223956621684751",
+      "content": "Updated blocker; had it set from 9:00am -&gt; 5:00pm, but I realistically want it on 5:00am -&gt; 7:00pm ish.",
+      "timestamp": "2025-11-11T12:35:05.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988222888437272936",
+      "content": "Completed MMWM management for November 11th.",
+      "timestamp": "2025-11-11T12:30:50.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988030017616703512",
+      "content": "Made the best chermoula  ever.",
+      "timestamp": "2025-11-10T23:44:26.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988029932661068284",
+      "content": "Wrote outline for next YouTube video.",
+      "timestamp": "2025-11-10T23:44:06.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988011805340561763",
+      "content": "Ordered cable management devices; breakfast shakes; pill organizers; weigh scale.",
+      "timestamp": "2025-11-10T22:32:04.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988009114728116443",
+      "content": "Reviewed LinkedIn progress for October 2025, compiled suggestions.",
+      "timestamp": "2025-11-10T22:21:23.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988006506185585074",
+      "content": "(too cold in Calgary to walk all the way over there)",
+      "timestamp": "2025-11-10T22:11:01.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988006465320481163",
+      "content": "Cancelled second gym membership x(",
+      "timestamp": "2025-11-10T22:10:51.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988006216094904539",
+      "content": "Cancelled scooter membership x(",
+      "timestamp": "2025-11-10T22:09:51.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988005920568471832",
+      "content": "Connected with 2 referral partners for LeftClick.",
+      "timestamp": "2025-11-10T22:08:41.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988005310184018249",
+      "content": "Ideated referral structure for overflow LeftClick leads.",
+      "timestamp": "2025-11-10T22:06:15.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1988004364251001079",
+      "content": "Calculated revenue for October 2025.",
+      "timestamp": "2025-11-10T22:02:30.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987998686388122046",
+      "content": "Fiddled with BetterDisplay.",
+      "timestamp": "2025-11-10T21:39:56.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987997625019494712",
+      "content": "Downloaded BetterDisplay to fix scaling issue on recently-purchased MSI monitor.",
+      "timestamp": "2025-11-10T21:35:43.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987997573123395781",
+      "content": "Rearranged desk setup.",
+      "timestamp": "2025-11-10T21:35:31.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987997554047610938",
+      "content": "Donated clothing.",
+      "timestamp": "2025-11-10T21:35:26.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987997539732517022",
+      "content": "Purchased monitor at Best Buy.",
+      "timestamp": "2025-11-10T21:35:23.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987966652903026825",
+      "content": "Created content calendar for Live Builds (next/last 4 weeks) and published to MMWM.",
+      "timestamp": "2025-11-10T19:32:39.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987960474869395698",
+      "content": "Set home thermostats on a schedule.",
+      "timestamp": "2025-11-10T19:08:06.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987958246582391202",
+      "content": "Cancelled $4,344/yr worth of expenses across NSM, LeftClick, personal.",
+      "timestamp": "2025-11-10T18:59:15.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987952095685980204",
+      "content": "Blocker looking pretty good. https://t.co/JuR74rtdil",
+      "timestamp": "2025-11-10T18:34:48.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987951593862615505",
+      "content": "Finding: set \"https://t.co/lBtB02tkFW\" and \"https://t.co/N0zvBFSqob\" as the only accessible X URLs on my blocker. That way I can continue treating it like a task list without the downsides.\n\nThis is what an average block looks like. When I try to access Instagram, for instance, I see this page. Annoying but helpful. https://t.co/GYbhHXbBbg\n\nMy YouTube homepage now looks like this. I will only find content if I explicitly look for it, rather than being mindlessly directed by an algorithm that operates against my express interests. https://t.co/DA0YqtGJYh",
+      "timestamp": "2025-11-10T18:32:48.000Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
+      "id": "tw-1987950047330529479",
+      "content": "Set Opal blocks on social media, Reddit, other sites.",
+      "timestamp": "2025-11-10T18:26:40.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987949892015452376",
+      "content": "Uninstalled all nonproductive MacOS apps (12 total).\n\nChatGPT Atlas\nNVIDIA GeForce\nFathom\nVarious MacOS defaults\nMullvad\nOllama\nXCode\nWhatsApp\nScreen Studio... (continued)",
+      "timestamp": "2025-11-10T18:26:03.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987948923621961831",
+      "content": "Uninstalled all nonproductive iOS apps (40 total).\n\n- AirBNB\n- AirVisual\n- https://t.co/VSw22x665h\n- BPMCounter\n- CBP MCP\n- Chess\n- Claude\n- ClickUp\n- Day One\n- Evernote\n- Garbage Day\n- Games\n- Godspeed\n- Gravitus\n- Grok\n- Instacart\n- Instantly\n- LINE\n- Macrofactor... (continued)",
+      "timestamp": "2025-11-10T18:22:12.000Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
+      "id": "tw-1987934585557266943",
+      "content": "Drafts is unbeatable. The best note-taking app by far. It is &gt;&gt;&gt; Apple Notes and Godspeed without being overly complex. I will use it for all task managemen",
+      "timestamp": "2025-11-10T17:25:13.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987934421933322503",
+      "content": "Hosted Weekly Q&amp;A for MMWM.",
+      "timestamp": "2025-11-10T17:24:34.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987911100978155580",
+      "content": "Communicated new content schedule to editor. Prepared for upcoming Q&amp;A.",
+      "timestamp": "2025-11-10T15:51:54.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987911020783038536",
+      "content": "Wrote new content schedule for last two months of 2025. Deliverables are either an outline or a recorded video every day. In plain terms, this averages out to 3.5 videos/wk. They will be loosely structured, and benefit my off-the-cuff nature (but higher info density than before).",
+      "timestamp": "2025-11-10T15:51:35.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987910807162925487",
+      "content": "Ideated seventeen tasks, from content scheduling &gt; video improvement &gt; workspace improvement.",
+      "timestamp": "2025-11-10T15:50:44.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987905177563906435",
+      "content": "It appears my inbox is empty. I have accomplished all of the economically valuable tasks I set out for the day. I will ideate a big list of new tasks now.",
+      "timestamp": "2025-11-10T15:28:22.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987894441743692102",
+      "content": "Due to weird interactions with X, my \"click to remove element\" led to massive page memory issues over time, which meant typing my updates took forever. Fixed this.",
+      "timestamp": "2025-11-10T14:45:42.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987892991906955658",
+      "content": "Completed daily cardio 4/4.",
+      "timestamp": "2025-11-10T14:39:57.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987879819665883282",
+      "content": "Set up time audit.",
+      "timestamp": "2025-11-10T13:47:36.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987879799696896123",
+      "content": "Sent 8 roasts for Maker School.",
+      "timestamp": "2025-11-10T13:47:31.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987879775424397782",
+      "content": "Completed Maker School management for Nov 10th.",
+      "timestamp": "2025-11-10T13:47:26.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987860455692669277",
+      "content": "Completed MMWM management for Nov 10th.",
+      "timestamp": "2025-11-10T12:30:39.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987697698099921329",
+      "content": "Completed module \"Piston Engines\" for ground school.",
+      "timestamp": "2025-11-10T01:43:55.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987691254726156457",
+      "content": "Watched flight video.",
+      "timestamp": "2025-11-10T01:18:19.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987678708954804389",
+      "content": "Reached out to a variety of private health clinics.",
+      "timestamp": "2025-11-10T00:28:28.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987540406901551279",
+      "content": "Completed 9 roasts for Maker School",
+      "timestamp": "2025-11-09T15:18:54.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987533837082173876",
+      "content": "Reached out to five dermatology clinics about the rash on my face.",
+      "timestamp": "2025-11-09T14:52:48.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987518036681875571",
+      "content": "Completed Maker School management for Nov 9th.",
+      "timestamp": "2025-11-09T13:50:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987509819121803518",
+      "content": "Completed MMWM management for Nov 9th.",
+      "timestamp": "2025-11-09T13:17:21.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987284978275917894",
+      "content": "Responded to 25 Skool DMs.",
+      "timestamp": "2025-11-08T22:23:55.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987277010385969419",
+      "content": "Held group call with the guys.",
+      "timestamp": "2025-11-08T21:52:15.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987192944747794541",
+      "content": "Automated grocery delivery for the week (think I finally found a good system).",
+      "timestamp": "2025-11-08T16:18:12.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987191246771921090",
+      "content": "Reviewed new 4.5hr course for YouTube.",
+      "timestamp": "2025-11-08T16:11:28.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987187113075556595",
+      "content": "Completed Maker School management for November 8th.",
+      "timestamp": "2025-11-08T15:55:02.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987148524274995661",
+      "content": "Chrome extension is \"Click to remove element\". It stores the deletions persistently so it's how the website will always look from then on. I.e this is all I see. https://t.co/V3GchUC9uV",
+      "timestamp": "2025-11-08T13:21:42.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987146999960150255",
+      "content": "Not having sidebars/etc on Twitter is for real awesome. Turns it into a content production machine. There is probably a way to segment this if I really wanted to grow here—one tab for posting (that I use all day) and another for replying (that I check EOD or similar).",
+      "timestamp": "2025-11-08T13:15:38.000Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
+      "id": "tw-1987146643574255773",
+      "content": "Completed MMWM management for November 8th.",
+      "timestamp": "2025-11-08T13:14:13.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1987142506807762975",
+      "content": "Completed 30 minutes of morning cardio.",
+      "timestamp": "2025-11-08T12:57:47.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986934687324119205",
+      "content": "Turned last four ground school modules into Anki cards.",
+      "timestamp": "2025-11-07T23:11:59.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986934608697737309",
+      "content": "Created workflow to turn ground school lectures into Anki flashcards.",
+      "timestamp": "2025-11-07T23:11:40.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986934512769769654",
+      "content": "Created new cardio regimen (have been avoiding any/all cardio for the last two months).",
+      "timestamp": "2025-11-07T23:11:17.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986934429546340741",
+      "content": "Purchased nootropic stack.",
+      "timestamp": "2025-11-07T23:10:58.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986912485228880205",
+      "content": "Fixed Twitter. https://t.co/rAM2FxR1k0",
+      "timestamp": "2025-11-07T21:43:46.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986871354831086008",
+      "content": "Completed Slack automation for DMC.",
+      "timestamp": "2025-11-07T19:00:19.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986859929077227876",
+      "content": "Delivered Dynamous presentation for Cole.",
+      "timestamp": "2025-11-07T18:14:55.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986825464808423572",
+      "content": "Recorded seven roasts for Maker School.",
+      "timestamp": "2025-11-07T15:57:58.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986819581160341513",
+      "content": "New strategy: write 20 high-converting email templates for DMC. Send all to PE firm. Have them select top 5. Then run top 5. Frontloads work, but will avoid all downstream bottlenecks, and then I can just generate leads all day without worrying about copy. Will do this.",
+      "timestamp": "2025-11-07T15:34:36.000Z",
+      "category": "thought",
+      "curated": true
+    },
+    {
+      "id": "tw-1986819389346525491",
+      "content": "Reviewed email campaigns for DMC.",
+      "timestamp": "2025-11-07T15:33:50.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986819338977132602",
+      "content": "Completed Maker School Management for November 7th.",
+      "timestamp": "2025-11-07T15:33:38.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986807167362715975",
+      "content": "Completed MMWM management for November 7th.",
+      "timestamp": "2025-11-07T14:45:16.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986804787330036177",
+      "content": "Completed presentation for Cole's community.",
+      "timestamp": "2025-11-07T14:35:49.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986790124336943336",
+      "content": "Completed module \"Piston Engines (Operation)\" for ground school.",
+      "timestamp": "2025-11-07T13:37:33.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986566504255750468",
+      "content": "First lead already. Average deal size is many millions. Lead gen ez.",
+      "timestamp": "2025-11-06T22:48:57.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986546755316687202",
+      "content": "Scraped, enriched, copywrote, and sent DMC acquisition campaign.",
+      "timestamp": "2025-11-06T21:30:29.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986462494983061615",
+      "content": "Handled 1SecondCopy payments.",
+      "timestamp": "2025-11-06T15:55:40.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986457598728737163",
+      "content": "Completed AI Consulting Blueprint course (should be 4-5 hours!)",
+      "timestamp": "2025-11-06T15:36:12.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986447713089823078",
+      "content": "Reviewed new course transitions.",
+      "timestamp": "2025-11-06T14:56:55.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986444914629210186",
+      "content": "Recorded 12 roasts for Maker School.",
+      "timestamp": "2025-11-06T14:45:48.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986431201964663290",
+      "content": "Completed Maker School Management for November 6th.",
+      "timestamp": "2025-11-06T13:51:19.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986422777830875545",
+      "content": "Completed MMWM management for November 6th.",
+      "timestamp": "2025-11-06T13:17:50.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986266548194218125",
+      "content": "Added more discount codes to Skool.",
+      "timestamp": "2025-11-06T02:57:02.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986256473748574624",
+      "content": "Posted Connor's sales call thread for Maker School.",
+      "timestamp": "2025-11-06T02:17:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986256432749273570",
+      "content": "1:1 with Gio; pickleball, steak, DMC.",
+      "timestamp": "2025-11-06T02:16:51.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986147728020414895",
+      "content": "Responded to 20 Skool DMs.",
+      "timestamp": "2025-11-05T19:04:53.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986138050716663948",
+      "content": "Wrote outline for new YouTube video.",
+      "timestamp": "2025-11-05T18:26:26.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986117634430280146",
+      "content": "Recorded 8 Maker School roasts.",
+      "timestamp": "2025-11-05T17:05:18.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986117603258212706",
+      "content": "Completed Weekly Office Hour for MMWM.",
+      "timestamp": "2025-11-05T17:05:11.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986117575210852575",
+      "content": "Podcast with Jack.",
+      "timestamp": "2025-11-05T17:05:04.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986082275151507825",
+      "content": "Completed Maker School management for November 5th.",
+      "timestamp": "2025-11-05T14:44:48.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1986082251969581527",
+      "content": "Completed MMWM management for November 5th.",
+      "timestamp": "2025-11-05T14:44:43.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985888921906266169",
+      "content": "1:1 with prospective accountant.",
+      "timestamp": "2025-11-05T01:56:29.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985828744486142001",
+      "content": "Responded to 81 Skool DMs.",
+      "timestamp": "2025-11-04T21:57:22.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985803125438226538",
+      "content": "Reviewed partnerships.",
+      "timestamp": "2025-11-04T20:15:34.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985800983516234001",
+      "content": "Completed \"Airframes\" quiz.",
+      "timestamp": "2025-11-04T20:07:03.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985800953581416662",
+      "content": "Complete module \"Aircraft Familiarization\" for ground school.",
+      "timestamp": "2025-11-04T20:06:56.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985780718811914352",
+      "content": "Team meeting with Clairvo.",
+      "timestamp": "2025-11-04T18:46:32.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985780696699584988",
+      "content": "Hosted Live Build #4.",
+      "timestamp": "2025-11-04T18:46:26.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985780681629487484",
+      "content": "Hosted Weekly Community Call #24.",
+      "timestamp": "2025-11-04T18:46:23.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985727500396421540",
+      "content": "Recorded 11 roasts for Maker School.",
+      "timestamp": "2025-11-04T15:15:03.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985727462068928696",
+      "content": "Completed Maker School management for Nov 4.",
+      "timestamp": "2025-11-04T15:14:54.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985706297975849306",
+      "content": "Completed MMWM management for Nov 4.",
+      "timestamp": "2025-11-04T13:50:48.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985703321634754621",
+      "content": "Reviewed \"I Tried to Sell an AI Service in 3 Hours (RAW RESULTS)\"",
+      "timestamp": "2025-11-04T13:38:59.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985547768027566409",
+      "content": "Built simple circuit.",
+      "timestamp": "2025-11-04T03:20:52.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985547750650658907",
+      "content": "Picked up Arduino kit",
+      "timestamp": "2025-11-04T03:20:48.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985498905384272351",
+      "content": "Completed module \"Airframes\" for ground school.",
+      "timestamp": "2025-11-04T00:06:42.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985490054261903496",
+      "content": "Began ground school.",
+      "timestamp": "2025-11-03T23:31:32.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985490045130981564",
+      "content": "Purchased ground school, signed up for flight tests.",
+      "timestamp": "2025-11-03T23:31:30.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985466300718850344",
+      "content": "Streamed Q&amp;A.",
+      "timestamp": "2025-11-03T21:57:08.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985465618846662747",
+      "content": "Finished Crystal Society. Good book.",
+      "timestamp": "2025-11-03T21:54:26.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985417741847982081",
+      "content": "Created Google Sheet with resources for upcoming video.",
+      "timestamp": "2025-11-03T18:44:11.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985412612847518117",
+      "content": "Livestreamed a build.",
+      "timestamp": "2025-11-03T18:23:48.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985395587307769987",
+      "content": "Finished recording me BEHEMOTH lead gen video.",
+      "timestamp": "2025-11-03T17:16:09.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985358327392682081",
+      "content": "Recorded 11 roasts for Maker School.",
+      "timestamp": "2025-11-03T14:48:06.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985358292030484989",
+      "content": "Completed Maker School management for Nov 3.",
+      "timestamp": "2025-11-03T14:47:57.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985338530793713734",
+      "content": "Completed MMWM management for Nov 3.",
+      "timestamp": "2025-11-03T13:29:26.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985122020003316167",
+      "content": "Tax planning.",
+      "timestamp": "2025-11-02T23:09:06.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985066454568534475",
+      "content": "Reviewed cold email replies.",
+      "timestamp": "2025-11-02T19:28:18.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985066436981846491",
+      "content": "Recorded Instagram shorts.",
+      "timestamp": "2025-11-02T19:28:13.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1985031592491069588",
+      "content": "Spent an hour learning about electronics with Atlas. Pretty great. Learning rate is probably, like, 3x.",
+      "timestamp": "2025-11-02T17:09:46.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1984995409585127857",
+      "content": "Sent a bunch of 'thank-you' emails to old professors, teachers, etc.",
+      "timestamp": "2025-11-02T14:45:59.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1984992139051483410",
+      "content": "Learned more electronics + purchased Arduino kit.",
+      "timestamp": "2025-11-02T14:32:59.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1984980879949881458",
+      "content": "Reviewed &amp; rewrote LinkedIn posts.",
+      "timestamp": "2025-11-02T13:48:15.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1984969202378436816",
+      "content": "More DMC agency work; wrapped up appt setting threads.",
+      "timestamp": "2025-11-02T13:01:51.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1984964422486622452",
+      "content": "Completed Maker School management for Nov 2.",
+      "timestamp": "2025-11-02T12:42:51.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1984964397241090244",
+      "content": "Completed MMWM management for Nov 2.",
+      "timestamp": "2025-11-02T12:42:45.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1984778266868400163",
+      "content": "Read half of DMC Slack as part of onboarding. $2M/yr right now. We will make (at least) $20M/yr next year, mark my words.",
+      "timestamp": "2025-11-02T00:23:08.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1984762699029627046",
+      "content": "Reviewed sponsorship results. ~$150,000 so far.",
+      "timestamp": "2025-11-01T23:21:17.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1984762025172746290",
+      "content": "Reviewed campaign progress for YT vid. 19 replies on a Saturday, collective reply rate of ~3%. Not bad. That said, I can't use my real name anymore (clearly) since a small chunk of people recognize me.",
+      "timestamp": "2025-11-01T23:18:36.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1984617797440454844",
+      "content": "Waking up at 4:00am sucks, especially when it's not my choice. But if I reframe—I also get to finish the majority of my valuable work by 6:00am. That's cool.",
+      "timestamp": "2025-11-01T13:45:29.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1984617548743393347",
+      "content": "Completed Maker School management for Nov 1.",
+      "timestamp": "2025-11-01T13:44:30.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1984617518766715258",
+      "content": "Responded to 20 DMs on Skool.",
+      "timestamp": "2025-11-01T13:44:23.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1984615446054838279",
+      "content": "Completed Twitch Affiliate setups.",
+      "timestamp": "2025-11-01T13:36:09.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1984605141774016837",
+      "content": "Finished all Clairvo chats.",
+      "timestamp": "2025-11-01T12:55:12.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1984597877960892576",
+      "content": "Learned about PCM, Opus, FreeSWITCH, GSM, G.711, SIP, RTP.",
+      "timestamp": "2025-11-01T12:26:20.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1984597735379779728",
+      "content": "Read through Clairvo chats, caught up.",
+      "timestamp": "2025-11-01T12:25:46.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1984597627858796668",
+      "content": "Streamed with Jack.",
+      "timestamp": "2025-11-01T12:25:21.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1984597598452449360",
+      "content": "Recorded 5 hour-long lead gen vid 😈",
+      "timestamp": "2025-11-01T12:25:14.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1984597542559236267",
+      "content": "Completed MMWM management for Nov 1.",
+      "timestamp": "2025-11-01T12:25:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1984597517804487017",
+      "content": "Recorded 5 roasts for Maker School.",
+      "timestamp": "2025-11-01T12:24:54.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1984256173101723679",
+      "content": "Completed Maker School management for Oct 31.",
+      "timestamp": "2025-10-31T13:48:32.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1984256159570882723",
+      "content": "Completed MMWM management for Oct 31.",
+      "timestamp": "2025-10-31T13:48:28.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1983889871770153275",
+      "content": "Sent 5 roasts for Maker School.",
+      "timestamp": "2025-10-30T13:32:58.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1983873598982066401",
+      "content": "Completed Maker School management for Oct 30th.",
+      "timestamp": "2025-10-30T12:28:19.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1983866567160164733",
+      "content": "Completed MMWM management for Oct 30th.",
+      "timestamp": "2025-10-30T12:00:22.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1983866383361585160",
+      "content": "Decided to use Windows PC today to re-learn hotkeys. What a mess. I'm like 30% slower across the board.",
+      "timestamp": "2025-10-30T11:59:38.000Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
+      "id": "tw-1983716450486665618",
+      "content": "Updated frontfill calendar prompt to take LeftClick calls solo.",
+      "timestamp": "2025-10-30T02:03:52.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1983716415501979988",
+      "content": "Formatted and fixed Slack.",
+      "timestamp": "2025-10-30T02:03:43.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1983708998265434277",
+      "content": "Planned new content strategy.",
+      "timestamp": "2025-10-30T01:34:15.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1983708943856877911",
+      "content": "Completed medical for pilot's license.",
+      "timestamp": "2025-10-30T01:34:02.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1983542947116429355",
+      "content": "Reviewed weekly office hours.",
+      "timestamp": "2025-10-29T14:34:25.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1983542925482201585",
+      "content": "Wrote a couple of Twitter posts.",
+      "timestamp": "2025-10-29T14:34:20.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1983542904355442735",
+      "content": "Recorded 11 roasts for Maker School.",
+      "timestamp": "2025-10-29T14:34:15.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1983542883400688011",
+      "content": "Completed Maker School management for October 29th.",
+      "timestamp": "2025-10-29T14:34:10.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1983542860566966693",
+      "content": "Completed Make Money with Make management for October 29th.",
+      "timestamp": "2025-10-29T14:34:05.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1983344588472627695",
+      "content": "Calculated balances, net worth, etc.",
+      "timestamp": "2025-10-29T01:26:13.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1983293426687979802",
+      "content": "Completed CRA business account setup.",
+      "timestamp": "2025-10-28T22:02:55.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1983276086915149898",
+      "content": "Streamed with Jack.",
+      "timestamp": "2025-10-28T20:54:01.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1983230942455230709",
+      "content": "Completed Maker School management for Oct 28.",
+      "timestamp": "2025-10-28T17:54:37.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1983168486462652514",
+      "content": "Completed MMWM management for Oct 28.",
+      "timestamp": "2025-10-28T13:46:27.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982912866102718508",
+      "content": "Stream with Jack 💪🏼",
+      "timestamp": "2025-10-27T20:50:42.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982912841599590444",
+      "content": "Crushed gym 💪🏼",
+      "timestamp": "2025-10-27T20:50:36.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982840098371907831",
+      "content": "Hosted Weekly Office Q&amp;A Session",
+      "timestamp": "2025-10-27T16:01:33.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982820244684226862",
+      "content": "$25K/m Agency is now done.\n\nOver 100 pages that run you through a comprehensive list of granular improvements you can make to your agency to transform it from self-employment &gt; a real business. \n\nEverything from constraints, productization, monetization, and more!\n\nSo stoked.",
+      "timestamp": "2025-10-27T14:42:40.000Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
+      "id": "tw-1982820215319912623",
+      "content": "Wrote \"In closing\" for $25K/m Agency.",
+      "timestamp": "2025-10-27T14:42:33.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982820187570336025",
+      "content": "Wrote \"Build referral programs\" for $25K/m Agency.",
+      "timestamp": "2025-10-27T14:42:26.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982814948645298245",
+      "content": "Wrote \"Build referral programs\" for \"$25K/m Agency.",
+      "timestamp": "2025-10-27T14:21:37.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982808527207870807",
+      "content": "Wrote \"Building delivery templates\" for \"$25K/m Agency\".",
+      "timestamp": "2025-10-27T13:56:06.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982803736360607799",
+      "content": "Wrote \"Building project templates\" for $25K/m Agency.",
+      "timestamp": "2025-10-27T13:37:04.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982803678416240817",
+      "content": "Wrote \"Standardizing project delivery\" for $25K/m Agency.",
+      "timestamp": "2025-10-27T13:36:50.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982803636167065952",
+      "content": "Wrote \"Building daily update structure\" for $25K/m Agency.",
+      "timestamp": "2025-10-27T13:36:40.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982792568870982056",
+      "content": "Booked medical for pilot's license.",
+      "timestamp": "2025-10-27T12:52:41.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982782117093273659",
+      "content": "Recorded 7 roasts for Maker School.",
+      "timestamp": "2025-10-27T12:11:09.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982782100261728531",
+      "content": "Completed Maker School management for Oct 27.",
+      "timestamp": "2025-10-27T12:11:05.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982782089662718004",
+      "content": "Completed MMWM management for Oct 27.",
+      "timestamp": "2025-10-27T12:11:03.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982591675508891785",
+      "content": "Done the automation accelerators! In total, 32 20-30min vids + 300-500 word modules. Lfg https://t.co/RrEPwTZd0y",
+      "timestamp": "2025-10-26T23:34:24.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982591440644677970",
+      "content": "Recorded \"Your seventh workflow\" for n8n accelerator.",
+      "timestamp": "2025-10-26T23:33:28.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982576307981734230",
+      "content": "Recorded \"Your sixth workflow\" for n8n accelerator.",
+      "timestamp": "2025-10-26T22:33:20.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982562881981042837",
+      "content": "Recorded \"Your fifth workflow\" for n8n accelerator",
+      "timestamp": "2025-10-26T21:39:59.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982449875079049426",
+      "content": "Recorded 8 roasts for Maker School.",
+      "timestamp": "2025-10-26T14:10:57.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982449847400808706",
+      "content": "Completed Maker School management for Oct 26.",
+      "timestamp": "2025-10-26T14:10:50.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982449834239074750",
+      "content": "Completed MMWM management for Oct 26.",
+      "timestamp": "2025-10-26T14:10:47.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982277783020785820",
+      "content": "Wrote \"The shape of a business\" for $25K/m Agency.",
+      "timestamp": "2025-10-26T02:47:07.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982252442491183528",
+      "content": "Connected various APIs/etc for next two n8n accelerator workflows.",
+      "timestamp": "2025-10-26T01:06:25.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982252409993724051",
+      "content": "Dry-ran \"Your Fifth Workflow\" for n8n accelerator.",
+      "timestamp": "2025-10-26T01:06:17.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982251264063803804",
+      "content": "Upgraded RAM on AI laptop. 32GB -&gt; 96GB RAM. Now running GPT-OSS:120B locally! Insane to wield 120 billion parameters...",
+      "timestamp": "2025-10-26T01:01:44.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982160823813321173",
+      "content": "Recorded \"Loops &amp; data processing in n8n\" for n8n accelerator",
+      "timestamp": "2025-10-25T19:02:21.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982141196517400802",
+      "content": "Wrote \"Minimizing Buyer's Remorse\" for $25K/m Agency.",
+      "timestamp": "2025-10-25T17:44:22.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982141121347096892",
+      "content": "Wrote \"Improving kickoff (+ full script)\" for $25K/m Agency.",
+      "timestamp": "2025-10-25T17:44:04.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982125747461570675",
+      "content": "Recorded 8 roasts for Maker School.",
+      "timestamp": "2025-10-25T16:42:58.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982093509571350799",
+      "content": "Completed Maker School management for Oct 25.",
+      "timestamp": "2025-10-25T14:34:52.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982082800322072846",
+      "content": "Reviewed ad performance for NSM.",
+      "timestamp": "2025-10-25T13:52:19.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1982082766155223217",
+      "content": "Completed MMWM management for Oct 25.",
+      "timestamp": "2025-10-25T13:52:11.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981790554888503314",
+      "content": "Recorded \"Your fourth workflow\" for n8n accelerator",
+      "timestamp": "2025-10-24T18:31:02.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981775151097377002",
+      "content": "Recorded \"every n8n function\" for n8n accelerator",
+      "timestamp": "2025-10-24T17:29:50.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981761434175648053",
+      "content": "Recorded \"Your third workflow\" for n8n accelerator.",
+      "timestamp": "2025-10-24T16:35:19.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981743615920500760",
+      "content": "Wrote \"Improving payment experience\" for $25K Per Month Agency.",
+      "timestamp": "2025-10-24T15:24:31.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981738118379352492",
+      "content": "Wrote \"Improving follow ups\" for $25K Per Month Agency\".",
+      "timestamp": "2025-10-24T15:02:40.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981727289223135635",
+      "content": "Recorded 8 roasts for Maker School.",
+      "timestamp": "2025-10-24T14:19:39.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981719843888906516",
+      "content": "Completed Maker School management for Oct 24 2025",
+      "timestamp": "2025-10-24T13:50:04.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981709863559561456",
+      "content": "Completed MMWM management for Oct 24 2025",
+      "timestamp": "2025-10-24T13:10:24.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981486375225737486",
+      "content": "Recorded \"JSON\" for n8n accelerator.",
+      "timestamp": "2025-10-23T22:22:20.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981486352396075070",
+      "content": "Recorded \"Webhooks &amp; HTTP requests\" for n8n accelerator.",
+      "timestamp": "2025-10-23T22:22:15.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981462784618745921",
+      "content": "Set up Twitch overlays, experimented with popular games (Fortnite) avec Jack.",
+      "timestamp": "2025-10-23T20:48:36.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981445614908166425",
+      "content": "Chatted with Nixe, Mario about Twitch.",
+      "timestamp": "2025-10-23T19:40:22.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981396396080234781",
+      "content": "Watched a bunch of Twitch streams for research. Wild west out there.",
+      "timestamp": "2025-10-23T16:24:48.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981396361926103205",
+      "content": "MMWM livestream using \"Webinar\" feature.",
+      "timestamp": "2025-10-23T16:24:39.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981396340166054016",
+      "content": "Wrote \"Increase closing rate\" for $25K Per Month Agency\".",
+      "timestamp": "2025-10-23T16:24:34.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981378457499292076",
+      "content": "Wrote \"Increasing meeting rate\" for $25K Per Month Agency.",
+      "timestamp": "2025-10-23T15:13:31.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981353819905937654",
+      "content": "Recorded 10 roasts for Maker School.",
+      "timestamp": "2025-10-23T13:35:37.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981353283332747748",
+      "content": "Completed maker school management for Oct 23rd.",
+      "timestamp": "2025-10-23T13:33:29.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981335735702868078",
+      "content": "Experimented with Docuseal (vs PandaDoc). Good platform.",
+      "timestamp": "2025-10-23T12:23:45.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981334867414831248",
+      "content": "Completed MMWM management for Oct 23.",
+      "timestamp": "2025-10-23T12:20:18.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981179505688686605",
+      "content": "Wrote \"Increasing meeting rate\" for $25K/m Agency.",
+      "timestamp": "2025-10-23T02:02:57.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981154790274191491",
+      "content": "$25K/m Agency Curriculum. No bs, just teaching people how to build lean, high-margin agencies with scalable cash flow. https://t.co/ZZ6YMrhyWz",
+      "timestamp": "2025-10-23T00:24:44.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981154263775715542",
+      "content": "Completed outline for \"$25K Per Month Agency\" for MMWM.",
+      "timestamp": "2025-10-23T00:22:39.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981154230410105061",
+      "content": "Completed \"AI prompting overview\" for n8n accelerator.",
+      "timestamp": "2025-10-23T00:22:31.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981154182720868576",
+      "content": "Edited n8n accelerator.",
+      "timestamp": "2025-10-23T00:22:19.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981154006060994780",
+      "content": "Pickleball, meetings, dinner with Gio.",
+      "timestamp": "2025-10-23T00:21:37.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981153949962162556",
+      "content": "Experimented with Twitch stream.",
+      "timestamp": "2025-10-23T00:21:24.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981153917905097173",
+      "content": "Set up Twitch streaming with Jack.",
+      "timestamp": "2025-10-23T00:21:16.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981153887991271704",
+      "content": "Hosted impromptu coworking session for MMWM.",
+      "timestamp": "2025-10-23T00:21:09.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981031892704227390",
+      "content": "Hosted weekly office hour for Make Money with Make.",
+      "timestamp": "2025-10-22T16:16:23.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981031865223102943",
+      "content": "1:1 with Karim.",
+      "timestamp": "2025-10-22T16:16:17.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981031839344341138",
+      "content": "Recorded 10 roasts for Maker School.",
+      "timestamp": "2025-10-22T16:16:10.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981031801049972972",
+      "content": "Completed Maker School management for October 22nd.",
+      "timestamp": "2025-10-22T16:16:01.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1981031774995259600",
+      "content": "Completed Make Money with Make Management for October 22nd.",
+      "timestamp": "2025-10-22T16:15:55.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980750762889384165",
+      "content": "Watched 25min of https://t.co/AzQBrBZDWI",
+      "timestamp": "2025-10-21T21:39:17.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980750724062667067",
+      "content": "Completed \"your second workflow\" for n8n Accelerator.",
+      "timestamp": "2025-10-21T21:39:07.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980745578603778063",
+      "content": "Recorded \"Authentication\" for n8n accelerator.",
+      "timestamp": "2025-10-21T21:18:41.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980720445772169612",
+      "content": "Experimented with ChatGPT Atlas.",
+      "timestamp": "2025-10-21T19:38:48.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980720416038748196",
+      "content": "Tested Skool Webinar feature in Maker School",
+      "timestamp": "2025-10-21T19:38:41.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980682046247936215",
+      "content": "Hosted Live Build #2 for MMWM",
+      "timestamp": "2025-10-21T17:06:13.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980681383036219873",
+      "content": "Completed Weekly Community Call #23 for Maker School.",
+      "timestamp": "2025-10-21T17:03:35.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980646698021187969",
+      "content": "Recorded 8 roasts for Maker School.",
+      "timestamp": "2025-10-21T14:45:46.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980646668220727362",
+      "content": "Completed Maker School management for October 21st.",
+      "timestamp": "2025-10-21T14:45:38.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980646647970557985",
+      "content": "Completed MMWM management for October 21st.",
+      "timestamp": "2025-10-21T14:45:34.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980444615837979030",
+      "content": "Calendar debugging for LeftClick.",
+      "timestamp": "2025-10-21T01:22:45.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980438311861907697",
+      "content": "Read through Karpathy's Nanochat",
+      "timestamp": "2025-10-21T00:57:42.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980405921022112108",
+      "content": "Shifted calendar appts around.",
+      "timestamp": "2025-10-20T22:49:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980405898251227263",
+      "content": "Recorded roast for Leandro.",
+      "timestamp": "2025-10-20T22:48:54.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980400063202619538",
+      "content": "Reviewed Weekly Community Call q's.",
+      "timestamp": "2025-10-20T22:25:43.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980399237943947511",
+      "content": "Updated frontfill automation with new times (double booked Live Builds by accident)",
+      "timestamp": "2025-10-20T22:22:27.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980395906236313972",
+      "content": "Recorded \"your first workflow\"",
+      "timestamp": "2025-10-20T22:09:12.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980383824619139248",
+      "content": "Finished dual-n-back for the day.",
+      "timestamp": "2025-10-20T21:21:12.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980383647158136980",
+      "content": "10 Stronglifts workouts in (after no powerlifting for yrs post-injury).\n- Back pain gone.\n- No vague feelings of \"shit, I'm going to snap if I pick that up!\"\n- Hard to describe, but thoughts have a certain edge to them. Think it's the higher T.\n- Up to 181lbs. \n\nAnother 4 wks!",
+      "timestamp": "2025-10-20T21:20:29.000Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
+      "id": "tw-1980382879030108213",
+      "content": "Re-set up studio (poor lighting the first time)\n\nNeed a plant in the bottom right hand corner! https://t.co/8iKyzYB4xO",
+      "timestamp": "2025-10-20T21:17:26.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980341497343189052",
+      "content": "First gaming stream with Jack.",
+      "timestamp": "2025-10-20T18:33:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980312926532825138",
+      "content": "Recorded 15 rows for Maker School.",
+      "timestamp": "2025-10-20T16:39:28.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980281425963466930",
+      "content": "Completed Maker School management for Oct 20 2025. Aqua is crazy! -7 mins.",
+      "timestamp": "2025-10-20T14:34:18.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980275697169084617",
+      "content": "Completed MMWM management for Oct 20 2025.",
+      "timestamp": "2025-10-20T14:11:32.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980275671705518435",
+      "content": "Downloaded &amp; upgraded Aqua again.",
+      "timestamp": "2025-10-20T14:11:26.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980080959316996374",
+      "content": "New desk setup + lighting.",
+      "timestamp": "2025-10-20T01:17:43.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980080932272079262",
+      "content": "Fixed OBS encoding settings; no more lag issues.",
+      "timestamp": "2025-10-20T01:17:37.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980046051207008639",
+      "content": "Signed up for autodeposit.",
+      "timestamp": "2025-10-19T22:59:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1980017340457930871",
+      "content": "Memory research; installed GPT-OSS:20B and 120B. Purchased 96GB DDR5 for laptop.",
+      "timestamp": "2025-10-19T21:04:55.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1979968105901424647",
+      "content": "Set up OLlama, CUDA, CDNN on new laptop.",
+      "timestamp": "2025-10-19T17:49:17.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1979947771919765634",
+      "content": "Recorded 30 roasts for Maker School.",
+      "timestamp": "2025-10-19T16:28:29.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1979389606203396160",
+      "content": "Ran through Life Optimization Experiment",
+      "timestamp": "2025-10-18T03:30:32.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1979383831984771521",
+      "content": "Created meeting recap automation for LeftClick.",
+      "timestamp": "2025-10-18T03:07:35.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1979233662404300963",
+      "content": "Recorded 5 roasts.",
+      "timestamp": "2025-10-17T17:10:52.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1979233645069242758",
+      "content": "Completed Maker School management for Oct 17 2025.",
+      "timestamp": "2025-10-17T17:10:48.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1979233626824020007",
+      "content": "Completed MMWM management for Oct 17 2025.",
+      "timestamp": "2025-10-17T17:10:43.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1978879579755254053",
+      "content": "Recorded 5 roasts for Maker School.",
+      "timestamp": "2025-10-16T17:43:52.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1978871806623912278",
+      "content": "Completed Maker School management for Oct 16 2025.",
+      "timestamp": "2025-10-16T17:12:59.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1978860930713657801",
+      "content": "Back to #2 💪🏼 https://t.co/okSDi3jb21",
+      "timestamp": "2025-10-16T16:29:45.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1978859404511289773",
+      "content": "Completed MMWM management for Oct 16 2025. Caught up on ~3d.",
+      "timestamp": "2025-10-16T16:23:42.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1978853471584420325",
+      "content": "Uploaded Weekly Office Hour to MMWM. Need a new process for this; I keep forgetting.",
+      "timestamp": "2025-10-16T16:00:07.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1978623623058300955",
+      "content": "Completed next chapter of https://t.co/9rkzjLgHTV.",
+      "timestamp": "2025-10-16T00:46:47.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1978611399946604914",
+      "content": "Negotiated new sponsorship deal.",
+      "timestamp": "2025-10-15T23:58:13.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1978606521270600073",
+      "content": "Recorded Weekly Office Hour for MMWM.",
+      "timestamp": "2025-10-15T23:38:50.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1978606492380237858",
+      "content": "Added new event to Maker School.",
+      "timestamp": "2025-10-15T23:38:43.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1978606468095201740",
+      "content": "Responded to 25 Skool DMs.",
+      "timestamp": "2025-10-15T23:38:37.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1978606454555787599",
+      "content": "Recorded 7 roasts for Maker School.",
+      "timestamp": "2025-10-15T23:38:34.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1978606425963380774",
+      "content": "Completed Maker School management for Oct 15 2025.",
+      "timestamp": "2025-10-15T23:38:27.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1978606415641186601",
+      "content": "Completed MMWM management for Oct 15 2025.",
+      "timestamp": "2025-10-15T23:38:24.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1977901852848202088",
+      "content": "Ideated first Live Build for MMWM; created Live Build #1 post.",
+      "timestamp": "2025-10-14T00:58:44.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1977897713929683143",
+      "content": "Set up LeftClick Workspace &amp; new CRM.",
+      "timestamp": "2025-10-14T00:42:17.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1977875372168577114",
+      "content": "Reviewed draft workspace for LeftClick.",
+      "timestamp": "2025-10-13T23:13:30.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1977875321304309987",
+      "content": "Hosted Open Q&amp;A.",
+      "timestamp": "2025-10-13T23:13:18.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1977875294267601224",
+      "content": "Recorded 8 roasts for October 13th, 2025.",
+      "timestamp": "2025-10-13T23:13:11.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1977875235173974418",
+      "content": "Completed Maker School management for October 13th, 2025.",
+      "timestamp": "2025-10-13T23:12:57.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1977875219235655713",
+      "content": "Completed MMWM management for October 13th, 2025.",
+      "timestamp": "2025-10-13T23:12:54.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1977413321990287810",
+      "content": "Recorded 12 Upwork roasts.",
+      "timestamp": "2025-10-12T16:37:29.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1977413278902182101",
+      "content": "Completed Maker School management for October 12, 2025.",
+      "timestamp": "2025-10-12T16:37:18.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1977413252184469778",
+      "content": "Completed MMWM management for October 12th, 2025.",
+      "timestamp": "2025-10-12T16:37:12.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1977033715265200619",
+      "content": "Recorded 12 roasts for Maker School.",
+      "timestamp": "2025-10-11T15:29:03.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1977033692506923207",
+      "content": "Completed Maker School management for Oct 11.",
+      "timestamp": "2025-10-11T15:28:58.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1977033675893326201",
+      "content": "Completed MMWM management for Oct 11.",
+      "timestamp": "2025-10-11T15:28:54.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1976723623391252971",
+      "content": "Packed for Van",
+      "timestamp": "2025-10-10T18:56:52.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1976723611953381687",
+      "content": "Recorded 13 roasts for Maker School",
+      "timestamp": "2025-10-10T18:56:49.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1976723584161837065",
+      "content": "Completed MMWM management for Oct 10",
+      "timestamp": "2025-10-10T18:56:42.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1976723562192093359",
+      "content": "Negotiations with the big dog",
+      "timestamp": "2025-10-10T18:56:37.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1976723480994627869",
+      "content": "Reviewed incoming LeftClick calls",
+      "timestamp": "2025-10-10T18:56:18.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1976643965563834644",
+      "content": "Completed Maker School management for Oct 10 2025.",
+      "timestamp": "2025-10-10T13:40:20.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1976094987893998002",
+      "content": "Fixed card for Tyler",
+      "timestamp": "2025-10-09T01:18:53.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1976088715048129016",
+      "content": "Re-set up LeftClick automations/calendar.",
+      "timestamp": "2025-10-09T00:53:58.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1976028896148738108",
+      "content": "Finished next chapter in self-study.",
+      "timestamp": "2025-10-08T20:56:16.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1976022419359084911",
+      "content": "Strategized agency stuff.",
+      "timestamp": "2025-10-08T20:30:32.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1976002885944246767",
+      "content": "1:1 with Noah.",
+      "timestamp": "2025-10-08T19:12:55.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1976002873575211167",
+      "content": "Crushed gym 💪🏼",
+      "timestamp": "2025-10-08T19:12:52.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975966757627310101",
+      "content": "1:1 with Jonathan.",
+      "timestamp": "2025-10-08T16:49:21.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975966745677664350",
+      "content": "Hosted Weekly Office Hour for MMWM.",
+      "timestamp": "2025-10-08T16:49:18.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975936578242679049",
+      "content": "Reviewed new YouTube video.",
+      "timestamp": "2025-10-08T14:49:26.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975936552162451695",
+      "content": "Reviewed next week's emails &amp; new email course.",
+      "timestamp": "2025-10-08T14:49:19.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975933334611214647",
+      "content": "Recorded 12 roasts for Maker School.",
+      "timestamp": "2025-10-08T14:36:32.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975926783926308917",
+      "content": "Completed Maker School management for Oct 8.",
+      "timestamp": "2025-10-08T14:10:30.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975919263060984269",
+      "content": "Completed MMWM management for Oct 8.",
+      "timestamp": "2025-10-08T13:40:37.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975698197432721775",
+      "content": "1:1 with Adib.",
+      "timestamp": "2025-10-07T23:02:11.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975698186397491420",
+      "content": "1:1 with Ernesto.",
+      "timestamp": "2025-10-07T23:02:08.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975698132274151473",
+      "content": "1:1 with Gareth.",
+      "timestamp": "2025-10-07T23:01:56.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975685036008743082",
+      "content": "Responded to 30 Skool DMs.",
+      "timestamp": "2025-10-07T22:09:53.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975684980790730937",
+      "content": "Created list of actionables + schedule for next 7d.",
+      "timestamp": "2025-10-07T22:09:40.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975676683492729145",
+      "content": "Reviewed bank balances.",
+      "timestamp": "2025-10-07T21:36:42.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975673969979335021",
+      "content": "Fixed website bug.",
+      "timestamp": "2025-10-07T21:25:55.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975669049897197757",
+      "content": "Completed first 7 pages of https://t.co/9rkzjLhfJt.",
+      "timestamp": "2025-10-07T21:06:22.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975659162270114268",
+      "content": "Created new calendar events &amp; updated MMWM calendars, minor logistics, etc.",
+      "timestamp": "2025-10-07T20:27:04.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975656541220188205",
+      "content": "Posted new event formats for MMWM.",
+      "timestamp": "2025-10-07T20:16:40.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975656520852586777",
+      "content": "Created two new event formats for MMWM: Live Build Sessions &amp; Open Q&amp;A.",
+      "timestamp": "2025-10-07T20:16:35.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975637623348863357",
+      "content": "Set up Google Ads, Analytics, Tag Manager, etc.",
+      "timestamp": "2025-10-07T19:01:29.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975629959118176660",
+      "content": "Created calendar backfill automation. TLDR new https://t.co/mLzTsdWZWv event &gt; get availability &gt; generate new, date-specific date-specific override object until a cutoff &gt; API call to https://t.co/mLzTsdWZWv. https://t.co/zoJ5U0Kbk7",
+      "timestamp": "2025-10-07T18:31:02.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975600461639262434",
+      "content": "1:1 with Lukas.",
+      "timestamp": "2025-10-07T16:33:49.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975600448112586918",
+      "content": "1:1 with Seb.",
+      "timestamp": "2025-10-07T16:33:46.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975600425081708889",
+      "content": "Hosted Weekly Community Call #20",
+      "timestamp": "2025-10-07T16:33:40.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975600402369552575",
+      "content": "Recorded 13 roasts for Maker School.",
+      "timestamp": "2025-10-07T16:33:35.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975572982992151025",
+      "content": "Ideated calendar backfill automation. In short, instead of me keeping my calendar open from say 1pm to 4pm, I backfill my calendar by exposing 3:30pm-4:00pm. When that's booked, I programmatically expose 3pm to 3:30pm. Etc etc. That way, my meetings are all back-to-back.",
+      "timestamp": "2025-10-07T14:44:38.000Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
+      "id": "tw-1975557848928297053",
+      "content": "Completed Maker School management for Oct 7.",
+      "timestamp": "2025-10-07T13:44:29.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975557829240184842",
+      "content": "Completed MMWM management for Oct 7.",
+      "timestamp": "2025-10-07T13:44:25.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975340255147675802",
+      "content": "Recorded \"What is n8n?\"",
+      "timestamp": "2025-10-06T23:19:51.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975313477779792002",
+      "content": "Recorded 12 Instagram scripts.",
+      "timestamp": "2025-10-06T21:33:27.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975313448159617092",
+      "content": "Built Skool chrome extension.",
+      "timestamp": "2025-10-06T21:33:20.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975287821436076440",
+      "content": "Edited YouTube script.",
+      "timestamp": "2025-10-06T19:51:30.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975286130682831315",
+      "content": "Claude Code is so 🔥",
+      "timestamp": "2025-10-06T19:44:47.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975279474813079650",
+      "content": "Recorded YouTube video.",
+      "timestamp": "2025-10-06T19:18:20.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975246533944877201",
+      "content": "1:1 with Zan",
+      "timestamp": "2025-10-06T17:07:26.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975246524314747265",
+      "content": "1:1 with Chetan",
+      "timestamp": "2025-10-06T17:07:24.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975234453288169566",
+      "content": "Hosted Agency Hotseat",
+      "timestamp": "2025-10-06T16:19:26.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975206333583634469",
+      "content": "Recorded 13 roasts for Maker School.",
+      "timestamp": "2025-10-06T14:27:42.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975206313111204343",
+      "content": "Completed Maker School management for Oct 6.",
+      "timestamp": "2025-10-06T14:27:37.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975193387151331640",
+      "content": "Set up my life tracker again. After reading \"Flow\" and reflecting on my goals/priorities, I've realized just how important some form of daily tracking is to my happiness and well-being. I make a game out of everything—it is part of the reason why I enjoy my work.",
+      "timestamp": "2025-10-06T13:36:15.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1975192756592247264",
+      "content": "Completed MMWM management for Oct 6.",
+      "timestamp": "2025-10-06T13:33:45.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974824020915970096",
+      "content": "Completed MMWM management for Oct 5.",
+      "timestamp": "2025-10-05T13:08:31.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974564806285033883",
+      "content": "Set up Google Ads account + customer lists.",
+      "timestamp": "2025-10-04T19:58:30.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974556578302046484",
+      "content": "Reviewed next week's LI + newsletter posts.",
+      "timestamp": "2025-10-04T19:25:48.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974552191127187551",
+      "content": "Completed https://t.co/Q92KLZdIw0 Accelerator for Maker School 😤",
+      "timestamp": "2025-10-04T19:08:22.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974552158889767001",
+      "content": "Recorded + published \"Your seventh scenario\".",
+      "timestamp": "2025-10-04T19:08:14.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974522000627671205",
+      "content": "Recorded + published \"Your sixth scenario\".",
+      "timestamp": "2025-10-04T17:08:24.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974513788583084033",
+      "content": "Recorded + published \"Your fifth scenario\".",
+      "timestamp": "2025-10-04T16:35:46.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974503023805382989",
+      "content": "Recorded + published \"Iterators &amp; aggregators in https://t.co/Q92KLZdIw0\"",
+      "timestamp": "2025-10-04T15:53:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974495071686017230",
+      "content": "Recorded 17 Maker School roasts.",
+      "timestamp": "2025-10-04T15:21:24.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974473929906606246",
+      "content": "Sent editor Julian case study video update.",
+      "timestamp": "2025-10-04T13:57:23.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974471608300622217",
+      "content": "Completed Maker School management for Oct 4th.",
+      "timestamp": "2025-10-04T13:48:09.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974465023411155347",
+      "content": "Completed MMWM management for Oct 4th.",
+      "timestamp": "2025-10-04T13:22:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974461491593253202",
+      "content": "Recorded + published \"Your fourth scenario\"",
+      "timestamp": "2025-10-04T13:07:57.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974244972976103462",
+      "content": "Recorded + published \"https://t.co/Q92KLZdaGs functions\".",
+      "timestamp": "2025-10-03T22:47:35.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974220574965584378",
+      "content": "Recorded + published \"Your third scenario\"",
+      "timestamp": "2025-10-03T21:10:38.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974201753395679664",
+      "content": "Looked for gaming laptops.",
+      "timestamp": "2025-10-03T19:55:51.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974195690986484111",
+      "content": "Reviewed new content.",
+      "timestamp": "2025-10-03T19:31:46.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974195664818176450",
+      "content": "1:1 with Cole.",
+      "timestamp": "2025-10-03T19:31:39.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974195647533494456",
+      "content": "Epic gym day.",
+      "timestamp": "2025-10-03T19:31:35.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974147179175686416",
+      "content": "Played around with Claude Sonnet 4.5 (quite the model).",
+      "timestamp": "2025-10-03T16:19:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974147122477085080",
+      "content": "Hosted podcast with Jack Roberts.",
+      "timestamp": "2025-10-03T16:18:46.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974147099844563084",
+      "content": "Recorded 10 roasts for Maker School.",
+      "timestamp": "2025-10-03T16:18:41.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974147079854534756",
+      "content": "Completed Maker School Management for Oct 3rd.",
+      "timestamp": "2025-10-03T16:18:36.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1974147058992099347",
+      "content": "Completed MMWM management for Oct 3rd.",
+      "timestamp": "2025-10-03T16:18:31.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973829175040696720",
+      "content": "Experimented with n8n's new AI builder.",
+      "timestamp": "2025-10-02T19:15:21.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973820430822879723",
+      "content": "Recorded + published \"AI prompting overview\" for both https://t.co/Q92KLZdIw0 &amp; n8n accelerators",
+      "timestamp": "2025-10-02T18:40:37.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973813707227738346",
+      "content": "Recorded + published \"Your second scenario\"",
+      "timestamp": "2025-10-02T18:13:54.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973813685228613739",
+      "content": "Recorded + published \"Authentication\"",
+      "timestamp": "2025-10-02T18:13:48.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973789968343707805",
+      "content": "Recorded + published \"Your first scenario\"",
+      "timestamp": "2025-10-02T16:39:34.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973778730696036538",
+      "content": "Recorded + published \"what is https://t.co/Q92KLZdIw0 &amp; how does it work?\"",
+      "timestamp": "2025-10-02T15:54:55.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973767905952280693",
+      "content": "14 outstanding modules for https://t.co/Q92KLZdIw0 Accelerator to record. If each takes me ~30 minutes on average, that's 7 hours. Today, I have 4 hours. I will get through as many as I can.",
+      "timestamp": "2025-10-02T15:11:54.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973766877886460110",
+      "content": "Make updated their UX 😡 rerecording whole Make course",
+      "timestamp": "2025-10-02T15:07:49.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973745988952281475",
+      "content": "Sent 1 MMWM roast.",
+      "timestamp": "2025-10-02T13:44:48.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973745977485128101",
+      "content": "Sent 10 Maker School roasts.",
+      "timestamp": "2025-10-02T13:44:46.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973745926872465707",
+      "content": "Completed Maker School mgmt for Oct 2.",
+      "timestamp": "2025-10-02T13:44:34.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973725902862524675",
+      "content": "Completed MMWM management for Oct 2",
+      "timestamp": "2025-10-02T12:24:59.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973556851980771375",
+      "content": "Completed proposal template for new YouTube video.",
+      "timestamp": "2025-10-02T01:13:15.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973556812164243726",
+      "content": "Responded to 15 Skool DMs.",
+      "timestamp": "2025-10-02T01:13:05.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973542161607209455",
+      "content": "Roasted Cesar's community",
+      "timestamp": "2025-10-02T00:14:52.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973476631445643478",
+      "content": "Experimented with Sonnet-4.5.",
+      "timestamp": "2025-10-01T19:54:29.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973476198106943879",
+      "content": "Responded to 30 Skool DMs.",
+      "timestamp": "2025-10-01T19:52:45.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973417699394068499",
+      "content": "Hosted Weekly Office Hour #71 for MMWM",
+      "timestamp": "2025-10-01T16:00:18.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973393274099421267",
+      "content": "Sent emails to all major Calgary concierge healthcare providers in my area (looking for preventative healthcare—Canada does not make this easy).",
+      "timestamp": "2025-10-01T14:23:15.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973386746235597208",
+      "content": "Transferred funds to CDN accounts.",
+      "timestamp": "2025-10-01T13:57:18.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973385852416938128",
+      "content": "Sent messages to shift contractor arrangements so they're all on the first of the month for simplicity.",
+      "timestamp": "2025-10-01T13:53:45.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973385794485174287",
+      "content": "Paid VA, editor, other contractors.",
+      "timestamp": "2025-10-01T13:53:31.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973382866374410367",
+      "content": "Set up affiliate arrangement w Leo.",
+      "timestamp": "2025-10-01T13:41:53.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973382812905476553",
+      "content": "Reset arrangement w community contractor.",
+      "timestamp": "2025-10-01T13:41:40.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973380005246730627",
+      "content": "Let go of script contractor.",
+      "timestamp": "2025-10-01T13:30:31.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973372708491862282",
+      "content": "Let go of ads contractor.",
+      "timestamp": "2025-10-01T13:01:31.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973367976113098773",
+      "content": "Set up clipping/etc for Nick Saraev Clipping.",
+      "timestamp": "2025-10-01T12:42:43.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973366176609870319",
+      "content": "Recorded 11 roasts for Maker School.",
+      "timestamp": "2025-10-01T12:35:34.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973366123866497466",
+      "content": "Completed Maker School management for Oct 1.",
+      "timestamp": "2025-10-01T12:35:21.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973348171490455584",
+      "content": "Completed MMWM management for Oct 1.",
+      "timestamp": "2025-10-01T11:24:01.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973084031295300020",
+      "content": "Inbox zero'd Slack.",
+      "timestamp": "2025-09-30T17:54:25.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973083343362097543",
+      "content": "Reviewed content calendar.",
+      "timestamp": "2025-09-30T17:51:41.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973056515092214162",
+      "content": "Hosted weekly community call for Maker School.",
+      "timestamp": "2025-09-30T16:05:05.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973017612058812507",
+      "content": "Inbox zero for nickolassaraev@gmail.com.",
+      "timestamp": "2025-09-30T13:30:30.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973016587247735209",
+      "content": "Inbox zero for nick@leftclick.ai. Similarly insane backlog! But the good news is: I developed a pretty cool SOP for email review. Let me quickly filter out ~400 emails in ~10 minutes and left the ~15 emails that mattered.",
+      "timestamp": "2025-09-30T13:26:25.000Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
+      "id": "tw-1973014142069227955",
+      "content": "Signed partnership agreements; updated Stripe links for sponsors.",
+      "timestamp": "2025-09-30T13:16:42.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973013717324534109",
+      "content": "Inbox zero for nick@nicksaraev.com. Insane backlog! So many random one-off requests re: MMWM, Maker School, partnerships, etc. But managed. Feels so much cleaner now.",
+      "timestamp": "2025-09-30T13:15:01.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973004897395372284",
+      "content": "Purchased Multilogin traffic &amp; reconnected accounts.",
+      "timestamp": "2025-09-30T12:39:58.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973002611726143518",
+      "content": "Mobile optimized LeftClick website.",
+      "timestamp": "2025-09-30T12:30:53.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1973000969907773625",
+      "content": "Compiled basic electronics curriculum.",
+      "timestamp": "2025-09-30T12:24:22.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1972998218528268527",
+      "content": "Paid ad affiliates.",
+      "timestamp": "2025-09-30T12:13:26.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1972997925321207818",
+      "content": "Recorded, edited &amp; posted MMWM Weekly Office Hour #70.",
+      "timestamp": "2025-09-30T12:12:16.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1972992780722122831",
+      "content": "Jet lag feeling a lot better today.",
+      "timestamp": "2025-09-30T11:51:50.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1972992598269997115",
+      "content": "Recorded 10 roasts for Maker School.",
+      "timestamp": "2025-09-30T11:51:06.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1972992581400453256",
+      "content": "Completed Maker School management for Sep 30.",
+      "timestamp": "2025-09-30T11:51:02.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1972978336877175174",
+      "content": "Completed MMWM management for Sep 30.",
+      "timestamp": "2025-09-30T10:54:26.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1972969613198799196",
+      "content": "Recorded weekly office hour for MMWM.",
+      "timestamp": "2025-09-30T10:19:46.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1972752380635807971",
+      "content": "Recorded Weekly Community Call 18 for Maker School",
+      "timestamp": "2025-09-29T19:56:34.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1972724146556797231",
+      "content": "Caught up with all community management! Not too shabby. Jet lag is already killing me though. I'll mosey on through the next leg after a brief break.",
+      "timestamp": "2025-09-29T18:04:22.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1972723928994091359",
+      "content": "Recorded 5 roasts for MMWM.",
+      "timestamp": "2025-09-29T18:03:30.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1972719718604906719",
+      "content": "Recorded another 5 roasts for Maker School.",
+      "timestamp": "2025-09-29T17:46:46.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1972710575978533021",
+      "content": "Recorded 10 roasts.",
+      "timestamp": "2025-09-29T17:10:27.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1972700066327810189",
+      "content": "Hosted Agency Hotseat for MMWM",
+      "timestamp": "2025-09-29T16:28:41.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1972665460635349341",
+      "content": "Responded to *another* 50 DM threads on Skool. 150 threads in ~3 weeks -&gt; ~3 hrs total of work. Viewed objectively, very much not a big deal (though I should note that volume goes up when I respond faster, counterintuitive).",
+      "timestamp": "2025-09-29T14:11:10.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1972646558324900309",
+      "content": "Responded to another 50 DM threads on Skool.",
+      "timestamp": "2025-09-29T12:56:04.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1972617277154718168",
+      "content": "Responded to 50 DM threads on Skool.",
+      "timestamp": "2025-09-29T10:59:42.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1972600509854056918",
+      "content": "Completed Maker School management for Sep 29.",
+      "timestamp": "2025-09-29T09:53:05.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1972583900997378220",
+      "content": "Completed MMWM management for Sep 29.",
+      "timestamp": "2025-09-29T08:47:05.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1972583853144600774",
+      "content": "First order of business: communities. I will manage MMWM, then Maker School. I define \"manage\" as responding to the majority of posts in a given day, completing all roasts, then responding to all of my outstanding DM threads (currently over 150), and processing refunds/etc.",
+      "timestamp": "2025-09-29T08:46:54.000Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
+      "id": "tw-1972583641701355599",
+      "content": "Returned from Japan trip. I had deactivated my X account to minimize distractions and enjoy the moment. Reactivated now. It is time to catch up on all the deliverables I missed while I was in Japan!",
+      "timestamp": "2025-09-29T08:46:03.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1967274889389486199",
+      "content": "Calculated finances",
+      "timestamp": "2025-09-14T17:10:58.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1967238676272017609",
+      "content": "Recorded two roasts for MMWM",
+      "timestamp": "2025-09-14T14:47:04.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1967236690550120685",
+      "content": "Recorded 10 roasts for Maker School",
+      "timestamp": "2025-09-14T14:39:11.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1967236657981345949",
+      "content": "Completed Maker School management for Sept 14",
+      "timestamp": "2025-09-14T14:39:03.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1967236636389031947",
+      "content": "Completed MMWM management for Sep 14",
+      "timestamp": "2025-09-14T14:38:58.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1966875324375069056",
+      "content": "Recorded 12 roasts for Maker School",
+      "timestamp": "2025-09-13T14:43:14.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1966875304804417630",
+      "content": "Completed MMWM mgmt for Sept 13",
+      "timestamp": "2025-09-13T14:43:10.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1966875281148571982",
+      "content": "Completed Maker School mgmt for Sept 13",
+      "timestamp": "2025-09-13T14:43:04.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1966598310292308467",
+      "content": "Hosted Fireside Chat",
+      "timestamp": "2025-09-12T20:22:29.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1966566211824799998",
+      "content": "Recorded videos for LeftClickl eads",
+      "timestamp": "2025-09-12T18:14:56.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1966545698352205916",
+      "content": "Created packaging + thumbnail for Daily Update",
+      "timestamp": "2025-09-12T16:53:25.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1966545680107008135",
+      "content": "Recorded Daily Update",
+      "timestamp": "2025-09-12T16:53:21.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1966514426128781685",
+      "content": "Sent 12 roasts for Maker School",
+      "timestamp": "2025-09-12T14:49:09.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1966514388560388463",
+      "content": "Completed Maker School management for Sep 12",
+      "timestamp": "2025-09-12T14:49:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1966514358676045951",
+      "content": "Completed MMWM management for Sep 12",
+      "timestamp": "2025-09-12T14:48:53.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1966256862992675024",
+      "content": "Created Fireside Chat for MMWM",
+      "timestamp": "2025-09-11T21:45:42.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1966218692355862663",
+      "content": "Stronglifts x)",
+      "timestamp": "2025-09-11T19:14:01.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1966174580856512560",
+      "content": "Recorded another YouTube video x)",
+      "timestamp": "2025-09-11T16:18:44.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1966163261524734028",
+      "content": "Edited script for YouTube",
+      "timestamp": "2025-09-11T15:33:45.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1966153667029119270",
+      "content": "Briefs for NSM",
+      "timestamp": "2025-09-11T14:55:38.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1966149198673498182",
+      "content": "Recorded Daily Update",
+      "timestamp": "2025-09-11T14:37:52.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1966140046760911077",
+      "content": "Recorded 12 roasts for Maker School",
+      "timestamp": "2025-09-11T14:01:30.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1966140020919775490",
+      "content": "Completed Maker School management for Sep 11",
+      "timestamp": "2025-09-11T14:01:24.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1966140000216760815",
+      "content": "Completed MMWM management for Sep 11",
+      "timestamp": "2025-09-11T14:01:19.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965961442232090818",
+      "content": "Recorded \"Your first scenario\" for https://t.co/Q92KLZdIw0 Accelerator",
+      "timestamp": "2025-09-11T02:11:48.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965907089399918759",
+      "content": "Lied; experimented with poorer Google Flash model. Now experimenting with Nano Banana",
+      "timestamp": "2025-09-10T22:35:49.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965902826653331535",
+      "content": "Experimented with Nano Banana",
+      "timestamp": "2025-09-10T22:18:53.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965889503551434986",
+      "content": "Created two more briefs; half an outline for a new YT vid",
+      "timestamp": "2025-09-10T21:25:56.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965889409607450995",
+      "content": "Added 3 more content ideas",
+      "timestamp": "2025-09-10T21:25:34.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965873574180434348",
+      "content": "Recorded YouTube video",
+      "timestamp": "2025-09-10T20:22:38.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965873559554904209",
+      "content": "Wrote outline/script for YouTube video",
+      "timestamp": "2025-09-10T20:22:35.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965873528831619585",
+      "content": "Watched Hormozi's stream (wow—I am at 1/4 his views. I had no idea)",
+      "timestamp": "2025-09-10T20:22:28.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965873461450191322",
+      "content": "Wrote brief for new YouTube video",
+      "timestamp": "2025-09-10T20:22:12.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965810376450379789",
+      "content": "Created packaging + thumbnail for Daily Update",
+      "timestamp": "2025-09-10T16:11:31.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965808204937625641",
+      "content": "Hosted weekly office hour #68",
+      "timestamp": "2025-09-10T16:02:53.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965790910240964978",
+      "content": "Completed Daily Update",
+      "timestamp": "2025-09-10T14:54:10.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965790900229161266",
+      "content": "Recorded 12 roasts for Maker School",
+      "timestamp": "2025-09-10T14:54:07.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965790881262567555",
+      "content": "Completed Maker School management on Sept 10",
+      "timestamp": "2025-09-10T14:54:03.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965790856096735741",
+      "content": "Completed MMWM management on Sep 10",
+      "timestamp": "2025-09-10T14:53:57.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965531064405033132",
+      "content": "Gym 💪🏼",
+      "timestamp": "2025-09-09T21:41:38.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965531052715487513",
+      "content": "Recorded 12 Instagram scripts",
+      "timestamp": "2025-09-09T21:41:35.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965484699817807936",
+      "content": "Edited brief",
+      "timestamp": "2025-09-09T18:37:24.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965484690942652721",
+      "content": "Recorded YouTube video",
+      "timestamp": "2025-09-09T18:37:21.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965448941857898721",
+      "content": "Hosted weekly community call for Maker School",
+      "timestamp": "2025-09-09T16:15:18.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965426095328821302",
+      "content": "Wrote brief for YouTube",
+      "timestamp": "2025-09-09T14:44:31.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965424725922021822",
+      "content": "Recorded 12 roasts for Maker School",
+      "timestamp": "2025-09-09T14:39:05.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965424706393354359",
+      "content": "Completed Maker School management for Sep 9",
+      "timestamp": "2025-09-09T14:39:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965424682376798685",
+      "content": "Completed MMWM management for Sep 9",
+      "timestamp": "2025-09-09T14:38:54.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965137648324149478",
+      "content": "Fixed icebreaker prompt",
+      "timestamp": "2025-09-08T19:38:20.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965137626022940915",
+      "content": "Published site",
+      "timestamp": "2025-09-08T19:38:15.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965126470583681422",
+      "content": "Reviewed LeftClick icebreakers",
+      "timestamp": "2025-09-08T18:53:55.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965115825737826507",
+      "content": "Recorded Daily Update",
+      "timestamp": "2025-09-08T18:11:37.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965099213571981800",
+      "content": "Briefed writers",
+      "timestamp": "2025-09-08T17:05:36.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965091874546557364",
+      "content": "Negotiating community mgmt",
+      "timestamp": "2025-09-08T16:36:27.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965091008091455895",
+      "content": "Hosted Agency Hotseat for MMWM",
+      "timestamp": "2025-09-08T16:33:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965090990068469927",
+      "content": "Sent 10 roasts for Maker School",
+      "timestamp": "2025-09-08T16:32:56.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965090965066326369",
+      "content": "Completed Maker School management for Sep 8",
+      "timestamp": "2025-09-08T16:32:50.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1965090944539324774",
+      "content": "Completed MMWM management for Sep 8",
+      "timestamp": "2025-09-08T16:32:45.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964854050119422055",
+      "content": "Played with CC a little more",
+      "timestamp": "2025-09-08T00:51:25.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964845679689531582",
+      "content": "Wrote \"Operationalizing your pipeline for profit\" for $25K/Month Agency",
+      "timestamp": "2025-09-08T00:18:09.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964740765793534046",
+      "content": "Recorded new YouTube video",
+      "timestamp": "2025-09-07T17:21:16.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964740747690971311",
+      "content": "Revised content brief for YouTube",
+      "timestamp": "2025-09-07T17:21:12.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964740725469507982",
+      "content": "Created packaging + thumbnail for Daily Update",
+      "timestamp": "2025-09-07T17:21:06.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964729074385035498",
+      "content": "Recorded Daily Update",
+      "timestamp": "2025-09-07T16:34:48.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964700676812124591",
+      "content": "Sent 15 roasts for Maker School",
+      "timestamp": "2025-09-07T14:41:58.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964700640812446075",
+      "content": "Completed Maker School management for Sep 7",
+      "timestamp": "2025-09-07T14:41:49.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964700616871285170",
+      "content": "Completed MMWM management for Sep 7",
+      "timestamp": "2025-09-07T14:41:44.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964483389328933087",
+      "content": "Instant Instantly campaign duplication + rewriting with Claude Code. Last step is some sort of automated lead finding. If that works it'll be nutty. https://t.co/oc5iC5qJqC",
+      "timestamp": "2025-09-07T00:18:33.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964470336189321270",
+      "content": "Some annoying debug issues with hooks. My little toast notif broke when I was playing around with it and now it's triggering twice https://t.co/PJBigCxVnp\n\nNvm, fixed. Misunderstood how .claude/settings.local.json worked https://t.co/PHh4OEZ43A",
+      "timestamp": "2025-09-06T23:26:40.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964462038618611819",
+      "content": "Pretty neat. Doing it with Instantly now",
+      "timestamp": "2025-09-06T22:53:42.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964461133466915226",
+      "content": "It works great. https://t.co/hUCPuX6RjL",
+      "timestamp": "2025-09-06T22:50:06.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964451540577767484",
+      "content": "Watched a couple of YouTube videos about CC. I think I have the 80/20 already, nothing really novel",
+      "timestamp": "2025-09-06T22:11:59.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964447189784211809",
+      "content": "Demo was great. Now testing on a real sales call",
+      "timestamp": "2025-09-06T21:54:42.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964442804412989470",
+      "content": "Okay, took a quick break. Back now.\n\nRe: SOP, results:\n\n1. Worked\n2. Worked (though I don't have enterprise PD on this account so didn't actually send this)\n3. Worked (though need to adjust variables as they're a little mid)\n4. Did not work. Would need much clearer SOPs https://t.co/S097TJfs2Y",
+      "timestamp": "2025-09-06T21:37:16.000Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
+      "id": "tw-1964437769033527751",
+      "content": "Am now testing this https://t.co/8Bk2PRJaDx",
+      "timestamp": "2025-09-06T21:17:16.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964429715936330070",
+      "content": "Structure: /sops folder will contain breakdowns of tasks that exist in /tasks. This seems the most scalable infrastructure to me. https://t.co/v30Jw7OTAe",
+      "timestamp": "2025-09-06T20:45:16.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964425617702785189",
+      "content": "PostToolUse is my favorite. Must have the notif be customized though. I had \"Completed Task\" for a while and that was pointless",
+      "timestamp": "2025-09-06T20:28:59.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964423824528875708",
+      "content": "Ok going to start live stream of consciousness updating with all of the Claude hacks/learnings over the course of the next few hours\n\nhooks are huge. tying these hooks to notifs are also huge. especially with multiple claude instances, and when it requires updates https://t.co/WALuiRKmNT\n\nhooks are huge. tying these hooks to notifs are also huge. especially with multiple claude instances, and when it requires updates https://t.co/WALuiRKmNT\n\nspeaking via voice is huge. Aqua -&gt; Claude Code saves a lot of time and keeps hands off the keyboard\n\nContext7 is the meta-mcp which makes all other API docs possible. Instead of using MCP and storing them in your context window (massive token drain and makes perf worse), just use Context7 and then look up API docs\n\nhttps://t.co/u3I0ZLcKf5 should be minimal since it's attaching to every instantiation. This has worked ok for me https://t.co/TzLAymH9Z2\n\nAlso, since Claude Code for agency contexts (basically using it as my agent to take tasks) doesn't really work on the current repo a ton, you can just run multiple claude code instances w/o worktrees or any magic like that. Just fire up 3 and run them constantly\n\nClaude often creates files in the current working directory but doesn't remove them after work is done. To eliminate bloat, add a line like \"if you need to create temporary files/etc during task execution, do so in a /temp folder to keep things organized unless otherwise asked\"",
+      "timestamp": "2025-09-06T20:21:51.000Z",
+      "category": "thought",
+      "curated": true
+    },
+    {
+      "id": "tw-1964386564563501482",
+      "content": "Created packaging + thumbnail for Daily Update",
+      "timestamp": "2025-09-06T17:53:48.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964386539854798950",
+      "content": "Recorded Daily Update",
+      "timestamp": "2025-09-06T17:53:42.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964369360572797375",
+      "content": "Edited YouTube video outline",
+      "timestamp": "2025-09-06T16:45:26.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964360213659894168",
+      "content": "Wrote two briefs for YouTube",
+      "timestamp": "2025-09-06T16:09:05.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964360197566247087",
+      "content": "Recorded 15 roasts for Maker School",
+      "timestamp": "2025-09-06T16:09:01.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964360169951023372",
+      "content": "Completed Maker School mgmt for Sept 6",
+      "timestamp": "2025-09-06T16:08:55.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964328341072158972",
+      "content": "Completed MMWM management for Sept 6",
+      "timestamp": "2025-09-06T14:02:26.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964320054008565812",
+      "content": "Today I am spending 10 hours hacking together Claude Code workflows",
+      "timestamp": "2025-09-06T13:29:30.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964319432957665396",
+      "content": "Copywriting for website",
+      "timestamp": "2025-09-06T13:27:02.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964121730768916751",
+      "content": "Built scalable MCP agency SOP with Context7",
+      "timestamp": "2025-09-06T00:21:26.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964050359166578818",
+      "content": "Recorded next video for YouTube",
+      "timestamp": "2025-09-05T19:37:50.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964044751831011359",
+      "content": "Edited content brief",
+      "timestamp": "2025-09-05T19:15:33.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964020164518957507",
+      "content": "Created second brief for YouTube",
+      "timestamp": "2025-09-05T17:37:51.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964014706982551666",
+      "content": "Created one brief for YouTube",
+      "timestamp": "2025-09-05T17:16:10.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964014694731071559",
+      "content": "Wrote 8 new titles for YouTube",
+      "timestamp": "2025-09-05T17:16:07.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964003415631319220",
+      "content": "Created packaging + thumbnail for Daily Update (tell me this isnt hilarious) https://t.co/UZ8G1pEPMk",
+      "timestamp": "2025-09-05T16:31:18.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964003344969806267",
+      "content": "Recorded Daily Update",
+      "timestamp": "2025-09-05T16:31:01.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1964003322613911574",
+      "content": "1:1 with Jack",
+      "timestamp": "2025-09-05T16:30:56.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963970143576621506",
+      "content": "Recorded 5 Maker School roasts",
+      "timestamp": "2025-09-05T14:19:05.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963967410614174193",
+      "content": "Completed Maker School management for Sept 5",
+      "timestamp": "2025-09-05T14:08:14.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963967385259630776",
+      "content": "Completed MMWM management for Sept 5",
+      "timestamp": "2025-09-05T14:08:08.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963962803276128495",
+      "content": "So much faster when I start with community management. Something *very* powerful about waking and warming up with high-volume, low-risk activities vs the inverse. Yesterday took me 3x longer than today. Crazy.",
+      "timestamp": "2025-09-05T13:49:55.000Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
+      "id": "tw-1963750627520983514",
+      "content": "Verified new YouTube channel (6.5K subs already, damn).",
+      "timestamp": "2025-09-04T23:46:48.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963750585653661808",
+      "content": "Recorded next YouTube video",
+      "timestamp": "2025-09-04T23:46:38.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963724417785356710",
+      "content": "Recorded 25 roasts for Maker School (holy fuck)",
+      "timestamp": "2025-09-04T22:02:40.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963704259708604746",
+      "content": "Completed Maker School management for Sept 4",
+      "timestamp": "2025-09-04T20:42:34.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963673361206386743",
+      "content": "Completed MMWM management for Sept 4",
+      "timestamp": "2025-09-04T18:39:47.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963665532147974581",
+      "content": "Rewrote script for Nick and recorded 30min training video",
+      "timestamp": "2025-09-04T18:08:40.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963639347913396736",
+      "content": "Rewrote script for Tre and recorded 1hr training video",
+      "timestamp": "2025-09-04T16:24:37.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963622322222272868",
+      "content": "1:1 with Marcos/Tomas",
+      "timestamp": "2025-09-04T15:16:58.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963622300445769747",
+      "content": "Completed briefs for YouTube",
+      "timestamp": "2025-09-04T15:16:53.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963597384656797868",
+      "content": "Booked Japan itinerary &amp; paid for tickets/etc.",
+      "timestamp": "2025-09-04T13:37:53.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963354889050030481",
+      "content": "Wrote \"Lean pipeline architecture\"",
+      "timestamp": "2025-09-03T21:34:17.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963354863779406271",
+      "content": "Wrote \"why most CRMs fail\"",
+      "timestamp": "2025-09-03T21:34:11.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963320901077967013",
+      "content": "Recorded next YouTube video",
+      "timestamp": "2025-09-03T19:19:14.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963311012565893196",
+      "content": "Revised next piece of YouTube content",
+      "timestamp": "2025-09-03T18:39:56.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963295968528667127",
+      "content": "Responded to Skoolers posts",
+      "timestamp": "2025-09-03T17:40:09.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963295295472607475",
+      "content": "Responded to YT comments",
+      "timestamp": "2025-09-03T17:37:29.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963295279589081365",
+      "content": "Published job post for LeftClick in Maker School",
+      "timestamp": "2025-09-03T17:37:25.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963295254695522504",
+      "content": "Sales stuff for LeftClick",
+      "timestamp": "2025-09-03T17:37:19.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963281341241606239",
+      "content": "Completed packaging + thumbnail for Daily Update",
+      "timestamp": "2025-09-03T16:42:02.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963281317531181297",
+      "content": "Recorded Daily Update",
+      "timestamp": "2025-09-03T16:41:56.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963281302108704906",
+      "content": "Hosted MMWM weekly office hour",
+      "timestamp": "2025-09-03T16:41:53.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963231830783779313",
+      "content": "Completed Maker School management for Sep 3",
+      "timestamp": "2025-09-03T13:25:18.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963231809430290901",
+      "content": "Completed MMWM management for Sep 3",
+      "timestamp": "2025-09-03T13:25:13.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963211958460510563",
+      "content": "Responded to YouTube comments for 10min",
+      "timestamp": "2025-09-03T12:06:20.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963211930853855543",
+      "content": "Liftoff achieved https://t.co/mMwDK5cjA5",
+      "timestamp": "2025-09-03T12:06:13.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963038964312682958",
+      "content": "Recorded \"What is no-code\" for both n8n and https://t.co/Q92KLZdIw0 accelerators",
+      "timestamp": "2025-09-03T00:38:55.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963035953926439180",
+      "content": "Recorded Looms for LeftClick",
+      "timestamp": "2025-09-03T00:26:57.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963023970686648450",
+      "content": "Recorded \"What is n8n?\"",
+      "timestamp": "2025-09-02T23:39:20.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963023955096432840",
+      "content": "Recorded \"What is https://t.co/Q92KLZdIw0?\"",
+      "timestamp": "2025-09-02T23:39:16.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1963001332484473022",
+      "content": "Responded to 55 Skoolers posts",
+      "timestamp": "2025-09-02T22:09:23.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962999059368837355",
+      "content": "Spotify is SO GOOD",
+      "timestamp": "2025-09-02T22:00:21.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962991992335671460",
+      "content": "Recorded next YouTube video (10min content: 10min recording time x)",
+      "timestamp": "2025-09-02T21:32:16.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962988218577780794",
+      "content": "Completed packaging + thumbnail for Daily Update",
+      "timestamp": "2025-09-02T21:17:16.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962988201754374408",
+      "content": "Recorded Daily Update for Sep 2",
+      "timestamp": "2025-09-02T21:17:12.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962976375754916239",
+      "content": "Revised content outline for upcoming YouTube video",
+      "timestamp": "2025-09-02T20:30:12.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962965930138599598",
+      "content": "Recorded 9 roasts for Maker School (batching is waaay faster. ~1.5x)",
+      "timestamp": "2025-09-02T19:48:42.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962959837542879641",
+      "content": "Reviewed monthly newsletter",
+      "timestamp": "2025-09-02T19:24:29.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962959433790849053",
+      "content": "Reviewed first YouTube video. Fantastic!",
+      "timestamp": "2025-09-02T19:22:53.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962890891531784601",
+      "content": "Wrote 2 briefs for Sep 2",
+      "timestamp": "2025-09-02T14:50:31.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962890877611004074",
+      "content": "Completed Maker School management for Sep 2",
+      "timestamp": "2025-09-02T14:50:28.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962890814033715339",
+      "content": "Completed MMWM management for Sep 2",
+      "timestamp": "2025-09-02T14:50:13.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962641966673600538",
+      "content": "Recorded ~2.5hr daily update",
+      "timestamp": "2025-09-01T22:21:23.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962572976240631831",
+      "content": "Recorded first new YouTube video in a hot minute!",
+      "timestamp": "2025-09-01T17:47:15.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962561805869556073",
+      "content": "Edited first new YouTube script/outline",
+      "timestamp": "2025-09-01T17:02:51.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962552969762951593",
+      "content": "Added all scripts to new PM system",
+      "timestamp": "2025-09-01T16:27:45.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962552136858046568",
+      "content": "Created new ClickUp PM system for scripts",
+      "timestamp": "2025-09-01T16:24:26.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962549675984294036",
+      "content": "Community bookkeeping: weekly office hour, agency hotseat, made modules, etc",
+      "timestamp": "2025-09-01T16:14:39.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962548810959536553",
+      "content": "Paid editors for trials",
+      "timestamp": "2025-09-01T16:11:13.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962548469182447815",
+      "content": "Wrote two briefs and sent to writers",
+      "timestamp": "2025-09-01T16:09:52.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962548436424880242",
+      "content": "Hosted Agency Hotseat",
+      "timestamp": "2025-09-01T16:09:44.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962548419370819862",
+      "content": "Recorded 10 roasts for Maker School",
+      "timestamp": "2025-09-01T16:09:40.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962548403923280076",
+      "content": "Completed Maker School management for Sep 1",
+      "timestamp": "2025-09-01T16:09:36.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962493669744972115",
+      "content": "Completed MMWM management for Sep 1",
+      "timestamp": "2025-09-01T12:32:06.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962487123766063125",
+      "content": "Completed and sent first brief to writer",
+      "timestamp": "2025-09-01T12:06:06.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962243903169651005",
+      "content": "Claude code MCP demo for instantiating campaigns based on templates ☑️",
+      "timestamp": "2025-08-31T19:59:37.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962230775639896525",
+      "content": "Uploaded leads to Google",
+      "timestamp": "2025-08-31T19:07:28.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962197861636165737",
+      "content": "Used ChatGPT Agent to personalize 1K leads on Sheets, completing a demo I've been trying to do for a while.",
+      "timestamp": "2025-08-31T16:56:40.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962194249447059824",
+      "content": "Wrote \"Standardize project delivery\" for MMWM. Huge module!",
+      "timestamp": "2025-08-31T16:42:19.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962172646633951592",
+      "content": "Created MCP post for MMWM",
+      "timestamp": "2025-08-31T15:16:29.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962167514844344402",
+      "content": "Created packaging + thumbnail for Daily Update",
+      "timestamp": "2025-08-31T14:56:05.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962167498209726521",
+      "content": "Recorded Daily Update",
+      "timestamp": "2025-08-31T14:56:01.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962159635701653765",
+      "content": "Sent Looms for LeftClick",
+      "timestamp": "2025-08-31T14:24:46.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962156863417700829",
+      "content": "Recorded 4 roasts for MMWM",
+      "timestamp": "2025-08-31T14:13:46.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962156845453475845",
+      "content": "Recorded 10 roasts for Maker School",
+      "timestamp": "2025-08-31T14:13:41.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "tw-1962156800431796428",
+      "content": "Completed Maker School management for Aug 31",
+      "timestamp": "2025-08-31T14:13:30.000Z",
+      "category": "update",
+      "curated": false
+    }
+  ]
+}

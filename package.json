@@ -1,0 +1,26 @@
+{
+  "name": "worklog",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "screenshot": "npx ts-node --esm --project tsconfig.scripts.json scripts/screenshot.ts",
+    "post": "npx ts-node --esm --project tsconfig.scripts.json scripts/post.ts",
+    "categorize": "npx ts-node --esm --project tsconfig.scripts.json scripts/categorize.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.71.2",
+    "@tailwindcss/vite": "^4.1.18",
+    "astro": "^5.16.8",
+    "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.6",
+    "puppeteer": "^24.34.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
