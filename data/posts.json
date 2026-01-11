@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1736636400000",
+      "content": "Create Maker School agentic workflows template folder in resource library.",
+      "timestamp": "2026-01-12T01:00:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1736625200000",
       "content": "Optimized new work tracker, 7kb gzipped. Now super-fast and more or less what I wanted.",
       "timestamp": "2026-01-11T21:53:20.000Z",
