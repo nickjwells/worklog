@@ -70,8 +70,10 @@ const updateCount = posts.filter((p: PostType) => p.category === 'update').lengt
 const curatedCount = posts.filter((p: PostType) => p.curated).length;
 
 // Initial posts (first 100)
-const INITIAL_COUNT = 100;
-const initialPosts = sortedPosts.slice(0, INITIAL_COUNT);
+const POSTS_PER_PAGE = 100;
+const initialPosts = sortedPosts.slice(0, POSTS_PER_PAGE);
+const totalPages = Math.ceil(sortedPosts.length / POSTS_PER_PAGE);
+const hasMorePages = totalPages > 1;
 
 // Group initial posts by month
 const groupedPosts = initialPosts.reduce((groups: Record<string, PostType[]>, post: PostType) => {
@@ -83,9 +85,6 @@ const groupedPosts = initialPosts.reduce((groups: Record<string, PostType[]>, po
   groups[monthYear].push(post);
   return groups;
 }, {});
-
-// Remaining posts for infinite scroll (as JSON)
-const remainingPosts = sortedPosts.slice(INITIAL_COUNT);
 ---
 
 <BaseLayout title={`${profile.name} - Work Log`}>
@@ -149,7 +148,7 @@ const remainingPosts = sortedPosts.slice(INITIAL_COUNT);
       ))}
     </div>
 
-    {remainingPosts.length > 0 && (
+    {hasMorePages && (
       <div id="load-more-trigger" class="py-8 text-center text-[#86868b]">
         <span id="loading-text">Scroll for more...</span>
       </div>
@@ -162,9 +161,8 @@ const remainingPosts = sortedPosts.slice(INITIAL_COUNT);
     )}
   </div>
 
-  <!-- Remaining posts data for infinite scroll -->
-  <script define:vars={{ remainingPosts }}>
-    window.__remainingPosts = remainingPosts;
+  <script define:vars={{ totalPages }}>
+    window.__totalPages = totalPages;
   </script>
 
   <script>
@@ -218,60 +216,65 @@ const remainingPosts = sortedPosts.slice(INITIAL_COUNT);
     }
 
     // Infinite scroll logic
-    const BATCH_SIZE = 50;
-    let loadedCount = 0;
+    let currentPage = 1;
     let isLoading = false;
     let currentFilter = 'all';
+    const totalPages = (window as any).__totalPages || 1;
 
-    const remainingPosts = (window as any).__remainingPosts || [];
     const container = document.getElementById('posts-container');
     const trigger = document.getElementById('load-more-trigger');
     const loadingText = document.getElementById('loading-text');
 
-    function loadMorePosts() {
-      if (isLoading || loadedCount >= remainingPosts.length) return;
+    async function loadMorePosts() {
+      if (isLoading || currentPage >= totalPages) return;
       isLoading = true;
+      currentPage++;
 
       if (loadingText) loadingText.textContent = 'Loading...';
 
-      const batch = remainingPosts.slice(loadedCount, loadedCount + BATCH_SIZE);
+      try {
+        const response = await fetch(`/api/${currentPage}.json`);
+        const data = await response.json();
 
-      batch.forEach((post: any) => {
-        const monthYear = getMonthYear(post.timestamp);
-        let section = container?.querySelector(`[data-month="${monthYear}"]`);
+        data.posts.forEach((post: any) => {
+          const monthYear = getMonthYear(post.timestamp);
+          let section = container?.querySelector(`[data-month="${monthYear}"]`);
 
-        // Create month section if it doesn't exist
-        if (!section) {
-          section = document.createElement('section');
-          section.className = 'mt-8 month-section';
-          section.setAttribute('data-month', monthYear);
-          section.innerHTML = `
-            <h2 class="text-2xl font-semibold text-[#1d1d1f] tracking-tight pb-4 border-b border-[#1d1d1f]">${monthYear}</h2>
-            <div></div>
-          `;
-          container?.appendChild(section);
+          // Create month section if it doesn't exist
+          if (!section) {
+            section = document.createElement('section');
+            section.className = 'mt-8 month-section';
+            section.setAttribute('data-month', monthYear);
+            section.innerHTML = `
+              <h2 class="text-2xl font-semibold text-[#1d1d1f] tracking-tight pb-4 border-b border-[#1d1d1f]">${monthYear}</h2>
+              <div></div>
+            `;
+            container?.appendChild(section);
+          }
+
+          // Add post to section
+          const postsDiv = section.querySelector('div');
+          if (postsDiv) {
+            postsDiv.insertAdjacentHTML('beforeend', createPostHTML(post));
+          }
+        });
+
+        // Apply current filter to new posts
+        if (currentFilter !== 'all') {
+          applyFilter(currentFilter);
         }
 
-        // Add post to section
-        const postsDiv = section.querySelector('div');
-        if (postsDiv) {
-          postsDiv.insertAdjacentHTML('beforeend', createPostHTML(post));
+        if (!data.hasMore) {
+          if (trigger) trigger.style.display = 'none';
+        } else if (loadingText) {
+          loadingText.textContent = 'Scroll for more...';
         }
-      });
+      } catch (error) {
+        console.error('Failed to load posts:', error);
+        if (loadingText) loadingText.textContent = 'Failed to load. Scroll to retry.';
+      }
 
-      loadedCount += batch.length;
       isLoading = false;
-
-      // Apply current filter to new posts
-      if (currentFilter !== 'all') {
-        applyFilter(currentFilter);
-      }
-
-      if (loadedCount >= remainingPosts.length) {
-        if (trigger) trigger.style.display = 'none';
-      } else if (loadingText) {
-        loadingText.textContent = 'Scroll for more...';
-      }
     }
 
     // Intersection Observer for infinite scroll
