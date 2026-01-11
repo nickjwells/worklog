@@ -69,8 +69,12 @@ const thoughtCount = posts.filter((p: PostType) => p.category === 'thought').len
 const updateCount = posts.filter((p: PostType) => p.category === 'update').length;
 const curatedCount = posts.filter((p: PostType) => p.curated).length;
 
-// Group posts by month
-const groupedPosts = posts.reduce((groups: Record<string, PostType[]>, post: PostType) => {
+// Initial posts (first 100)
+const INITIAL_COUNT = 100;
+const initialPosts = sortedPosts.slice(0, INITIAL_COUNT);
+
+// Group initial posts by month
+const groupedPosts = initialPosts.reduce((groups: Record<string, PostType[]>, post: PostType) => {
   const date = new Date(post.timestamp);
   const monthYear = date.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
   if (!groups[monthYear]) {
@@ -79,6 +83,9 @@ const groupedPosts = posts.reduce((groups: Record<string, PostType[]>, post: Pos
   groups[monthYear].push(post);
   return groups;
 }, {});
+
+// Remaining posts for infinite scroll (as JSON)
+const remainingPosts = sortedPosts.slice(INITIAL_COUNT);
 ---
 
 <BaseLayout title={`${profile.name} - Work Log`}>
@@ -142,6 +149,12 @@ const groupedPosts = posts.reduce((groups: Record<string, PostType[]>, post: Pos
       ))}
     </div>
 
+    {remainingPosts.length > 0 && (
+      <div id="load-more-trigger" class="py-8 text-center text-[#86868b]">
+        <span id="loading-text">Scroll for more...</span>
+      </div>
+    )}
+
     {posts.length === 0 && (
       <p class="text-center text-[#86868b] py-16">
         No updates yet.
@@ -149,15 +162,157 @@ const groupedPosts = posts.reduce((groups: Record<string, PostType[]>, post: Pos
     )}
   </div>
 
-  <script>
-    // Filter functionality
-    const filterBtns = document.querySelectorAll('.filter-btn');
-    const posts = document.querySelectorAll('[data-category]');
-    const monthSections = document.querySelectorAll('.month-section');
+  <!-- Remaining posts data for infinite scroll -->
+  <script define:vars={{ remainingPosts }}>
+    window.__remainingPosts = remainingPosts;
+  </script>
 
+  <script>
+    // Linkify helper (same as Post.astro)
+    function linkify(text: string): string {
+      const urlPattern = /(https?:\/\/[^\s<]+)/g;
+      return text.replace(urlPattern, (url) => {
+        let cleanUrl = url;
+        const trailingPunct = /[).,!?;:'"]+$/;
+        const match = cleanUrl.match(trailingPunct);
+        const trailing = match ? match[0] : '';
+        cleanUrl = cleanUrl.replace(trailingPunct, '');
+        return `<a href="${cleanUrl}" target="_blank" rel="noopener noreferrer" class="text-[#0071e3] hover:underline">${cleanUrl}</a>${trailing}`;
+      });
+    }
+
+    // Format date helper
+    function formatDate(timestamp: string): string {
+      const date = new Date(timestamp);
+      return date.toLocaleDateString('en-US', {
+        month: 'long',
+        day: 'numeric',
+        year: 'numeric',
+      });
+    }
+
+    // Get month/year string
+    function getMonthYear(timestamp: string): string {
+      const date = new Date(timestamp);
+      return date.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+    }
+
+    // Create post HTML
+    function createPostHTML(post: any): string {
+      const categoryLabel = post.category === 'thought' ? 'Thought' : 'Update';
+      const categoryColor = post.category === 'thought' ? 'text-[#0071e3]' : 'text-[#86868b]';
+      const curatedBadge = post.curated
+        ? '<span class="text-xs px-2 py-0.5 bg-[#f5f5f7] text-[#1d1d1f] rounded-full">Curated</span>'
+        : '';
+
+      return `
+        <article class="py-8 border-b border-[#d2d2d7]" data-category="${post.category || 'update'}" data-curated="${post.curated || false}">
+          <div class="flex items-center gap-2 mb-2">
+            <p class="text-xs font-medium tracking-wide uppercase ${categoryColor}">${categoryLabel}</p>
+            ${curatedBadge}
+          </div>
+          <h2 class="text-2xl font-semibold text-[#1d1d1f] leading-tight tracking-tight whitespace-pre-line">${linkify(post.content)}</h2>
+          <time datetime="${post.timestamp}" class="text-sm text-[#86868b] mt-3 block">${formatDate(post.timestamp)}</time>
+        </article>
+      `;
+    }
+
+    // Infinite scroll logic
+    const BATCH_SIZE = 50;
+    let loadedCount = 0;
+    let isLoading = false;
+    let currentFilter = 'all';
+
+    const remainingPosts = (window as any).__remainingPosts || [];
+    const container = document.getElementById('posts-container');
+    const trigger = document.getElementById('load-more-trigger');
+    const loadingText = document.getElementById('loading-text');
+
+    function loadMorePosts() {
+      if (isLoading || loadedCount >= remainingPosts.length) return;
+      isLoading = true;
+
+      if (loadingText) loadingText.textContent = 'Loading...';
+
+      const batch = remainingPosts.slice(loadedCount, loadedCount + BATCH_SIZE);
+
+      batch.forEach((post: any) => {
+        const monthYear = getMonthYear(post.timestamp);
+        let section = container?.querySelector(`[data-month="${monthYear}"]`);
+
+        // Create month section if it doesn't exist
+        if (!section) {
+          section = document.createElement('section');
+          section.className = 'mt-8 month-section';
+          section.setAttribute('data-month', monthYear);
+          section.innerHTML = `
+            <h2 class="text-2xl font-semibold text-[#1d1d1f] tracking-tight pb-4 border-b border-[#1d1d1f]">${monthYear}</h2>
+            <div></div>
+          `;
+          container?.appendChild(section);
+        }
+
+        // Add post to section
+        const postsDiv = section.querySelector('div');
+        if (postsDiv) {
+          postsDiv.insertAdjacentHTML('beforeend', createPostHTML(post));
+        }
+      });
+
+      loadedCount += batch.length;
+      isLoading = false;
+
+      // Apply current filter to new posts
+      if (currentFilter !== 'all') {
+        applyFilter(currentFilter);
+      }
+
+      if (loadedCount >= remainingPosts.length) {
+        if (trigger) trigger.style.display = 'none';
+      } else if (loadingText) {
+        loadingText.textContent = 'Scroll for more...';
+      }
+    }
+
+    // Intersection Observer for infinite scroll
+    if (trigger) {
+      const observer = new IntersectionObserver((entries) => {
+        if (entries[0].isIntersecting) {
+          loadMorePosts();
+        }
+      }, { rootMargin: '200px' });
+
+      observer.observe(trigger);
+    }
+
+    // Filter functionality
+    function applyFilter(filter: string) {
+      const posts = document.querySelectorAll('[data-category]');
+      const monthSections = document.querySelectorAll('.month-section');
+
+      posts.forEach(post => {
+        const category = post.getAttribute('data-category');
+        const curated = post.getAttribute('data-curated') === 'true';
+
+        let show = false;
+        if (filter === 'all') show = true;
+        else if (filter === 'curated') show = curated;
+        else if (filter === category) show = true;
+
+        (post as HTMLElement).style.display = show ? 'block' : 'none';
+      });
+
+      monthSections.forEach(section => {
+        const visiblePosts = section.querySelectorAll('[data-category]:not([style*="display: none"])');
+        (section as HTMLElement).style.display = visiblePosts.length > 0 ? 'block' : 'none';
+      });
+    }
+
+    const filterBtns = document.querySelectorAll('.filter-btn');
     filterBtns.forEach(btn => {
       btn.addEventListener('click', () => {
-        const filter = btn.getAttribute('data-filter');
+        const filter = btn.getAttribute('data-filter') || 'all';
+        currentFilter = filter;
 
         // Update button styles
         filterBtns.forEach(b => {
@@ -167,24 +322,7 @@ const groupedPosts = posts.reduce((groups: Record<string, PostType[]>, post: Pos
         btn.classList.remove('bg-[#f5f5f7]', 'text-[#1d1d1f]');
         btn.classList.add('bg-[#1d1d1f]', 'text-white');
 
-        // Filter posts
-        posts.forEach(post => {
-          const category = post.getAttribute('data-category');
-          const curated = post.getAttribute('data-curated') === 'true';
-
-          let show = false;
-          if (filter === 'all') show = true;
-          else if (filter === 'curated') show = curated;
-          else if (filter === category) show = true;
-
-          (post as HTMLElement).style.display = show ? 'block' : 'none';
-        });
-
-        // Hide empty month sections
-        monthSections.forEach(section => {
-          const visiblePosts = section.querySelectorAll('[data-category]:not([style*="display: none"])');
-          (section as HTMLElement).style.display = visiblePosts.length > 0 ? 'block' : 'none';
-        });
+        applyFilter(filter);
       });
     });
   </script>
