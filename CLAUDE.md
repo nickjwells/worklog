@@ -36,6 +36,11 @@ When the user says `update:` or `thought:` followed by content, add it to `data/
 
 Add the new post to the **beginning** of the `posts` array in `data/posts.json`.
 
+**After adding the post, always commit and push to deploy:**
+```bash
+git add data/posts.json && git commit -m "Add post" && git push
+```
+
 ### Via CLI
 ```bash
 npm run post "Your update here"

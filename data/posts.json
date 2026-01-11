@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1736623200000",
+      "content": "Set up new work log tracker at https://gentle-tanuki-c5acb7.netlify.app.",
+      "timestamp": "2026-01-11T21:20:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1736622120000",
       "content": "Responded to 47 Skool DM threads.",
       "timestamp": "2026-01-11T21:02:00.000Z",
