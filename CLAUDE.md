@@ -36,10 +36,13 @@ When the user says `update:` or `thought:` followed by content, add it to `data/
 
 Add the new post to the **beginning** of the `posts` array in `data/posts.json`.
 
-**After adding the post, always commit and push to deploy:**
+**After adding the post, always commit and push directly to main to deploy:**
 ```bash
-git add data/posts.json && git commit -m "Add post" && git push
+git checkout main && git pull origin main
+git add data/posts.json && git commit -m "Add post" && git push origin main
 ```
+
+**IMPORTANT:** Always push posts directly to `main`. Do NOT use feature branches for posts - Netlify only auto-deploys from main, so posts won't appear on the live site otherwise.
 
 ### Via CLI
 ```bash
@@ -198,9 +201,10 @@ Apple-inspired styling:
 
 ## Important Notes for Claude
 
-1. **Dev server runs on port 4323** (4321 and 4322 may be in use)
-2. **Posts are sorted newest-first** in the JSON file
-3. **Never merge unrelated updates** - "Completed X" and "Recorded Y" are separate even if close in time
-4. **Thread detection uses narrative patterns**, not just timestamps
-5. **Revenue is hardcoded** in index.astro, not in posts.json
-6. **Avatar is local** at `/public/avatar.jpg`, not a remote URL
+1. **Always push to main** - Never use feature branches for posts. Netlify only deploys from main.
+2. **Dev server runs on port 4323** (4321 and 4322 may be in use)
+3. **Posts are sorted newest-first** in the JSON file
+4. **Never merge unrelated updates** - "Completed X" and "Recorded Y" are separate even if close in time
+5. **Thread detection uses narrative patterns**, not just timestamps
+6. **Revenue is hardcoded** in index.astro, not in posts.json
+7. **Avatar is local** at `/public/avatar.jpg`, not a remote URL
