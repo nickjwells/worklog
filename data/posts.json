@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1736640000000",
+      "content": "Crushed cardio day.",
+      "timestamp": "2026-01-12T02:00:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1736636400000",
       "content": "Create Maker School agentic workflows template folder in resource library.",
       "timestamp": "2026-01-12T01:00:00.000Z",
