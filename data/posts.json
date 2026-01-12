@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1736694000000",
+      "content": "Crushed chest day.",
+      "timestamp": "2026-01-12T17:00:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1736649600000",
       "content": "Hosted Open Q&A for MMWM.",
       "timestamp": "2026-01-12T04:40:00.000Z",
