@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1736653800000",
+      "content": "Created TrustPilot account.",
+      "timestamp": "2026-01-12T05:50:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1736653200000",
       "content": "Roasted Maxi.",
       "timestamp": "2026-01-12T05:40:00.000Z",
