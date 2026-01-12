@@ -6,6 +6,20 @@
   },
   "posts": [
     {
+      "id": "post-1736650860000",
+      "content": "Played Overwatch with Jono.",
+      "timestamp": "2026-01-12T05:01:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "post-1736650800000",
+      "content": "Crushed chest day.",
+      "timestamp": "2026-01-12T05:00:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1736649600000",
       "content": "Hosted Open Q&A for MMWM.",
       "timestamp": "2026-01-12T04:40:00.000Z",
