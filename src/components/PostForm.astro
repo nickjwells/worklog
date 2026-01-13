@@ -175,19 +175,14 @@
         document.getElementById('category-update')?.classList.add('active');
         selectedCategory = 'update';
       } else {
-        if (response.status === 401) {
-          localStorage.removeItem(STORAGE_KEY);
-          showStatus('Invalid password. Please try again.', 'error');
-          postForm.classList.add('hidden');
-          passwordPrompt.classList.remove('hidden');
-          passwordInput.value = '';
-          passwordInput.focus();
-        } else {
-          showStatus(data.error || 'Failed to post', 'error');
-        }
+        // Show error but never kick back to password screen
+        const errorMsg = data.error || `Error ${response.status}`;
+        showStatus(errorMsg, 'error');
+        console.error('Post failed:', response.status, data);
       }
     } catch (error) {
-      showStatus('Network error. Please try again.', 'error');
+      showStatus('Network error. Check console.', 'error');
+      console.error('Network error:', error);
     } finally {
       submitPost.disabled = false;
     }
