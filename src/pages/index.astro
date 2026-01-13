@@ -2,7 +2,6 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ProfileCard from '../components/ProfileCard.astro';
 import Post from '../components/Post.astro';
-import PostForm from '../components/PostForm.astro';
 
 import postsData from '../../data/posts.json';
 
@@ -100,10 +99,6 @@ const groupedPosts = initialPosts.reduce((groups: Record<string, PostType[]>, po
       avgPerDay={avgPerDay}
       revenue="$335K"
     />
-
-    <div class="mt-8">
-      <PostForm />
-    </div>
 
     <!-- Filter tabs -->
     <div class="flex items-center gap-2 mt-6 mb-4 text-sm" id="filter-tabs">
