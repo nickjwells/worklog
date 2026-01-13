@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1768340377765",
+      "content": "Read through all of Dario Amodei's work (blog posts, statements, op-eds).",
+      "timestamp": "2026-01-13T21:39:37.765Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1768337227213",
       "content": "Review Gio/Clairvo's Claude setup.",
       "timestamp": "2026-01-13T20:47:07.213Z",
