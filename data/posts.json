@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1768345917283",
+      "content": "Browsed real estate.",
+      "timestamp": "2026-01-13T23:11:57.283Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1768345086257",
       "content": "Generated a bunch of phone wallpapers with various things I need to remember/do throughout the day.",
       "timestamp": "2026-01-13T22:58:06.257Z",
