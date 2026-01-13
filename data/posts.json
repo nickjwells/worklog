@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1768336008859",
+      "content": "Uploaded Live Build #15 & automated bookkeeping flow to MMWM.",
+      "timestamp": "2026-01-13T20:26:48.859Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1768335829188",
       "content": "Downloaded Claude Desktop, played around with Cowork. It's okay.",
       "timestamp": "2026-01-13T20:23:49.188Z",
