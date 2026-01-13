@@ -1,0 +1,217 @@
+---
+// PostForm - Simple form to add new posts
+---
+
+<div id="post-form-container" class="mb-12 pb-8 border-b border-[#d2d2d7]">
+  <!-- Password prompt (shown when not authenticated) -->
+  <div id="password-prompt" class="hidden">
+    <div class="flex items-center gap-3">
+      <input
+        type="password"
+        id="password-input"
+        placeholder="Enter password to post"
+        class="flex-1 px-4 py-3 text-base border border-[#d2d2d7] rounded-xl bg-white text-[#1d1d1f] placeholder-[#86868b] focus:outline-none focus:ring-2 focus:ring-[#0071e3] focus:border-transparent"
+      />
+      <button
+        id="password-submit"
+        class="px-6 py-3 bg-[#0071e3] text-white font-medium rounded-xl hover:bg-[#0077ED] transition-colors"
+      >
+        Unlock
+      </button>
+    </div>
+  </div>
+
+  <!-- Post form (shown when authenticated) -->
+  <div id="post-form" class="hidden">
+    <textarea
+      id="post-content"
+      placeholder="What did you do?"
+      rows="3"
+      class="w-full px-4 py-3 text-lg border border-[#d2d2d7] rounded-xl bg-white text-[#1d1d1f] placeholder-[#86868b] focus:outline-none focus:ring-2 focus:ring-[#0071e3] focus:border-transparent resize-none"
+    ></textarea>
+
+    <div class="flex items-center justify-between mt-4">
+      <div class="flex gap-2">
+        <button
+          id="category-update"
+          class="px-4 py-2 text-sm font-medium rounded-full transition-colors category-btn active"
+          data-category="update"
+        >
+          Update
+        </button>
+        <button
+          id="category-thought"
+          class="px-4 py-2 text-sm font-medium rounded-full transition-colors category-btn"
+          data-category="thought"
+        >
+          Thought
+        </button>
+      </div>
+
+      <button
+        id="submit-post"
+        class="px-6 py-2.5 bg-[#0071e3] text-white font-medium rounded-full hover:bg-[#0077ED] transition-colors flex items-center gap-2"
+      >
+        <span>Post</span>
+        <span class="text-white/70 text-sm">&#8984;&#8629;</span>
+      </button>
+    </div>
+
+    <!-- Status message -->
+    <div id="status-message" class="mt-4 text-sm hidden"></div>
+  </div>
+</div>
+
+<style>
+  .category-btn {
+    background-color: #f5f5f7;
+    color: #86868b;
+  }
+  .category-btn.active {
+    background-color: #1d1d1f;
+    color: white;
+  }
+  .category-btn:hover:not(.active) {
+    background-color: #e8e8ed;
+  }
+  #submit-post:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  .status-success {
+    color: #34c759;
+  }
+  .status-error {
+    color: #ff3b30;
+  }
+  .status-loading {
+    color: #86868b;
+  }
+</style>
+
+<script>
+  const STORAGE_KEY = 'worklog_password';
+
+  const passwordPrompt = document.getElementById('password-prompt') as HTMLDivElement;
+  const postForm = document.getElementById('post-form') as HTMLDivElement;
+  const passwordInput = document.getElementById('password-input') as HTMLInputElement;
+  const passwordSubmit = document.getElementById('password-submit') as HTMLButtonElement;
+  const postContent = document.getElementById('post-content') as HTMLTextAreaElement;
+  const submitPost = document.getElementById('submit-post') as HTMLButtonElement;
+  const statusMessage = document.getElementById('status-message') as HTMLDivElement;
+  const categoryBtns = document.querySelectorAll('.category-btn') as NodeListOf<HTMLButtonElement>;
+
+  let selectedCategory: 'update' | 'thought' = 'update';
+
+  // Check if password is stored
+  const storedPassword = localStorage.getItem(STORAGE_KEY);
+  if (storedPassword) {
+    passwordPrompt.classList.add('hidden');
+    postForm.classList.remove('hidden');
+    postContent.focus();
+  } else {
+    passwordPrompt.classList.remove('hidden');
+    postForm.classList.add('hidden');
+  }
+
+  // Password submission
+  passwordSubmit.addEventListener('click', () => {
+    const password = passwordInput.value.trim();
+    if (password) {
+      localStorage.setItem(STORAGE_KEY, password);
+      passwordPrompt.classList.add('hidden');
+      postForm.classList.remove('hidden');
+      postContent.focus();
+    }
+  });
+
+  passwordInput.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      passwordSubmit.click();
+    }
+  });
+
+  // Category selection
+  categoryBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      categoryBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      selectedCategory = btn.dataset.category as 'update' | 'thought';
+    });
+  });
+
+  // Submit post
+  async function submitNewPost() {
+    const content = postContent.value.trim();
+    if (!content) return;
+
+    const password = localStorage.getItem(STORAGE_KEY);
+    if (!password) {
+      showStatus('Please enter password first', 'error');
+      return;
+    }
+
+    submitPost.disabled = true;
+    showStatus('Posting...', 'loading');
+
+    try {
+      const response = await fetch('/.netlify/functions/add-post', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          content,
+          category: selectedCategory,
+          password,
+        }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        showStatus('Posted! Rebuilding site...', 'success');
+        postContent.value = '';
+        // Reset category to update
+        categoryBtns.forEach(b => b.classList.remove('active'));
+        document.getElementById('category-update')?.classList.add('active');
+        selectedCategory = 'update';
+      } else {
+        if (response.status === 401) {
+          localStorage.removeItem(STORAGE_KEY);
+          showStatus('Invalid password. Please try again.', 'error');
+          postForm.classList.add('hidden');
+          passwordPrompt.classList.remove('hidden');
+          passwordInput.value = '';
+          passwordInput.focus();
+        } else {
+          showStatus(data.error || 'Failed to post', 'error');
+        }
+      }
+    } catch (error) {
+      showStatus('Network error. Please try again.', 'error');
+    } finally {
+      submitPost.disabled = false;
+    }
+  }
+
+  function showStatus(message: string, type: 'success' | 'error' | 'loading') {
+    statusMessage.textContent = message;
+    statusMessage.className = `mt-4 text-sm status-${type}`;
+    statusMessage.classList.remove('hidden');
+
+    if (type === 'success') {
+      setTimeout(() => {
+        statusMessage.classList.add('hidden');
+      }, 5000);
+    }
+  }
+
+  submitPost.addEventListener('click', submitNewPost);
+
+  // Cmd+Enter to submit
+  postContent.addEventListener('keydown', (e) => {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'Enter') {
+      e.preventDefault();
+      submitNewPost();
+    }
+  });
+</script>

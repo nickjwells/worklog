@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.71.2",
+    "@netlify/functions": "^5.1.2",
     "@tailwindcss/vite": "^4.1.18",
     "astro": "^5.16.8",
     "tailwindcss": "^4.1.18"
