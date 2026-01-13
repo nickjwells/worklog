@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1768337227213",
+      "content": "Review Gio/Clairvo's Claude setup.",
+      "timestamp": "2026-01-13T20:47:07.213Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1768337003130",
       "content": "Updated Skool codes as per Aidan. Another ~$3K in discounts added to Maker School.",
       "timestamp": "2026-01-13T20:43:23.130Z",
