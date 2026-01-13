@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1736741100000",
+      "content": "Created automated bookkeeping solution (Make).",
+      "timestamp": "2026-01-13T06:05:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1736741040000",
       "content": "Hosted Live Build #15.",
       "timestamp": "2026-01-13T06:04:00.000Z",
