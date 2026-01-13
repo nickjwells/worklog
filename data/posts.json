@@ -6,6 +6,20 @@
   },
   "posts": [
     {
+      "id": "post-1736741040000",
+      "content": "Hosted Live Build #15.",
+      "timestamp": "2026-01-13T06:04:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
+      "id": "post-1736740980000",
+      "content": "Hosted Weekly Community Call #33.",
+      "timestamp": "2026-01-13T06:03:00.000Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1736740920000",
       "content": "Recorded 7 roasts for Maker School.",
       "timestamp": "2026-01-13T06:02:00.000Z",
