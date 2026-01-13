@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1768335460388",
+      "content": "Updated interface for posting deliverables",
+      "timestamp": "2026-01-13T20:17:40.388Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1736741100000",
       "content": "Created automated bookkeeping solution (Make).",
       "timestamp": "2026-01-13T06:05:00.000Z",
