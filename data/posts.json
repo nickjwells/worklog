@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1768420133437",
+      "content": "Crushed leg day.",
+      "timestamp": "2026-01-14T19:48:53.437Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1768420121129",
       "content": "Recorded another community exclusive for Maker School.",
       "timestamp": "2026-01-14T19:48:41.129Z",
