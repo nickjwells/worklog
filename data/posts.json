@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1768420121129",
+      "content": "Recorded another community exclusive for Maker School.",
+      "timestamp": "2026-01-14T19:48:41.129Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1768418135849",
       "content": "Tried (and failed) Halo with Jack.",
       "timestamp": "2026-01-14T19:15:35.849Z",
