@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1768359960268",
+      "content": "Built bookkeeping flow in Lindy.",
+      "timestamp": "2026-01-14T03:06:00.268Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1768345917283",
       "content": "Browsed real estate.",
       "timestamp": "2026-01-13T23:11:57.283Z",
