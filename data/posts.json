@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1768402315649",
+      "content": "Completed Maker School management for Jan 14 2026.",
+      "timestamp": "2026-01-14T14:51:55.649Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1768398596299",
       "content": "Completed MMWM management for Jan 14 2026.",
       "timestamp": "2026-01-14T13:49:56.299Z",
