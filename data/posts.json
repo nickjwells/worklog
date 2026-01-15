@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1768509687333",
+      "content": "Finished outline for Lindy course.",
+      "timestamp": "2026-01-15T20:41:27.333Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1768508392423",
       "content": "Created better bookkeeping automation with Lindy.",
       "timestamp": "2026-01-15T20:19:52.423Z",
