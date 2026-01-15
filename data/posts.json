@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1768520058585",
+      "content": "Wrote the entirety of the Lindy Accelerator and published it to Skool.",
+      "timestamp": "2026-01-15T23:34:18.585Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1768509687333",
       "content": "Finished outline for Lindy course.",
       "timestamp": "2026-01-15T20:41:27.333Z",
