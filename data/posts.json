@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1768520366726",
+      "content": "Writing course material is actually really easy. Workflow:\n\n- Take Gwern's \"style manual\" (https://gwern.net/system-prompts-2025) and make some minor adjustments for my own TOV.\n- Give Claude Code a brief outline, as well as snippets of your work for examples.\n- It generates you a rough draft. Go through the rough draft, edit where necessary for impending tone of voice problems, get fine draft.\n- Give it a once-over, screenshot sections every 5-6 paragraphs for visual aid, spell/grammar check, and done.\n\nI wrote the whole thing (13 modules) in around 2 hours. Was putting this off for like two weeks. \n\nNow I just have to turn on the camera. Easy!",
+      "timestamp": "2026-01-15T23:39:26.726Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
       "id": "post-1768520058585",
       "content": "Wrote the entirety of the Lindy Accelerator and published it to Skool.",
       "timestamp": "2026-01-15T23:34:18.585Z",
