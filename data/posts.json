@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1768507654940",
+      "content": "Read another 400 pages of Demon in White. What a great book.",
+      "timestamp": "2026-01-15T20:07:34.940Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1768507623624",
       "content": "Crushed chest day.",
       "timestamp": "2026-01-15T20:07:03.624Z",
