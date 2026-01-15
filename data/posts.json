@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1768489286588",
+      "content": "Edited LinkedIn/email newsletter for the next two weeks.",
+      "timestamp": "2026-01-15T15:01:26.588Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1768489274529",
       "content": "Completed Maker School management for Jan 15 2026.",
       "timestamp": "2026-01-15T15:01:14.529Z",
