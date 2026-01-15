@@ -145,6 +145,10 @@
     const content = postContent.value.trim();
     if (!content) return;
 
+    // Clear FIRST before anything else
+    postContent.value = '';
+    postContent.focus();
+
     const password = localStorage.getItem(STORAGE_KEY);
     if (!password) {
       showStatus('Please enter password first', 'error');
@@ -169,7 +173,6 @@
 
       if (response.ok) {
         showStatus('Posted! Rebuilding site...', 'success');
-        postContent.value = '';
         // Reset category to update
         categoryBtns.forEach(b => b.classList.remove('active'));
         document.getElementById('category-update')?.classList.add('active');
