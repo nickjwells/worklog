@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1768757703714",
+      "content": "Crushed recovery day.",
+      "timestamp": "2026-01-18T17:35:03.714Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1768757693116",
       "content": "Recorded video for Maker School.",
       "timestamp": "2026-01-18T17:34:53.116Z",
