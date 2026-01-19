@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1768785824671",
+      "content": "Finished 3 month roadmap for new client.",
+      "timestamp": "2026-01-19T01:23:44.671Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1768785814470",
       "content": "Scraped/processed ~20K leads for next batch of campaign.",
       "timestamp": "2026-01-19T01:23:34.470Z",
