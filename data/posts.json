@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1768929356125",
+      "content": "Completed Weekly Community Call #34 for Maker School.",
+      "timestamp": "2026-01-20T17:15:56.125Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1768923457176",
       "content": "Recorded video for Maker School.",
       "timestamp": "2026-01-20T15:37:37.176Z",
