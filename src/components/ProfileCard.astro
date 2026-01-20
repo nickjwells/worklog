@@ -14,45 +14,46 @@ const { name, handle, bio, avatarUrl, postCount, streak = 0, avgPerDay = 0, reve
 const initials = name.split(' ').map(n => n[0]).join('').toUpperCase().slice(0, 2);
 ---
 
-<header class="pb-8 mb-4 border-b border-[#d2d2d7]">
+<header class="pb-8 mb-4" style="border-bottom: 1px solid var(--color-border);">
   <div class="flex items-center gap-5">
     {avatarUrl ? (
       <img
         src={avatarUrl}
         alt={name}
-        class="w-20 h-20 rounded-full object-cover bg-[#f5f5f7]"
+        class="w-20 h-20 rounded-full object-cover"
+        style="background-color: var(--color-bg-secondary);"
         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
       />
-      <div class="w-20 h-20 rounded-full bg-[#1d1d1f] items-center justify-center hidden">
-        <span class="text-white text-2xl font-semibold">{initials}</span>
+      <div class="w-20 h-20 rounded-full items-center justify-center hidden" style="background-color: var(--color-btn-primary-bg);">
+        <span class="text-2xl font-semibold" style="color: var(--color-btn-primary-text);">{initials}</span>
       </div>
     ) : (
-      <div class="w-20 h-20 rounded-full bg-[#1d1d1f] flex items-center justify-center">
-        <span class="text-white text-2xl font-semibold">{initials}</span>
+      <div class="w-20 h-20 rounded-full flex items-center justify-center" style="background-color: var(--color-btn-primary-bg);">
+        <span class="text-2xl font-semibold" style="color: var(--color-btn-primary-text);">{initials}</span>
       </div>
     )}
     <div>
-      <h1 class="text-3xl font-semibold text-[#1d1d1f] tracking-tight">{name}</h1>
-      <p class="text-base text-[#86868b] mt-1">{handle}</p>
+      <h1 class="text-3xl font-semibold tracking-tight" style="color: var(--color-text-primary);">{name}</h1>
+      <p class="text-base mt-1" style="color: var(--color-text-secondary);">{handle}</p>
     </div>
   </div>
-  <p class="mt-5 text-lg text-[#1d1d1f] leading-relaxed">{bio}</p>
+  <p class="mt-5 text-lg leading-relaxed" style="color: var(--color-text-primary);">{bio}</p>
 
   <!-- Stats row -->
-  <div class="mt-4 flex items-center gap-6 text-sm text-[#86868b]">
+  <div class="mt-4 flex items-center gap-6 text-sm" style="color: var(--color-text-secondary);">
     {revenue && (
       <span>
-        <span class="font-semibold text-[#1d1d1f]">{revenue}</span> revenue
+        <span class="font-semibold" style="color: var(--color-text-primary);">{revenue}</span> revenue
       </span>
     )}
     <span>
-      <span class="font-semibold text-[#1d1d1f]">{postCount}</span> updates
+      <span class="font-semibold" style="color: var(--color-text-primary);">{postCount}</span> updates
     </span>
     <span>
-      <span class="font-semibold text-[#1d1d1f]">{streak}</span> day streak
+      <span class="font-semibold" style="color: var(--color-text-primary);">{streak}</span> day streak
     </span>
     <span>
-      <span class="font-semibold text-[#1d1d1f]">{avgPerDay}</span> avg/day
+      <span class="font-semibold" style="color: var(--color-text-primary);">{avgPerDay}</span> avg/day
     </span>
   </div>
 </header>

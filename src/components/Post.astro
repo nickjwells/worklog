@@ -12,13 +12,12 @@ const { content, timestamp, category = 'update', curated = false } = Astro.props
 function linkify(text: string): string {
   const urlPattern = /(https?:\/\/[^\s<]+)/g;
   return text.replace(urlPattern, (url) => {
-    // Strip trailing punctuation that's likely not part of the URL
     let cleanUrl = url;
     const trailingPunct = /[).,!?;:'"]+$/;
     const match = cleanUrl.match(trailingPunct);
     const trailing = match ? match[0] : '';
     cleanUrl = cleanUrl.replace(trailingPunct, '');
-    return `<a href="${cleanUrl}" target="_blank" rel="noopener noreferrer" class="text-[#0071e3] hover:underline">${cleanUrl}</a>${trailing}`;
+    return `<a href="${cleanUrl}" target="_blank" rel="noopener noreferrer" class="post-link">${cleanUrl}</a>${trailing}`;
   });
 }
 
@@ -32,30 +31,58 @@ const formatted = date.toLocaleDateString('en-US', {
 });
 
 const categoryLabel = category === 'thought' ? 'Thought' : 'Update';
-const categoryColor = category === 'thought' ? 'text-[#0071e3]' : 'text-[#86868b]';
+const isThought = category === 'thought';
 ---
 
 <article
-  class="py-8 border-b border-[#d2d2d7]"
+  class="py-8 post-article"
   data-category={category}
   data-curated={curated.toString()}
 >
   <div class="flex items-center gap-2 mb-2">
-    <p class={`text-xs font-medium tracking-wide uppercase ${categoryColor}`}>
+    <p class={`text-xs font-medium tracking-wide uppercase ${isThought ? 'category-thought' : 'category-update'}`}>
       {categoryLabel}
     </p>
     {curated && (
-      <span class="text-xs px-2 py-0.5 bg-[#f5f5f7] text-[#1d1d1f] rounded-full">
+      <span class="text-xs px-2 py-0.5 rounded-full curated-badge">
         Curated
       </span>
     )}
   </div>
-  <h2 class="text-2xl font-semibold text-[#1d1d1f] leading-tight tracking-tight whitespace-pre-line" set:html={linkedContent}>
+  <h2 class="text-2xl font-semibold leading-tight tracking-tight whitespace-pre-line post-content" set:html={linkedContent}>
   </h2>
   <time
     datetime={timestamp}
-    class="text-sm text-[#86868b] mt-3 block"
+    class="text-sm mt-3 block post-time"
   >
     {formatted}
   </time>
 </article>
+
+<style>
+  .post-article {
+    border-bottom: 1px solid var(--color-border);
+  }
+  .post-content {
+    color: var(--color-text-primary);
+  }
+  .post-time {
+    color: var(--color-text-secondary);
+  }
+  .category-thought {
+    color: var(--color-accent);
+  }
+  .category-update {
+    color: var(--color-text-secondary);
+  }
+  .curated-badge {
+    background-color: var(--color-bg-secondary);
+    color: var(--color-text-primary);
+  }
+  .post-link {
+    color: var(--color-accent);
+  }
+  .post-link:hover {
+    text-decoration: underline;
+  }
+</style>

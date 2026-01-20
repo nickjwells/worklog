@@ -103,25 +103,25 @@ const groupedPosts = initialPosts.reduce((groups: Record<string, PostType[]>, po
     <!-- Filter tabs -->
     <div class="flex items-center gap-2 mt-6 mb-4 text-sm" id="filter-tabs">
       <button
-        class="filter-btn px-3 py-1.5 rounded-full bg-[#1d1d1f] text-white"
+        class="filter-btn px-3 py-1.5 rounded-full active"
         data-filter="all"
       >
         All ({posts.length})
       </button>
       <button
-        class="filter-btn px-3 py-1.5 rounded-full bg-[#f5f5f7] text-[#1d1d1f] hover:bg-[#e8e8ed]"
+        class="filter-btn px-3 py-1.5 rounded-full"
         data-filter="update"
       >
         Updates ({updateCount})
       </button>
       <button
-        class="filter-btn px-3 py-1.5 rounded-full bg-[#f5f5f7] text-[#1d1d1f] hover:bg-[#e8e8ed]"
+        class="filter-btn px-3 py-1.5 rounded-full"
         data-filter="thought"
       >
         Thoughts ({thoughtCount})
       </button>
       <button
-        class="filter-btn px-3 py-1.5 rounded-full bg-[#f5f5f7] text-[#1d1d1f] hover:bg-[#e8e8ed]"
+        class="filter-btn px-3 py-1.5 rounded-full"
         data-filter="curated"
       >
         Curated ({curatedCount})
@@ -131,7 +131,7 @@ const groupedPosts = initialPosts.reduce((groups: Record<string, PostType[]>, po
     <div id="posts-container">
       {Object.entries(groupedPosts).map(([monthYear, monthPosts]) => (
         <section class="mt-8 month-section" data-month={monthYear}>
-          <h2 class="text-2xl font-semibold text-[#1d1d1f] tracking-tight pb-4 border-b border-[#1d1d1f]">
+          <h2 class="text-2xl font-semibold tracking-tight pb-4 month-header">
             {monthYear}
           </h2>
           <div>
@@ -149,13 +149,13 @@ const groupedPosts = initialPosts.reduce((groups: Record<string, PostType[]>, po
     </div>
 
     {hasMorePages && (
-      <div id="load-more-trigger" class="py-8 text-center text-[#86868b]">
+      <div id="load-more-trigger" class="py-8 text-center loading-text">
         <span id="loading-text">Scroll for more...</span>
       </div>
     )}
 
     {posts.length === 0 && (
-      <p class="text-center text-[#86868b] py-16">
+      <p class="text-center py-16 empty-text">
         No updates yet.
       </p>
     )}
@@ -175,7 +175,7 @@ const groupedPosts = initialPosts.reduce((groups: Record<string, PostType[]>, po
         const match = cleanUrl.match(trailingPunct);
         const trailing = match ? match[0] : '';
         cleanUrl = cleanUrl.replace(trailingPunct, '');
-        return `<a href="${cleanUrl}" target="_blank" rel="noopener noreferrer" class="text-[#0071e3] hover:underline">${cleanUrl}</a>${trailing}`;
+        return `<a href="${cleanUrl}" target="_blank" rel="noopener noreferrer" class="post-link">${cleanUrl}</a>${trailing}`;
       });
     }
 
@@ -198,19 +198,19 @@ const groupedPosts = initialPosts.reduce((groups: Record<string, PostType[]>, po
     // Create post HTML
     function createPostHTML(post: any): string {
       const categoryLabel = post.category === 'thought' ? 'Thought' : 'Update';
-      const categoryColor = post.category === 'thought' ? 'text-[#0071e3]' : 'text-[#86868b]';
+      const categoryClass = post.category === 'thought' ? 'category-thought' : 'category-update';
       const curatedBadge = post.curated
-        ? '<span class="text-xs px-2 py-0.5 bg-[#f5f5f7] text-[#1d1d1f] rounded-full">Curated</span>'
+        ? '<span class="text-xs px-2 py-0.5 rounded-full curated-badge">Curated</span>'
         : '';
 
       return `
-        <article class="py-8 border-b border-[#d2d2d7]" data-category="${post.category || 'update'}" data-curated="${post.curated || false}">
+        <article class="py-8 post-article" data-category="${post.category || 'update'}" data-curated="${post.curated || false}">
           <div class="flex items-center gap-2 mb-2">
-            <p class="text-xs font-medium tracking-wide uppercase ${categoryColor}">${categoryLabel}</p>
+            <p class="text-xs font-medium tracking-wide uppercase ${categoryClass}">${categoryLabel}</p>
             ${curatedBadge}
           </div>
-          <h2 class="text-2xl font-semibold text-[#1d1d1f] leading-tight tracking-tight whitespace-pre-line">${linkify(post.content)}</h2>
-          <time datetime="${post.timestamp}" class="text-sm text-[#86868b] mt-3 block">${formatDate(post.timestamp)}</time>
+          <h2 class="text-2xl font-semibold leading-tight tracking-tight whitespace-pre-line post-content">${linkify(post.content)}</h2>
+          <time datetime="${post.timestamp}" class="text-sm mt-3 block post-time">${formatDate(post.timestamp)}</time>
         </article>
       `;
     }
@@ -246,7 +246,7 @@ const groupedPosts = initialPosts.reduce((groups: Record<string, PostType[]>, po
             section.className = 'mt-8 month-section';
             section.setAttribute('data-month', monthYear);
             section.innerHTML = `
-              <h2 class="text-2xl font-semibold text-[#1d1d1f] tracking-tight pb-4 border-b border-[#1d1d1f]">${monthYear}</h2>
+              <h2 class="text-2xl font-semibold tracking-tight pb-4 month-header">${monthYear}</h2>
               <div></div>
             `;
             container?.appendChild(section);
@@ -318,15 +318,62 @@ const groupedPosts = initialPosts.reduce((groups: Record<string, PostType[]>, po
         currentFilter = filter;
 
         // Update button styles
-        filterBtns.forEach(b => {
-          b.classList.remove('bg-[#1d1d1f]', 'text-white');
-          b.classList.add('bg-[#f5f5f7]', 'text-[#1d1d1f]');
-        });
-        btn.classList.remove('bg-[#f5f5f7]', 'text-[#1d1d1f]');
-        btn.classList.add('bg-[#1d1d1f]', 'text-white');
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
 
         applyFilter(filter);
       });
     });
   </script>
 </BaseLayout>
+
+<style>
+  .filter-btn {
+    background-color: var(--color-btn-secondary-bg);
+    color: var(--color-btn-secondary-text);
+    transition: background-color 0.15s ease, color 0.15s ease;
+  }
+  .filter-btn:hover:not(.active) {
+    background-color: var(--color-btn-secondary-hover);
+  }
+  .filter-btn.active {
+    background-color: var(--color-btn-primary-bg);
+    color: var(--color-btn-primary-text);
+  }
+  .month-header {
+    color: var(--color-text-primary);
+    border-bottom: 1px solid var(--color-border-strong);
+  }
+  .loading-text {
+    color: var(--color-text-secondary);
+  }
+  .empty-text {
+    color: var(--color-text-secondary);
+  }
+  /* Dynamic post styles (for infinite scroll) */
+  .post-article {
+    border-bottom: 1px solid var(--color-border);
+  }
+  .post-content {
+    color: var(--color-text-primary);
+  }
+  .post-time {
+    color: var(--color-text-secondary);
+  }
+  .category-thought {
+    color: var(--color-accent);
+  }
+  .category-update {
+    color: var(--color-text-secondary);
+  }
+  .curated-badge {
+    background-color: var(--color-bg-secondary);
+    color: var(--color-text-primary);
+  }
+  .post-link {
+    color: var(--color-accent);
+  }
+  .post-link:hover {
+    text-decoration: underline;
+  }
+</style>
