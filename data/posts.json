@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1769183353310",
+      "content": "Solved payments integration; broken API key. Also provisioned 10% bonus to staff.",
+      "timestamp": "2026-01-23T15:49:13.310Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1769181673610",
       "content": "Completed Maker School management for Jan 23 2026.",
       "timestamp": "2026-01-23T15:21:13.610Z",
