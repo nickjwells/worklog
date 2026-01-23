@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1769187051969",
+      "content": "Accounting & bookkeeping for 1SecondCopy; determined net income, expenses, got the state of things.",
+      "timestamp": "2026-01-23T16:50:51.969Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1769183891206",
       "content": "Cancelled Slack memberships for inactive 1SC contractors.",
       "timestamp": "2026-01-23T15:58:11.206Z",
