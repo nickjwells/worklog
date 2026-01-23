@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1769189314689",
+      "content": "Recorded 4 roasts for Maker School.",
+      "timestamp": "2026-01-23T17:28:34.689Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1769188644035",
       "content": "Rebranded AI Millionaire Podcast -> \"Stacked\".",
       "timestamp": "2026-01-23T17:17:24.035Z",
