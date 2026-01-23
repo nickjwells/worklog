@@ -131,7 +131,7 @@ const groupedPosts = initialPosts.reduce((groups: Record<string, PostType[]>, po
     <div id="posts-container">
       {Object.entries(groupedPosts).map(([monthYear, monthPosts]) => (
         <section class="mt-8 month-section" data-month={monthYear}>
-          <h2 class="text-2xl font-semibold tracking-tight pb-4 month-header">
+          <h2 class="text-2xl font-semibold tracking-tight pb-4" style="color: var(--color-text-primary); border-bottom: 1px solid var(--color-border-strong);">
             {monthYear}
           </h2>
           <div>
@@ -246,7 +246,7 @@ const groupedPosts = initialPosts.reduce((groups: Record<string, PostType[]>, po
             section.className = 'mt-8 month-section';
             section.setAttribute('data-month', monthYear);
             section.innerHTML = `
-              <h2 class="text-2xl font-semibold tracking-tight pb-4 month-header">${monthYear}</h2>
+              <h2 class="text-2xl font-semibold tracking-tight pb-4" style="color: var(--color-text-primary); border-bottom: 1px solid var(--color-border-strong);">${monthYear}</h2>
               <div></div>
             `;
             container?.appendChild(section);
