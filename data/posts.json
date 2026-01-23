@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1769183891206",
+      "content": "Cancelled Slack memberships for inactive 1SC contractors.",
+      "timestamp": "2026-01-23T15:58:11.206Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1769183353310",
       "content": "Solved payments integration; broken API key. Also provisioned 10% bonus to staff.",
       "timestamp": "2026-01-23T15:49:13.310Z",
