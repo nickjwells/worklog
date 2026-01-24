@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1769281220789",
+      "content": "Crushed leg day.",
+      "timestamp": "2026-01-24T19:00:20.789Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1769281217627",
       "content": "Organized kitchen.",
       "timestamp": "2026-01-24T19:00:17.627Z",
