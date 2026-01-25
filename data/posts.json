@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1769359529305",
+      "content": "Completed MMWM management for Jan 25 2026.",
+      "timestamp": "2026-01-25T16:45:29.305Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1769281220789",
       "content": "Crushed leg day.",
       "timestamp": "2026-01-24T19:00:20.789Z",
