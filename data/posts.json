@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1769447921717",
+      "content": "Edited first YouTube video after hiatus manually.",
+      "timestamp": "2026-01-26T17:18:41.717Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1769446837872",
       "content": "Recorded first YouTube video after hiatus.",
       "timestamp": "2026-01-26T17:00:37.872Z",
