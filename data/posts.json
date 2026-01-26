@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1769435818711",
+      "content": "Recorded 5 Upwork roasts.",
+      "timestamp": "2026-01-26T13:56:58.711Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1769435815789",
       "content": "Completed Maker School management for Jan 26 2026.",
       "timestamp": "2026-01-26T13:56:55.789Z",
