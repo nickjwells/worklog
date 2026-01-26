@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1769441633788",
+      "content": "Created workflow that generates high-quality Excalidraw assets for my YouTube videos based on a prompt.",
+      "timestamp": "2026-01-26T15:33:53.788Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1769440315412",
       "content": "Excited to record my first YT video back + rebuild an effective workflow for doing these.",
       "timestamp": "2026-01-26T15:11:55.412Z",
