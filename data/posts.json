@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1769470632700",
+      "content": "Set up Reddit campaign for LeftClick.",
+      "timestamp": "2026-01-26T23:37:12.701Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1769470624598",
       "content": "Set up payments platforms & MCPs for them.",
       "timestamp": "2026-01-26T23:37:04.598Z",
