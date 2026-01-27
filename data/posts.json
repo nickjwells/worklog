@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1769516290412",
+      "content": "Set up Clawdbot on Railway.",
+      "timestamp": "2026-01-27T12:18:10.412Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1769512889472",
       "content": "Created X fresh account for AI/automation news; muted ~500 political keywords with Claude in Chrome; liked a bunch of AI/automation related posts; and it worked! No bullshit politics.",
       "timestamp": "2026-01-27T11:21:29.472Z",
