@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1769560091322",
+      "content": "Created new thumbnail generation flow (it works!)",
+      "timestamp": "2026-01-28T00:28:11.322Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1769560065380",
       "content": "Responded to ~50 YouTube comments (Clawdbot video and others).",
       "timestamp": "2026-01-28T00:27:45.380Z",
