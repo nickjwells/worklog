@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1769560057364",
+      "content": "Edited, created thumbnail/packaging, posted Clawdbot video.",
+      "timestamp": "2026-01-28T00:27:37.364Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1769560039519",
       "content": "Recorded YouTube video on Clawdbot.",
       "timestamp": "2026-01-28T00:27:19.519Z",
