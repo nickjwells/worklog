@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1769560178324",
+      "content": "Clawdbot video took me:\n- 16 minutes to record.\n- 5 minutes to edit.\n- 12 minutes for packaging.\n\nTotal: 33 minutes.\n\nIt sounds great at first glance, but worth noting the final product was ~8:30 in length. So the production to posted ratio is ~4x.\n\nI used to create videos whose production to posted ratio was ~1x! They were significantly longer, granted, but could be an issue here.\n\nAnyway, video went viral as hell, so there's that. Probably going to be my most viewed in a hot minute (~30K in 7 hours).",
+      "timestamp": "2026-01-28T00:29:38.324Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
       "id": "post-1769560091322",
       "content": "Created new thumbnail generation flow (it works!)",
       "timestamp": "2026-01-28T00:28:11.322Z",
