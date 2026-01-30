@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1769784695138",
+      "content": "Recorded 8 roasts for Maker School.",
+      "timestamp": "2026-01-30T14:51:35.138Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1769779693443",
       "content": "Good use for Claude Chrome: deleting obviously fake YouTube comments. So damn laborious to do this manually, because there are dozens every few hours. But with this, I just set some params (all lowercase, <8 words) and it does so with a hit rate of over 99%. Have deleted hundreds!",
       "timestamp": "2026-01-30T13:28:13.443Z",
