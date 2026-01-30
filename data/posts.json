@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1769784700876",
+      "content": "Used Claude Chrome to report ~100 YouTube comments.",
+      "timestamp": "2026-01-30T14:51:40.876Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1769784695138",
       "content": "Recorded 8 roasts for Maker School.",
       "timestamp": "2026-01-30T14:51:35.138Z",
