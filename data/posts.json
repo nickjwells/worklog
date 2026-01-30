@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1769779693443",
+      "content": "Good use for Claude Chrome: deleting obviously fake YouTube comments. So damn laborious to do this manually, because there are dozens every few hours. But with this, I just set some params (all lowercase, <8 words) and it does so with a hit rate of over 99%. Have deleted hundreds!",
+      "timestamp": "2026-01-30T13:28:13.443Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
       "id": "post-1769778717334",
       "content": "Completed MMWM management for Jan 30 2026.",
       "timestamp": "2026-01-30T13:11:57.334Z",
