@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1769870385822",
+      "content": "Completed MMWM management for Jan 31 2026.",
+      "timestamp": "2026-01-31T14:39:45.822Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1769803382708",
       "content": "Claude Chrome can remove spam YouTube comments, but it's extremely expensive. I've spent like $50 so far.\n\nInstead, probably makes sense to do this via a script (to identify fake comments) & old school keyboard macros.\n\nThe morons in charge of whatever bullshit spam platform they're using screwed up, because every comment is a) 100% lowercase, b) eight words or fewer. Though I will be removing a few legitimate comments per 100, I estimate a success rate of >98%. I can then fully automate the process of removing all of my spam comments. No more \"this is super interesting, never thought about it\" 500 times.\n\nAutohotkey or alternative macro; click three dots -> tab tab tab -> enter -> tab -> enter -> tab tab -> enter -> wait 2s -> tab tab -> enter.\n\nI will experiment.",
       "timestamp": "2026-01-30T20:03:02.708Z",
