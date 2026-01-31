@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1769882862859",
+      "content": "Recorded YouTube video (22min).",
+      "timestamp": "2026-01-31T18:07:42.859Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1769870394342",
       "content": "Completed 5 roasts for Maker School.",
       "timestamp": "2026-01-31T14:39:54.342Z",
