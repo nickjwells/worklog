@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1769958422604",
+      "content": "Completed MMWM management for Feb 1 2026.",
+      "timestamp": "2026-02-01T15:07:02.604Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1769883433128",
       "content": "Recorded video on AI website design for Maker School (23min).",
       "timestamp": "2026-01-31T18:17:13.128Z",
