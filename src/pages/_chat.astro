@@ -1,0 +1,267 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Chat with Claude - Worklog">
+  <div class="max-w-2xl mx-auto px-6 py-12 sm:py-16">
+    <!-- Header -->
+    <div class="mb-8">
+      <a href="/" class="back-link text-sm">&larr; Back to Work Log</a>
+      <h1 class="text-3xl font-semibold tracking-tight mt-4 page-title">Chat with Claude</h1>
+      <p class="mt-2 page-subtitle">Powered by Claude Opus 4.5</p>
+    </div>
+
+    <!-- Chat container -->
+    <div id="chat-container">
+      <!-- Messages -->
+      <div id="messages" class="space-y-4 mb-6 min-h-[300px] max-h-[500px] overflow-y-auto">
+        <div class="text-center py-12 empty-text">
+          Start a conversation with Claude Opus 4.5
+        </div>
+      </div>
+
+      <!-- Input area -->
+      <div class="pt-4 input-area">
+        <div class="flex gap-3">
+          <textarea
+            id="message-input"
+            placeholder="Type your message..."
+            rows="3"
+            class="flex-1 px-4 py-3 rounded-xl focus:outline-none focus:ring-2 focus:border-transparent resize-none chat-input"
+          ></textarea>
+          <button
+            id="send-btn"
+            class="px-6 py-3 rounded-xl font-medium transition-colors self-end disabled:opacity-50 disabled:cursor-not-allowed send-btn"
+          >
+            Send
+          </button>
+        </div>
+        <p class="text-xs mt-2 hint-text">Press Cmd/Ctrl + Enter to send</p>
+      </div>
+
+      <!-- Clear chat -->
+      <button
+        id="clear-btn"
+        class="mt-4 text-sm transition-colors clear-btn"
+      >
+        Clear conversation
+      </button>
+    </div>
+  </div>
+
+  <script>
+    interface Message {
+      role: 'user' | 'assistant';
+      content: string;
+    }
+
+    let messages: Message[] = [];
+    let isLoading = false;
+
+    const messagesContainer = document.getElementById('messages') as HTMLDivElement;
+    const messageInput = document.getElementById('message-input') as HTMLTextAreaElement;
+    const sendBtn = document.getElementById('send-btn') as HTMLButtonElement;
+    const clearBtn = document.getElementById('clear-btn') as HTMLButtonElement;
+
+    // Focus input on load
+    messageInput.focus();
+
+    // Render messages
+    function renderMessages() {
+      if (messages.length === 0) {
+        messagesContainer.innerHTML = `
+          <div class="text-center py-12 empty-text">
+            Start a conversation with Claude Opus 4.5
+          </div>
+        `;
+        return;
+      }
+
+      messagesContainer.innerHTML = messages.map((msg) => {
+        const isUser = msg.role === 'user';
+        const bubbleClass = isUser ? 'user-bubble' : 'assistant-bubble';
+        const alignment = isUser ? 'ml-auto' : 'mr-auto';
+
+        // Convert markdown-style code blocks to HTML
+        const formattedContent = formatMessage(msg.content);
+
+        return `
+          <div class="max-w-[85%] ${alignment}">
+            <div class="text-xs mb-1 ${isUser ? 'text-right' : ''} label-text">
+              ${isUser ? 'You' : 'Claude'}
+            </div>
+            <div class="${bubbleClass} px-4 py-3 rounded-2xl ${isUser ? 'rounded-br-md' : 'rounded-bl-md'}">
+              <div class="whitespace-pre-wrap break-words prose prose-sm max-w-none">${formattedContent}</div>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      // Scroll to bottom
+      messagesContainer.scrollTop = messagesContainer.scrollHeight;
+    }
+
+    // Format message content (basic markdown support)
+    function formatMessage(content: string): string {
+      // Escape HTML
+      let formatted = content
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+
+      // Code blocks
+      formatted = formatted.replace(/```(\w*)\n?([\s\S]*?)```/g, (_, lang, code) => {
+        return `<pre class="code-block p-3 rounded-lg overflow-x-auto text-sm my-2"><code>${code.trim()}</code></pre>`;
+      });
+
+      // Inline code
+      formatted = formatted.replace(/`([^`]+)`/g, '<code class="inline-code px-1.5 py-0.5 rounded text-sm">$1</code>');
+
+      // Bold
+      formatted = formatted.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+
+      // Italic
+      formatted = formatted.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+
+      return formatted;
+    }
+
+    // Send message
+    async function sendMessage() {
+      const content = messageInput.value.trim();
+      if (!content || isLoading) return;
+
+      isLoading = true;
+      sendBtn.disabled = true;
+      sendBtn.textContent = 'Sending...';
+
+      // Add user message
+      messages.push({ role: 'user', content });
+      messageInput.value = '';
+      renderMessages();
+
+      // Add loading indicator
+      const loadingDiv = document.createElement('div');
+      loadingDiv.className = 'max-w-[85%] mr-auto';
+      loadingDiv.innerHTML = `
+        <div class="text-xs mb-1 label-text">Claude</div>
+        <div class="assistant-bubble px-4 py-3 rounded-2xl rounded-bl-md">
+          <div class="flex items-center gap-2">
+            <div class="animate-pulse">Thinking...</div>
+          </div>
+        </div>
+      `;
+      messagesContainer.appendChild(loadingDiv);
+      messagesContainer.scrollTop = messagesContainer.scrollHeight;
+
+      try {
+        const response = await fetch('/.netlify/functions/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ messages }),
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) {
+          throw new Error(data.error || 'Failed to send message');
+        }
+
+        // Add assistant message
+        messages.push({ role: 'assistant', content: data.message });
+      } catch (error) {
+        console.error('Error:', error);
+        messages.push({
+          role: 'assistant',
+          content: `Error: ${error instanceof Error ? error.message : 'Failed to get response'}`
+        });
+      } finally {
+        isLoading = false;
+        sendBtn.disabled = false;
+        sendBtn.textContent = 'Send';
+        renderMessages();
+      }
+    }
+
+    // Event listeners
+    sendBtn.addEventListener('click', sendMessage);
+
+    messageInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) {
+        e.preventDefault();
+        sendMessage();
+      }
+    });
+
+    clearBtn.addEventListener('click', () => {
+      messages = [];
+      renderMessages();
+    });
+  </script>
+</BaseLayout>
+
+<style>
+  .back-link {
+    color: var(--color-accent);
+  }
+  .back-link:hover {
+    text-decoration: underline;
+  }
+  .page-title {
+    color: var(--color-text-primary);
+  }
+  .page-subtitle {
+    color: var(--color-text-secondary);
+  }
+  .empty-text {
+    color: var(--color-text-secondary);
+  }
+  .input-area {
+    border-top: 1px solid var(--color-border);
+  }
+  .chat-input {
+    border: 1px solid var(--color-border);
+    background-color: var(--color-bg-secondary);
+    color: var(--color-text-primary);
+  }
+  .chat-input::placeholder {
+    color: var(--color-text-secondary);
+  }
+  .chat-input:focus {
+    --tw-ring-color: var(--color-accent);
+  }
+  .send-btn {
+    background-color: var(--color-accent);
+    color: white;
+  }
+  .send-btn:hover:not(:disabled) {
+    background-color: var(--color-accent-hover);
+  }
+  .hint-text {
+    color: var(--color-text-secondary);
+  }
+  .clear-btn {
+    color: var(--color-text-secondary);
+  }
+  .clear-btn:hover {
+    color: var(--color-text-primary);
+  }
+  .label-text {
+    color: var(--color-text-secondary);
+  }
+  .user-bubble {
+    background-color: var(--color-accent);
+    color: white;
+  }
+  .assistant-bubble {
+    background-color: var(--color-bg-secondary);
+    color: var(--color-text-primary);
+  }
+  .code-block {
+    background-color: var(--color-btn-primary-bg);
+    color: var(--color-btn-primary-text);
+  }
+  .inline-code {
+    background-color: var(--color-bg-tertiary);
+  }
+</style>
