@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1770064610486",
+      "content": "Created thumbnails/packaging for YouTube video.",
+      "timestamp": "2026-02-02T20:36:50.486Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1770063263653",
       "content": "Recorded new YouTube video.",
       "timestamp": "2026-02-02T20:14:23.653Z",
