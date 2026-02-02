@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1770047967158",
+      "content": "Recorded 7 roasts for Maker School.",
+      "timestamp": "2026-02-02T15:59:27.158Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1770047962355",
       "content": "Completed Maker School management for Feb 2 2026.",
       "timestamp": "2026-02-02T15:59:22.355Z",
