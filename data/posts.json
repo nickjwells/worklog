@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1770063263653",
+      "content": "Recorded new YouTube video.",
+      "timestamp": "2026-02-02T20:14:23.653Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1770063229952",
       "content": "Set up new studio in apartment across the street.",
       "timestamp": "2026-02-02T20:13:49.952Z",
