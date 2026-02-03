@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1770141432462",
+      "content": "Finally fixed that pesky OBS bug where I couldn't scene switch on demand. So much better!",
+      "timestamp": "2026-02-03T17:57:12.462Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1770132093660",
       "content": "Having an office has unlocked pre-25 levels of productivity. I didn't realize how distracting my current setup was. Today I finished all of my actionables in ~90mins. \n\n- Community management: 56min (I commented on over 90 posts!)\n- Content: ~5min for packaging, ~20min for video, ~10min for editing.\n\nTotal layup today.",
       "timestamp": "2026-02-03T15:21:33.661Z",
