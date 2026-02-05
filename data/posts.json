@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1770260122858",
+      "content": "Created packaging for YouTube video.",
+      "timestamp": "2026-02-05T02:55:22.858Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1770260114383",
       "content": "Updated project repo.",
       "timestamp": "2026-02-05T02:55:14.383Z",
