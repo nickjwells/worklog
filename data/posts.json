@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1770390949989",
+      "content": "Completed Maker School management for Feb 6 2026 (59min to comment on 90 posts).",
+      "timestamp": "2026-02-06T15:15:49.989Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1770386893260",
       "content": "Attempted MacWhisper; found it too slow. Interesting that API-based is faster here despite latency.",
       "timestamp": "2026-02-06T14:08:13.260Z",
