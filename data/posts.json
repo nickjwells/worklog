@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1770386893260",
+      "content": "Attempted MacWhisper; found it too slow. Interesting that API-based is faster here despite latency.",
+      "timestamp": "2026-02-06T14:08:13.260Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1770386272408",
       "content": "I think I'll always have an office for as long as I live, now.",
       "timestamp": "2026-02-06T13:57:52.408Z",
