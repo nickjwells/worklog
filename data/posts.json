@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1770583347147",
+      "content": "Found some more high-protein recipes.",
+      "timestamp": "2026-02-08T20:42:27.147Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1770576659175",
       "content": "Tested worklog site.",
       "timestamp": "2026-02-08T18:50:59.175Z",
