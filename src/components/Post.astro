@@ -1,12 +1,13 @@
 ---
 interface Props {
+  id?: string;
   content: string;
   timestamp: string;
   category?: 'update' | 'thought';
   curated?: boolean;
 }
 
-const { content, timestamp, category = 'update', curated = false } = Astro.props;
+const { id, content, timestamp, category = 'update', curated = false } = Astro.props;
 
 // Convert URLs to clickable links
 function linkify(text: string): string {
@@ -38,6 +39,7 @@ const isThought = category === 'thought';
   class="py-8 post-article"
   data-category={category}
   data-curated={curated.toString()}
+  data-post-id={id}
 >
   <div class="flex items-center gap-2 mb-2">
     <p class={`text-xs font-medium tracking-wide uppercase ${isThought ? 'category-thought' : 'category-update'}`}>

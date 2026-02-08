@@ -137,6 +137,7 @@ const groupedPosts = initialPosts.reduce((groups: Record<string, PostType[]>, po
           <div>
             {monthPosts.map((post: PostType) => (
               <Post
+                id={post.id}
                 content={post.content}
                 timestamp={post.timestamp}
                 category={post.category || 'update'}
@@ -204,7 +205,7 @@ const groupedPosts = initialPosts.reduce((groups: Record<string, PostType[]>, po
         : '';
 
       return `
-        <article class="py-8 post-article" data-category="${post.category || 'update'}" data-curated="${post.curated || false}">
+        <article class="py-8 post-article" data-category="${post.category || 'update'}" data-curated="${post.curated || false}" data-post-id="${post.id || ''}">
           <div class="flex items-center gap-2 mb-2">
             <p class="text-xs font-medium tracking-wide uppercase ${categoryClass}">${categoryLabel}</p>
             ${curatedBadge}
@@ -324,6 +325,50 @@ const groupedPosts = initialPosts.reduce((groups: Record<string, PostType[]>, po
         applyFilter(filter);
       });
     });
+
+    // Fetch and display pending posts (posted but not yet in static build)
+    async function loadPendingPosts() {
+      try {
+        const res = await fetch('/.netlify/functions/pending-posts');
+        if (!res.ok) return;
+        const data = await res.json();
+        if (!data.posts || data.posts.length === 0) return;
+
+        for (const post of data.posts) {
+          // Skip if already in static HTML
+          if (document.querySelector(`[data-post-id="${post.id}"]`)) continue;
+
+          const monthYear = getMonthYear(post.timestamp);
+          let section = container?.querySelector(`[data-month="${monthYear}"]`);
+
+          if (!section) {
+            // Create month section and prepend it
+            section = document.createElement('section');
+            section.className = 'mt-8 month-section';
+            section.setAttribute('data-month', monthYear);
+            section.innerHTML = `
+              <h2 class="text-2xl font-semibold tracking-tight pb-4 month-header">${monthYear}</h2>
+              <div></div>
+            `;
+            container?.prepend(section);
+          }
+
+          const postsDiv = section.querySelector('div');
+          if (postsDiv) {
+            postsDiv.insertAdjacentHTML('afterbegin', createPostHTML(post));
+          }
+        }
+
+        // Apply current filter to pending posts
+        if (currentFilter !== 'all') {
+          applyFilter(currentFilter);
+        }
+      } catch {
+        // Silently fail - pending posts are a nice-to-have
+      }
+    }
+
+    loadPendingPosts();
   </script>
 </BaseLayout>
 

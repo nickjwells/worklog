@@ -36,10 +36,18 @@ When the user says `update:` or `thought:` followed by content, add it to `data/
 
 Add the new post to the **beginning** of the `posts` array in `data/posts.json`.
 
-**After adding the post, always commit and push to deploy:**
+**After adding the post, always commit, push, and notify the pending-posts function for instant display:**
 ```bash
 git add data/posts.json && git commit -m "Add post" && git push
 ```
+
+Then POST the new post to the pending-posts function so it appears instantly (before the static rebuild):
+```bash
+curl -s -X POST https://gentle-tanuki-c5acb7.netlify.app/.netlify/functions/pending-posts \
+  -H "Content-Type: application/json" \
+  -d '{"id":"<post-id>","content":"<post-content>","timestamp":"<timestamp>","category":"<category>","curated":<curated>}'
+```
+Use the same `id`, `content`, `timestamp`, `category`, and `curated` values from the post you just added to `data/posts.json`.
 
 ### Via CLI
 ```bash
