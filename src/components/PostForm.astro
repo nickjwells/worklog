@@ -193,7 +193,11 @@
       const data = await response.json();
 
       if (response.ok) {
-        showStatus('Posted! Rebuilding site...', 'success');
+        showStatus('Posted!', 'success');
+        // Inject post into timeline immediately
+        if (data.post) {
+          document.dispatchEvent(new CustomEvent('post-added', { detail: data.post }));
+        }
         // Reset category to update
         categoryBtns.forEach(b => b.classList.remove('active'));
         document.getElementById('category-update')?.classList.add('active');

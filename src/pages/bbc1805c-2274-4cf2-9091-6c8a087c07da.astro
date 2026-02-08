@@ -142,6 +142,7 @@ const groupedPosts = initialPosts.reduce((groups: Record<string, PostType[]>, po
           <div>
             {monthPosts.map((post: PostType) => (
               <Post
+                id={post.id}
                 content={post.content}
                 timestamp={post.timestamp}
                 category={post.category || 'update'}
@@ -209,7 +210,7 @@ const groupedPosts = initialPosts.reduce((groups: Record<string, PostType[]>, po
         : '';
 
       return `
-        <article class="py-8 post-article" data-category="${post.category || 'update'}" data-curated="${post.curated || false}">
+        <article class="py-8 post-article" data-category="${post.category || 'update'}" data-curated="${post.curated || false}" data-post-id="${post.id || ''}">
           <div class="flex items-center gap-2 mb-2">
             <p class="text-xs font-medium tracking-wide uppercase ${categoryClass}">${categoryLabel}</p>
             ${curatedBadge}
@@ -329,6 +330,60 @@ const groupedPosts = initialPosts.reduce((groups: Record<string, PostType[]>, po
         applyFilter(filter);
       });
     });
+
+    // Insert a post into the timeline
+    function insertPost(post: any) {
+      if (document.querySelector(`[data-post-id="${post.id}"]`)) return;
+
+      const monthYear = getMonthYear(post.timestamp);
+      let section = container?.querySelector(`[data-month="${monthYear}"]`);
+
+      if (!section) {
+        section = document.createElement('section');
+        section.className = 'mt-8 month-section';
+        section.setAttribute('data-month', monthYear);
+        section.innerHTML = `
+          <h2 class="text-2xl font-semibold tracking-tight pb-4 month-header">${monthYear}</h2>
+          <div></div>
+        `;
+        container?.prepend(section);
+      }
+
+      const postsDiv = section.querySelector('div');
+      if (postsDiv) {
+        postsDiv.insertAdjacentHTML('afterbegin', createPostHTML(post));
+      }
+    }
+
+    // Listen for new posts from PostForm
+    document.addEventListener('post-added', ((e: CustomEvent) => {
+      insertPost(e.detail);
+      if (currentFilter !== 'all') applyFilter(currentFilter);
+    }) as EventListener);
+
+    // Fetch latest posts from GitHub to show new posts before static rebuild
+    async function loadPendingPosts() {
+      try {
+        const res = await fetch(
+          'https://api.github.com/repos/nickjwells/worklog/contents/data/posts.json',
+          { headers: { 'Accept': 'application/vnd.github.v3.raw' } }
+        );
+        if (!res.ok) return;
+        const data = await res.json();
+        if (!data.posts || data.posts.length === 0) return;
+
+        const recentPosts = data.posts.slice(0, 10);
+        for (const post of recentPosts) {
+          insertPost(post);
+        }
+
+        if (currentFilter !== 'all') applyFilter(currentFilter);
+      } catch {
+        // Silently fail
+      }
+    }
+
+    loadPendingPosts();
   </script>
 </BaseLayout>
 
