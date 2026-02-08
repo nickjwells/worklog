@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1770575090911",
+      "content": "Edited first ~30min of new course.",
+      "timestamp": "2026-02-08T18:24:50.911Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1770575085912",
       "content": "Recorded first ~30min of new course.",
       "timestamp": "2026-02-08T18:24:45.912Z",
