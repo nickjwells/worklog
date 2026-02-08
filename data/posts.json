@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1770583797602",
+      "content": "Completed 1/4 of lifestyle audit.",
+      "timestamp": "2026-02-08T20:49:57.602Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1770583347147",
       "content": "Found some more high-protein recipes.",
       "timestamp": "2026-02-08T20:42:27.147Z",
