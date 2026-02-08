@@ -326,23 +326,27 @@ const groupedPosts = initialPosts.reduce((groups: Record<string, PostType[]>, po
       });
     });
 
-    // Fetch and display pending posts (posted but not yet in static build)
+    // Fetch latest posts from GitHub to show new posts before static rebuild
     async function loadPendingPosts() {
       try {
-        const res = await fetch('/.netlify/functions/pending-posts');
+        const res = await fetch(
+          'https://api.github.com/repos/nickjwells/worklog/contents/data/posts.json',
+          { headers: { 'Accept': 'application/vnd.github.v3.raw' } }
+        );
         if (!res.ok) return;
         const data = await res.json();
         if (!data.posts || data.posts.length === 0) return;
 
-        for (const post of data.posts) {
-          // Skip if already in static HTML
+        // Only check the first 10 posts (newest) for efficiency
+        const recentPosts = data.posts.slice(0, 10);
+
+        for (const post of recentPosts) {
           if (document.querySelector(`[data-post-id="${post.id}"]`)) continue;
 
           const monthYear = getMonthYear(post.timestamp);
           let section = container?.querySelector(`[data-month="${monthYear}"]`);
 
           if (!section) {
-            // Create month section and prepend it
             section = document.createElement('section');
             section.className = 'mt-8 month-section';
             section.setAttribute('data-month', monthYear);
@@ -359,7 +363,6 @@ const groupedPosts = initialPosts.reduce((groups: Record<string, PostType[]>, po
           }
         }
 
-        // Apply current filter to pending posts
         if (currentFilter !== 'all') {
           applyFilter(currentFilter);
         }
