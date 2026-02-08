@@ -1,4 +1,3 @@
-import type { Handler, HandlerEvent } from "@netlify/functions";
 import { getStore } from "@netlify/blobs";
 
 interface PendingPost {
@@ -11,25 +10,24 @@ interface PendingPost {
 
 const MAX_AGE_MS = 10 * 60 * 1000; // 10 minutes
 
-const handler: Handler = async (event: HandlerEvent) => {
-  const headers = {
-    "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Headers": "Content-Type",
-    "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
-    "Content-Type": "application/json",
-  };
+const headers = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Headers": "Content-Type",
+  "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+  "Content-Type": "application/json",
+};
 
-  if (event.httpMethod === "OPTIONS") {
-    return { statusCode: 204, headers, body: "" };
+export default async (req: Request) => {
+  if (req.method === "OPTIONS") {
+    return new Response(null, { status: 204, headers });
   }
 
   const store = getStore("pending-posts");
 
-  if (event.httpMethod === "GET") {
+  if (req.method === "GET") {
     const raw = await store.get("posts");
     const posts: PendingPost[] = raw ? JSON.parse(raw) : [];
 
-    // Filter out posts older than MAX_AGE_MS
     const now = Date.now();
     const fresh = posts.filter(
       (p) => now - new Date(p.timestamp).getTime() < MAX_AGE_MS
@@ -39,22 +37,17 @@ const handler: Handler = async (event: HandlerEvent) => {
       await store.set("posts", JSON.stringify(fresh));
     }
 
-    return {
-      statusCode: 200,
-      headers,
-      body: JSON.stringify({ posts: fresh }),
-    };
+    return new Response(JSON.stringify({ posts: fresh }), { headers });
   }
 
-  if (event.httpMethod === "POST") {
-    const post = JSON.parse(event.body || "{}") as PendingPost;
+  if (req.method === "POST") {
+    const post = (await req.json()) as PendingPost;
 
     if (!post.content || !post.id) {
-      return {
-        statusCode: 400,
-        headers,
-        body: JSON.stringify({ error: "id and content required" }),
-      };
+      return new Response(
+        JSON.stringify({ error: "id and content required" }),
+        { status: 400, headers }
+      );
     }
 
     const raw = await store.get("posts");
@@ -62,18 +55,15 @@ const handler: Handler = async (event: HandlerEvent) => {
     posts.unshift(post);
     await store.set("posts", JSON.stringify(posts));
 
-    return {
-      statusCode: 200,
-      headers,
-      body: JSON.stringify({ ok: true }),
-    };
+    return new Response(JSON.stringify({ ok: true }), { headers });
   }
 
-  return {
-    statusCode: 405,
-    headers,
-    body: JSON.stringify({ error: "Method not allowed" }),
-  };
+  return new Response(
+    JSON.stringify({ error: "Method not allowed" }),
+    { status: 405, headers }
+  );
 };
 
-export { handler };
+export const config = {
+  path: "/.netlify/functions/pending-posts",
+};
