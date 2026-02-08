@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1770576352394",
+      "content": "Adjusted worklog site to show posts immediately.",
+      "timestamp": "2026-02-08T18:45:52.394Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1770576274310",
       "content": "/fast is incredible. Anthropic must have had access to this for a while. Actually, they probably have, like, 5x /fast, whereas we're limited to 2.5x. Imagine running at 100x!",
       "timestamp": "2026-02-08T18:44:34.310Z",
