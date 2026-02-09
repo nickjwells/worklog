@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1770669813614",
+      "content": "Crushed chest day.",
+      "timestamp": "2026-02-09T20:43:33.614Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1770647857242",
       "content": "Recorded 9 roasts for Maker School.",
       "timestamp": "2026-02-09T14:37:37.242Z",
