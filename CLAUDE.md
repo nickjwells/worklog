@@ -36,6 +36,8 @@ When the user says `update:` or `thought:` followed by content, add it to `data/
 
 Add the new post to the **beginning** of the `posts` array in `data/posts.json`.
 
+**Ensure every post ends with a period.** If the content doesn't already end with `.`, `!`, `?`, `"`, or `)`, append a `.` before saving.
+
 **After adding the post, always commit and push to deploy:**
 ```bash
 git add data/posts.json && git commit -m "Add post" && git push

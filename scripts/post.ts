@@ -34,9 +34,14 @@ function saveData(data: PostsData): void {
 function addPost(content: string): void {
   const data = loadData();
 
+  const trimmed = content.trim();
+  const ending = trimmed.slice(-1);
+  const needsPeriod = ending !== '.' && ending !== '!' && ending !== '?' && ending !== '"' && ending !== ')';
+  const finalContent = needsPeriod ? trimmed + '.' : trimmed;
+
   const newPost: Post = {
     id: `post-${randomUUID().slice(0, 8)}`,
-    content: content.trim(),
+    content: finalContent,
     timestamp: new Date().toISOString(),
   };
 
