@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1771368250278",
+      "content": "Built prompt system to take care of very deep tasks.",
+      "timestamp": "2026-02-17T22:44:10.278Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1771368241836",
       "content": "Drafted \"Maker School Wrapped 2026\".",
       "timestamp": "2026-02-17T22:44:01.836Z",
