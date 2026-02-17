@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1771364285335",
+      "content": "Bought humidifier for room.",
+      "timestamp": "2026-02-17T21:38:05.335Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1771364279416",
       "content": "Bought lock for gym.",
       "timestamp": "2026-02-17T21:37:59.416Z",
