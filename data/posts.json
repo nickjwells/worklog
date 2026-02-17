@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1771364279416",
+      "content": "Bought lock for gym.",
+      "timestamp": "2026-02-17T21:37:59.416Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1771363924439",
       "content": "Figured out plan for 1SC.",
       "timestamp": "2026-02-17T21:32:04.440Z",
