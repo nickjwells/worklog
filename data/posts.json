@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1771349204189",
+      "content": "Hosted Weekly Community Call #38.",
+      "timestamp": "2026-02-17T17:26:44.189Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1771349200206",
       "content": "Recorded 7 roasts for Maker School.",
       "timestamp": "2026-02-17T17:26:40.206Z",
