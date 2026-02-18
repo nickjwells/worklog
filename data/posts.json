@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1771434034392",
+      "content": "Recorded YouTube video.",
+      "timestamp": "2026-02-18T17:00:34.392Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1771429262868",
       "content": "Outlined more of today's YouTube video.",
       "timestamp": "2026-02-18T15:41:02.869Z",
