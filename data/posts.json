@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1771532466145",
+      "content": "Bought few items from capsule wardrobe.",
+      "timestamp": "2026-02-19T20:21:06.145Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1771532456624",
       "content": "Bought humidifier & set up in bedroom, now tracking humidity levels.",
       "timestamp": "2026-02-19T20:20:56.624Z",
