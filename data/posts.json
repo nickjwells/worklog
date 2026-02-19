@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1771532440529",
+      "content": "Rerecorded YouTube course videos (used the model and didn't like it, had to swap).",
+      "timestamp": "2026-02-19T20:20:40.529Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1771532424730",
       "content": "Recorded 7 roasts for Maker School.",
       "timestamp": "2026-02-19T20:20:24.731Z",
