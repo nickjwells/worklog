@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1771684568635",
+      "content": "Recorded new video.",
+      "timestamp": "2026-02-21T14:36:08.635Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1771604296636",
       "content": "Planned next video in course:\n1. Website design involves a three-step loop: source, screenshot, iteration. Then you prompt changes.\n2. Authentication/security stuff.",
       "timestamp": "2026-02-20T16:18:16.636Z",
