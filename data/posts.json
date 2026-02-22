@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1771784095457",
+      "content": "In a nutshell, my workflow improvement:\n\n- A lot of my tutorial videos involve ~30-45mins of total waiting, where I'm just waiting for my agent to do stuff.\n- Right now, I just wait while silent. I'll respond to DMs etc, and then loop back to the agent when it's ready -> continue talking. In post, I just cut out at the audio waveform dip. Pretty straightforward.\n- My new workflow: I'll stop the OBS run, then drag into Premiere Pro and actually edit the video I just recorded, and by the time the agent is back up, I will have already done everything! Much more productive (and that way I get to stay on-task).\n- Probably going to save 30 mins/day. Wonderful.",
+      "timestamp": "2026-02-22T18:14:55.457Z",
+      "category": "thought",
+      "curated": false
+    },
+    {
       "id": "post-1771783934358",
       "content": "Huge upgrade to my agent-based videos. I can edit while I'm waiting!",
       "timestamp": "2026-02-22T18:12:14.358Z",
