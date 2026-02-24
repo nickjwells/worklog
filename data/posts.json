@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1771899339186",
+      "content": "Set up Mikro as stage manager.",
+      "timestamp": "2026-02-24T02:15:39.186Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1771899332386",
       "content": "Recorded ~2 hours of video.",
       "timestamp": "2026-02-24T02:15:32.386Z",
