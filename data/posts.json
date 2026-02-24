@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1771945800495",
+      "content": "Finished cold email masterclass!",
+      "timestamp": "2026-02-24T15:10:00.495Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1771945795111",
       "content": "Responded to 45 DMs.",
       "timestamp": "2026-02-24T15:09:55.111Z",
