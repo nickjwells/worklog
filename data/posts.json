@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1771899332386",
+      "content": "Recorded ~2 hours of video.",
+      "timestamp": "2026-02-24T02:15:32.386Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1771866523442",
       "content": "Planned 1SecondCopy transition.",
       "timestamp": "2026-02-23T17:08:43.442Z",
