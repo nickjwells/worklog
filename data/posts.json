@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1772130564446",
+      "content": "Recorded three more hours for final course video.",
+      "timestamp": "2026-02-26T18:29:24.446Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1772118823950",
       "content": "Mapped out app for final course video",
       "timestamp": "2026-02-26T15:13:43.950Z",
