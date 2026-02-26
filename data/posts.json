@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1772131062897",
+      "content": "Built mock syndication app (Splintr)",
+      "timestamp": "2026-02-26T18:37:42.897Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1772130564446",
       "content": "Recorded three more hours for final course video.",
       "timestamp": "2026-02-26T18:29:24.446Z",
