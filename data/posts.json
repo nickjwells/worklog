@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1772207494958",
+      "content": "Tested Nano Banana Pro 2.",
+      "timestamp": "2026-02-27T15:51:34.958Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1772207482983",
       "content": "Created packaging etc. Also built new workflow using my own internal app.",
       "timestamp": "2026-02-27T15:51:22.983Z",
