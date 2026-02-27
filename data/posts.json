@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1772207517229",
+      "content": "Reorganized YouTube homepage and added new playlists/videos to Home. Much better.",
+      "timestamp": "2026-02-27T15:51:57.229Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1772207506200",
       "content": "Updated end cards on top 61 performing YouTube videos. Huge low hanging fruit.",
       "timestamp": "2026-02-27T15:51:46.200Z",
