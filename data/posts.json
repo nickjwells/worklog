@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1772207482983",
+      "content": "Created packaging etc. Also built new workflow using my own internal app.",
+      "timestamp": "2026-02-27T15:51:22.983Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1772207473657",
       "content": "Edited & published full Antigravity/Gemini 3.1 Pro course.",
       "timestamp": "2026-02-27T15:51:13.657Z",
