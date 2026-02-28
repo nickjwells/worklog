@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1772305717158",
+      "content": "Okay, demos required a lot more time than I thought. Finished now, but that was a real headache",
+      "timestamp": "2026-02-28T19:08:37.158Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1772301427957",
       "content": "Built demos for next video",
       "timestamp": "2026-02-28T17:57:07.957Z",
