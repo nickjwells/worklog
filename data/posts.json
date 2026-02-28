@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1772301423002",
+      "content": "Outlined next video",
+      "timestamp": "2026-02-28T17:57:03.002Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1772301420597",
       "content": "Came up with meta-Skill-creator prompt and used it to generate a bunch of Claude Skills",
       "timestamp": "2026-02-28T17:57:00.597Z",
