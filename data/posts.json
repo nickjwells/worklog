@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1772301427957",
+      "content": "Built demos for next video",
+      "timestamp": "2026-02-28T17:57:07.957Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1772301423002",
       "content": "Outlined next video",
       "timestamp": "2026-02-28T17:57:03.002Z",
