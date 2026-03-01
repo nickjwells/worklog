@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1772377831800",
+      "content": "Shut down other Slacks, turned off all cards.",
+      "timestamp": "2026-03-01T15:10:31.800Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1772377822278",
       "content": "Updated recent Antigravity course prompts.",
       "timestamp": "2026-03-01T15:10:22.278Z",
