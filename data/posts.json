@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1772374355375",
+      "content": "Paid NSM staff.",
+      "timestamp": "2026-03-01T14:12:35.375Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1772373718874",
       "content": "Reviewed YouTube analytics. 70% is ridiculous indeed.",
       "timestamp": "2026-03-01T14:01:58.874Z",
