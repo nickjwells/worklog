@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1772376512288",
+      "content": "Shut down ClickUp, Wise.",
+      "timestamp": "2026-03-01T14:48:32.288Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1772376507727",
       "content": "Updated 1SecondCopy website to include a \"goodbye\" message.",
       "timestamp": "2026-03-01T14:48:27.727Z",
