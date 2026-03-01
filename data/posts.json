@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1772373718874",
+      "content": "Reviewed YouTube analytics. 70% is ridiculous indeed.",
+      "timestamp": "2026-03-01T14:01:58.874Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1772373705456",
       "content": "Responded to ~20 comments on YouTube.",
       "timestamp": "2026-03-01T14:01:45.456Z",
