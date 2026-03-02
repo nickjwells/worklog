@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1772489562120",
+      "content": "Built much better pipeline for YouTube thumbnails.",
+      "timestamp": "2026-03-02T22:12:42.120Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1772489553837",
       "content": "Edited + published 3 videos.",
       "timestamp": "2026-03-02T22:12:33.837Z",
