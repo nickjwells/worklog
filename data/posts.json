@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1772550014331",
+      "content": "Posted new poll.",
+      "timestamp": "2026-03-03T15:00:14.331Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1772550008031",
       "content": "Responded to ~30 YouTube comments.",
       "timestamp": "2026-03-03T15:00:08.031Z",
