@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1772576714149",
+      "content": "Recorded new YouTube video.",
+      "timestamp": "2026-03-03T22:25:14.149Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1772550300772",
       "content": "Prepped for Weekly Community Call #40.",
       "timestamp": "2026-03-03T15:05:00.772Z",
