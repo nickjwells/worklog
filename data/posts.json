@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1772737803425",
+      "content": "Looked into internationalization/dubbing.",
+      "timestamp": "2026-03-05T19:10:03.425Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1772737708999",
       "content": "Repackaged a pre-existing video to better rank for keywords.",
       "timestamp": "2026-03-05T19:08:28.999Z",
