@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1772729888434",
+      "content": "Refactored CC workflow. So much better now. Personal workspace for anything non-business-related, Business workspace for general career stuff, and per-client workspaces for hyper-specific. Then I use my Business workspace and just mention client names (which are stored in a .json CRM) and this allows me to not even have to leave Business workspace to execute Skills and the like.",
+      "timestamp": "2026-03-05T16:58:08.434Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1772726830917",
       "content": "Accounting for the last six months. $353K/mo rev on average. Nice.",
       "timestamp": "2026-03-05T16:07:10.917Z",
