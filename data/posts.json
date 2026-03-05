@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1772726727040",
+      "content": "Had a series of frustrating calls with my bank re: tax payments.",
+      "timestamp": "2026-03-05T16:05:27.040Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1772726716578",
       "content": "Recorded 5 roasts for Maker School.",
       "timestamp": "2026-03-05T16:05:16.578Z",
