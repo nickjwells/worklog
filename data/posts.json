@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1772732085078",
+      "content": "Reorganized and cleaned all Business workspace files. It is much cleaner now. Also using a subset of high-ROI skills, not all of them, in the main workspace, and outsourcing the rest. After this I will get back to making content.",
+      "timestamp": "2026-03-05T17:34:45.078Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1772729888434",
       "content": "Refactored CC workflow. So much better now. Personal workspace for anything non-business-related, Business workspace for general career stuff, and per-client workspaces for hyper-specific. Then I use my Business workspace and just mention client names (which are stored in a .json CRM) and this allows me to not even have to leave Business workspace to execute Skills and the like.",
       "timestamp": "2026-03-05T16:58:08.434Z",
