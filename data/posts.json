@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1772819156056",
+      "content": "Generated new workflow to chain together long courses.",
+      "timestamp": "2026-03-06T17:45:56.056Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1772817996971",
       "content": "Reviewed my growth (which is stagnating) and my gap. TLDR I need to hit ~72,000 subscribers per month, every month, for the next 9 months, to achieve my goal. That is 2,318 subscribers per day.",
       "timestamp": "2026-03-06T17:26:36.971Z",
