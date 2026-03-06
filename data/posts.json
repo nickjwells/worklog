@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1772819160157",
+      "content": "Got 11Labs Business (hefty!)",
+      "timestamp": "2026-03-06T17:46:00.158Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1772819156056",
       "content": "Generated new workflow to chain together long courses.",
       "timestamp": "2026-03-06T17:45:56.056Z",
