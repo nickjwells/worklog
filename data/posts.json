@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1772946810684",
+      "content": "Recorded AI agents course again.",
+      "timestamp": "2026-03-08T05:13:30.684Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1772946805961",
       "content": "Recorded 5 roasts for Maker School.",
       "timestamp": "2026-03-08T05:13:25.961Z",
