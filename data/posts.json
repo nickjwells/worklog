@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1772946814581",
+      "content": "Edited AI agents course again.",
+      "timestamp": "2026-03-08T05:13:34.581Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1772946810684",
       "content": "Recorded AI agents course again.",
       "timestamp": "2026-03-08T05:13:30.684Z",
