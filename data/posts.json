@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1773075073473",
+      "content": "Worked on autonomous cold email project.",
+      "timestamp": "2026-03-09T16:51:13.473Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1773074865953",
       "content": "225x5 on bench today! Officially stronger than I was when I injured my shoulder. Now must take great care not to do it again.",
       "timestamp": "2026-03-09T16:47:45.953Z",
