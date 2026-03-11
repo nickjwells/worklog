@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1773246200115",
+      "content": "Internationalized content.",
+      "timestamp": "2026-03-11T16:23:20.115Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1773246195764",
       "content": "Bought Tesla.",
       "timestamp": "2026-03-11T16:23:15.764Z",
