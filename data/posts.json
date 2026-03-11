@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1773246195764",
+      "content": "Bought Tesla.",
+      "timestamp": "2026-03-11T16:23:15.764Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1773246193530",
       "content": "Sent 6 roasts for Maker School.",
       "timestamp": "2026-03-11T16:23:13.530Z",
