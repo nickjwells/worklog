@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1773246205475",
+      "content": "Added Skills Library to Maker School.",
+      "timestamp": "2026-03-11T16:23:25.475Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1773246200115",
       "content": "Internationalized content.",
       "timestamp": "2026-03-11T16:23:20.115Z",
