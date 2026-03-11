@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1773246187145",
+      "content": "Completed MMWM management for Mar 11 2026.",
+      "timestamp": "2026-03-11T16:23:07.145Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1773075073473",
       "content": "Worked on autonomous cold email project.",
       "timestamp": "2026-03-09T16:51:13.473Z",
