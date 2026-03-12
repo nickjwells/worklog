@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1773313862985",
+      "content": "Recorded off-the-cuff YouTube video to gauge performance. I think this is doable.",
+      "timestamp": "2026-03-12T11:11:02.986Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1773251964145",
       "content": "Lol, majorly messed up an Anthropic job application. Unfortunate. Resubmitted.",
       "timestamp": "2026-03-11T17:59:24.145Z",
