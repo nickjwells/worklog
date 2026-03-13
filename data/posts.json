@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1773412227538",
+      "content": "Reviewed daily news brief.",
+      "timestamp": "2026-03-13T14:30:27.538Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1773410275263",
       "content": "Sent 5 roasts for Maker School.",
       "timestamp": "2026-03-13T13:57:55.263Z",
