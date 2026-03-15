@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1773613797265",
+      "content": "Reworked Maker School Month 3 curriculum to include AI coding tools.",
+      "timestamp": "2026-03-15T22:29:57.265Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1773603950662",
       "content": "Reworked Maker School Month 2 curriculum to include AI coding tools.",
       "timestamp": "2026-03-15T19:45:50.662Z",
