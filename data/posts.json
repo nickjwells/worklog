@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1773613810243",
+      "content": "Made serious progress towards sleep stuff. First time in my life I think I may actually solve this problem!",
+      "timestamp": "2026-03-15T22:30:10.243Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1773613797265",
       "content": "Reworked Maker School Month 3 curriculum to include AI coding tools.",
       "timestamp": "2026-03-15T22:29:57.265Z",
