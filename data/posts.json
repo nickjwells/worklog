@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1773597916734",
+      "content": "Completed outline for next course.",
+      "timestamp": "2026-03-15T18:05:16.734Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1773597914421",
       "content": "Sent 5 roasts for Maker School.",
       "timestamp": "2026-03-15T18:05:14.421Z",
