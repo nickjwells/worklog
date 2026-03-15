@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1773597922580",
+      "content": "Recorded ~40min of next course.",
+      "timestamp": "2026-03-15T18:05:22.580Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1773597916734",
       "content": "Completed outline for next course.",
       "timestamp": "2026-03-15T18:05:16.734Z",
