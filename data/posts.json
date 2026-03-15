@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1773614624973",
+      "content": "Created flow to update old Maker School written curriculum with new one.",
+      "timestamp": "2026-03-15T22:43:44.973Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1773613810243",
       "content": "Made serious progress towards sleep stuff. First time in my life I think I may actually solve this problem!",
       "timestamp": "2026-03-15T22:30:10.243Z",
