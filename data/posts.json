@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1773695797317",
+      "content": "QA'd all updates to Maker School. Now I just need to rerecord it.",
+      "timestamp": "2026-03-16T21:16:37.317Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1773692309386",
       "content": "In total:\n- 26 minutes to record.\n- 10.5 minutes to edit.\n- 8 minutes for packaging/publishing.\n\n45 minutes!",
       "timestamp": "2026-03-16T20:18:29.386Z",
