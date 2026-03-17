@@ -6,6 +6,13 @@
   },
   "posts": [
     {
+      "id": "post-1773764170796",
+      "content": "Hosted Weekly Community Call #42.",
+      "timestamp": "2026-03-17T16:16:10.796Z",
+      "category": "update",
+      "curated": false
+    },
+    {
       "id": "post-1773755884457",
       "content": "Outlined next video.",
       "timestamp": "2026-03-17T13:58:04.457Z",
